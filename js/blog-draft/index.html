@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="menu-container " role="navigation">
+    <div class="dropdown menu">
+      <button class="dropbtn "> <a href="index.html">Strona główna</a></button>
+    </div>
+    <div class="dropdown menu">
+      <button class="dropbtn ">
+        Podróże<i class="fas fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul class="dropdown-menu " role="menu">
+          <li id="menu-item-1" class="menu-item"><a href="podróże/deszczowa-anglia.html#article-1">Deszczowa Anglia</a></li>
+          <li id="menu-item-2" class="menu-item">
+            <a href="podróże/sewilla.html#article-3">Sewilla</a>
+          </li>
+          <li id="menu-item-2" class="menu-item">
+            <a href="podróże/lisbona.html#article-5">Lizbona</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown menu">
+      <button class="dropbtn"> <a href="galeria/gallery.html">Galeria</a> </button>
+    </div>
+
+    <div class="dropdown menu">
+      <button class="dropbtn">
+        Rady<i class="fas fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="rady/tani-bus.html#article-2">Tani Bus</a>
+        <a href="rady/last-minute-flight.html#article-6">Last Minute flight</a>
+        <a href="rady/rent-a-car.html#article-5">Wynajęcie samochodu</a>
+      </div>
+    </div>
+
+    <div class="dropdown menu">
+      <button class="dropbtn"> <a href="about/o-mnie.html#about-me">O mnie</a></button>
+    </div>
+    <div id="mobile-menu">
+      <span class='mobile-icon open'><i class="fas fa-bars"></i></span>
+      <span class='mobile-icon close'><i class="fas fa-times"></i></span>
+    </div>
+  </nav>
+
+  <header id="header">
+    <div id="banner" class="banner-container">
+      <div class="banner">
+        <img class="slider img-slider" src="img/zachód.JPG" alt="" />
+        <h1 class="slider h1-slider">Podróże</h1>
+        <p class="slider p-slider">Podróże zarówno po kraju, Europie i poza Europę</p>
+        <div class="dots">
+          <span id="one" class="active"></span>
+          <span id="two"></span>
+          <span id="tree"></span>
+        </div>
+      </div>
+    </div>
+    <div id="quote">
+      <blockquote class="quote-container">
+        <q>Dwa najważniejsze dni Twojego życia to ten, w którym się urodziłeś oraz ten, w którym dowiedziałeś się, po
+          co.</q>
+        <p> / Mark Twain /</p>
+      </blockquote>
+    </div>
+
+  </header>
+  <!-- główna sekcja - artykuły-->
+  <section class="main">
+    <div class="main-article-container">
+      <article id="article-1" class="article-container">
+        <h3 class="category-title">Podróże</h3>
+        <h6 class="data">11 / 01 / 2019</h6>
+        <h1 class="article-title">Deszczowa Anglia</h2>
+          <img class="article-img" src="img/london.jpg" alt="London Bridge" />
+          <p class="article-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sit obcaecati fugiat perspiciatis maxime
+            nam incidunt? Magnam veritatis ratione natus perspiciatis quas quo dicta autem provident iure sunt?Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Velit quasi fuga illum. Maxime ea repellendus
+            accusantium numquam a voluptate obcaecati eligendi, excepturi sapiente quaerat aut minus labore cum
+            inventore esse.
+          </p>
+          <button class="article-button"> <a href="podróże/deszczowa-anglia.html">Czytaj więcej</a> </button>
+      </article>
+      <hr>
+      <article id="article-2" class="article-container">
+        <h3 class="category-title">Rady</h3>
+        <h6 class="data">11 / 01 / 2019</h6>
+        <h1 class="article-title">Tani Bus</h2>
+          <img class="article-img" src="img/flixbus.jpg" alt="bus" />
+          <p class="article-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sit obcaecati fugiat perspiciatis maxime
+            nam incidunt? Magnam veritatis ratione natus perspiciatis quas quo dicta autem provident iure sunt? Non
+            odio, mollitia nisi beatae asperiores eveniet modi. Laboriosam voluptatibus minima accusantium culpa modi
+            quasi laborum aliquid et corrupti expedita? Excepturi modi repellendus maxime, asperiores impedit commodi
+            praesentium, sit voluptates tempora magnam numquam nam delectus illo.
+          </p>
+          <button class="article-button"> <a href="rady/tani-bus.html">Czytaj więcej</a> </button>
+      </article>
+      <hr>
+      <article id="article-3" class="article-container">
+        <h3 class="category-title">Podróże</h3>
+        <h6 class="data">10 / 02 / 2019</h6>
+        <h1 class="article-title">Podróż do Sewilli</h2>
+          <img class="article-img" src="img/sewilla.jpg" alt="sewilla" />
+          <p class="article-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sit obcaecati fugiat perspiciatis maxime
+            nam incidunt? Magnam veritatis ratione natus perspiciatis quas quo dicta autem provident iure sunt? Non
+            odio, mollitia nisi beatae asperiores eveniet modi. Laboriosam voluptatibus minima accusantium culpa modi
+            quasi laborum aliquid et corrupti expedita? Excepturi modi repellendus maxime, asperiores impedit commodi
+            praesentium, sit voluptates tempora magnam numquam nam delectus illo.
+          </p>
+          <button class="article-button"> <a href="podróże/sewilla.html">Czytaj więcej</a> </button>
+      </article>
+    </div>
+    <!--prawa storna-->
+    <aside class="other">
+      <!--o mnie-->
+      <div class="about-me">
+        <div class="about-me-img"></div>
+        <p class="about-me-text">
+          Cześć!!! <br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quis laudantium soluta ex! Numquam aspernatur
+          deleniti commodi id laudantium fugiat magnam ducimus dolore, odit labore enim illum nihil cumque architecto
+          sunt tenetur harum impedit beatae tempore voluptas?
+        </p>
+        <h2 class="about-me-more"><a href="about/o-mnie.html">Więcej o mnie</a></h2>
+      </div>
+      <!--szukaj-->
+      <div id="looking-for" class="s-container-right">
+        <h3 class="s-container-title">Znajdź...</h3>
+        <div class="search">
+          <input type="text" placeholder="search..." />
+          <button type="submit" class="search-icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <!--Popularne artykuły-->
+      <div id="popular" class="s-container-right">
+        <h3 class="popular-title s-container-title">Popularne</h3>
+        <div id=" article-1" class="popular">
+          <h4>
+            <a href="podróże/deszczowa-anglia.html#article-1">Deszczowa Anglia</a>
+          </h4>
+        </div>
+        <div id="article-2" class="popular">
+          <h4>
+            <a href="rady/tani-bus.html#article-2">Tani Bus</a>
+          </h4>
+        </div>
+        <div id="article-3" class="popular">
+          <h4>
+            <a href="podróże/sewilla.html#article-3">Podróż do Sewilli</a>
+          </h4>
+        </div>
+        <div id="article-4" class="popular">
+          <h4>
+            <a href="rady/rent-a-car.html#article-4">Jak wynająć samochód</a>
+          </h4>
+        </div>
+        <div id="article-5" class="popular">
+          <h4>
+            <a href="podróże/lisbona.html#article-5">Zakochaj się w Lizbonie</a>
+          </h4>
+        </div>
+      </div>
+      <div id="history" class="s-container-right">
+        <h3 class="history-title s-container-title">Archiwum</h3>
+        <div class="month-link">
+          <a href="">
+            <h4>Styczeń</h4>
+          </a>
+        </div>
+        <div class="month-link">
+          <a href="">
+            <h4>Luty</h4>
+          </a>
+        </div>
+      </div>
+    </aside>
+  </section>
+  <footer id="footer">
+    <div class="contact">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+        <li><a href="#"><i class="fas fa-at"></i></a></li>
+
+      </ul>
+    </div>
+    <h5 id="copy">&copy; Kamila Dynysiuk</h5>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js">
+  </script>
+  <script src="js/index.js"></script>
+  <script>
+    $(".burger").on("click", function () {
+      $(".fas, nav").toggleClass("off");
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+/* <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Harryarts - www.freepik.com</a> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* color: rgb(27, 174, 156); */
+  color: rgb(99, 112, 126);
+  /* border: rgb(241, 241, 241); */
+  background-image: url("img/60244.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 1.2em;
+  font-family: 'Roboto Slab', 'Montserrat', 'Playfair Display', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1em;
+  padding-left: 2em;
+  text-transform: uppercase;
+  transition: ease-in 0.3s;
+  color: rgb(27, 174, 156);
+  letter-spacing: 2px;
+}
+
+h2:hover {
+  text-decoration: underline rgb(27, 174, 156);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  background-color: #fff3f5;
+
+}
+
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  margin: auto;
+  color: rgb(27, 174, 156);
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.name h1::before {
+  content: "";
+  background: linear-gradient(to right, rgb(241, 241, 241), rgb(27, 174, 156));
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 120%;
+  width: 0;
+  height: 0.1em;
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+.name h1::after {
+  content: "";
+  color: transparent;
+  background: linear-gradient(to left, rgb(241, 241, 241), rgb(27, 174, 156));
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 120%;
+  width: 0;
+  height: 0.1em;
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+.name h1:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.name h1:hover::before {
+  width: 100%;
+  right: 0;
+}
+
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: rgb(99, 112, 126);
+  font-weight: bold;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.nav-link a:hover {
+  color: rgb(27, 174, 156);
+}
+
+
+.active {
+  color: rgb(27, 174, 156);
+  border-bottom: 2px solid rgb(27, 174, 156);
+}
+
+#mobile-menu {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  width: 2em;
+  display: none;
+}
+
+.mobile-icon {
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.show {
+  display: block;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  display: block;
+  justify-content: space-around;
+  margin-top: 10vh;
+  border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.conatiner-about-me {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.about-me-text {
+  width: 70%;
+  margin: auto 2.33em;
+  padding: 1.33em;
+  position: relative;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.about-me-text::before,
+.about-me-text::after {
+  position: absolute;
+  content: "";
+  transition: all .5s;
+}
+
+.about-me-text::before {
+  border-bottom: 2px solid rgb(99, 112, 126);
+  border-left: 2px solid rgb(99, 112, 126);
+  width: 10%;
+  height: 20%;
+  left: -10px;
+  bottom: -10px;
+}
+
+.about-me-text::after {
+  border-top: 2px solid rgb(99, 112, 126);
+  border-right: 2px solid rgb(99, 112, 126);
+  width: 10%;
+  height: 20%;
+  top: -10px;
+  right: -10px;
+}
+
+.about-me-text:hover::before {
+  width: 103%;
+  height: 107%;
+
+}
+
+.about-me-text:hover::after {
+  width: 103%;
+  height: 107%;
+}
+
+.about-me h2 {
+  padding-bottom: 1em;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  margin: auto 2.33em;
+}
+
+.container-img img {
+  width: 90%;
+  height: 90%;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+#technology {
+  margin: 2.33em auto;
+}
+
+.container-technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.technology {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(99, 112, 126);
+  width: 13%;
+  height: 15%;
+  margin: 10px 25px;
+  transition: all 500ms;
+  overflow: hidden;
+}
+
+.technology::before {
+  position: absolute;
+  transform: translateX(100%);
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2%;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+
+}
+
+.technology::after {
+  position: absolute;
+  transform: translateX(-100%);
+  content: "";
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2%;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.technology:hover {
+  color: rgb(27, 174, 156);
+  transition: 0.4s color linear;
+}
+
+.technology:hover::after {
+  transition: 0.2s transform linear, 0.2s height linear 0.2s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: rgb(27, 174, 156);
+}
+
+.technology:hover::before {
+  transition: 0.2s transform linear 0.4s, 0.2s height linear 0.6s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: rgb(27, 174, 156);
+}
+
+
+.technology p {
+  padding-top: 1em;
+  font-size: 1;
+}
+
+.icon {
+  font-size: 5em;
+}
+
+
+#portfolio {
+  margin: 2.33em auto;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  margin: 2.33em auto;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  position: relative;
+  width: 33.333%;
+  height: 400px;
+  transition: 0.4s linear;
+  text-align: center;
+  border: 2px solid rgb(241, 241, 241);
+}
+
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 65px;
+  background-color: #111;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.text h3 {
+  padding: 0.8em 0;
+  color: #fff;
+  letter-spacing: 4px;
+
+}
+
+.portfolio-item:hover .text {
+  opacity: 0.8;
+
+}
+
+.portfolio-container:hover .portfolio-item {
+  filter: blur(5px);
+  opacity: 0.9;
+  transform: scale(.95);
+  box-shadow: none;
+}
+
+.portfolio-container:hover .portfolio-item:hover {
+  transform: scale(1);
+  filter: blur(0);
+  opacity: 1;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0 0.125);
+  border: 2px solid rgb(27, 174, 156);
+}
+
+.portfolio-img {
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-block-end: 2.33em;
+  margin-block-start: 2.33em;
+
+}
+
+.project {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.project:hover {
+  color: rgb(27, 174, 156);
+}
+
+.project h4 {
+  padding: 1em 0;
+}
+
+.project a {
+  color: rgb(99, 112, 126);
+  font-size: 5em;
+  transition: 0.5s;
+}
+
+.project a:hover {
+  color: rgb(27, 174, 156);
+  font-size: 6em;
+
+}
+
+#contact {
+  margin: 2.33em auto;
+}
+
+.contact {
+  text-align: center;
+  margin: 2.33em auto;
+}
+
+.contact h2 {
+  margin-bottom: 1em;
+}
+
+.contact-list {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.contact-list li {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  color: rgb(99, 112, 126);
+}
+
+.contact-list li i {
+  margin-right: 0.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 5vh;
+  background-color: #fff3f5;
+}
+
+footer h3 {
+  padding-bottom: 0;
+}
