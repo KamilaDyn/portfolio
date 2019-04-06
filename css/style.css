@@ -6,6 +6,8 @@
 }
 
 body {
+  max-width: 1300px;
+  margin: 0 auto;
   /* color: rgb(27, 174, 156); */
   color: rgb(99, 112, 126);
   /* border: rgb(241, 241, 241); */
@@ -17,10 +19,6 @@ body {
   font-family: 'Roboto Slab', 'Montserrat', 'Playfair Display', sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
 
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 h2 {
   font-size: 1em;

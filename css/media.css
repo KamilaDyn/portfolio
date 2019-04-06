@@ -383,7 +383,7 @@
   }
 
   .conatiner-about-me {
-    height: 85vh;
+    height: 100vh;
   }
 
   .show:first-child {
@@ -415,10 +415,6 @@
     margin-top: 35vh;
   }
 
-  .conatiner-about-me {
-    height: 100vh;
-  }
-
   .about-me {
     margin-top: 0;
   }
@@ -429,7 +425,7 @@
   }
 
   .container-img img {
-    width: 130px;
-    height: 170px;
+    width: 120px;
+    height: 140px;
   }
 }
