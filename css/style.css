@@ -37,7 +37,9 @@ h2:hover {
 
 header {
   position: fixed;
+  left: 50%;
   top: 0;
+  transform: translate(0, -50%);
   height: 10vh;
   width: 100vw;
   display: flex;
@@ -45,7 +47,6 @@ header {
   z-index: 2;
   background-color: #fff3f5;
   max-width: 1250px;
-  margin: 0 auto;
 
 }
 
