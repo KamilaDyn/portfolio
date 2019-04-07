@@ -378,8 +378,8 @@
 
 @media(max-width: 375px) and (orientation: portrait) {
   .container-img img {
-    width: 130px;
-    height: 170px;
+    width: 150px;
+    height: 200px;
   }
 
   .conatiner-about-me {
