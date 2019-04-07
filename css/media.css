@@ -1,6 +1,16 @@
+@media(max-width: 1400px) {
+  .nav-link a {
+    font-size: 1.3em;
+  }
+}
+
 @media(orientation: portrait) and (max-width: 1050px) {
   .conatiner-about-me {
     height: 50vh;
+  }
+
+  .nav-link a {
+    font-size: 1.2em;
   }
 }
 
