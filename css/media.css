@@ -347,7 +347,7 @@
   .conatiner-about-me {
     display: flex;
     flex-direction: column-reverse;
-    height: 95vh;
+    height: 100vh;
   }
 
   .about-me {
@@ -356,7 +356,7 @@
 
   .about-me-text {
     width: 90%;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin: 10px auto;
   }
 
