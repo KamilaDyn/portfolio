@@ -411,9 +411,7 @@
 
 @media(max-width: 320px) and (orientation: portrait) {
 
-  .show:first-child {
-    margin-top: 35vh;
-  }
+
 
   .about-me {
     margin-top: 0;
