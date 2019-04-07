@@ -192,6 +192,10 @@
     width: 50%;
   }
 
+  header {
+    height: 10vh;
+  }
+
   .navigation {
     flex-direction: column;
     justify-content: center;
