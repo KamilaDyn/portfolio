@@ -45,7 +45,7 @@ let language = {
 const buttonFunction = () => {
     if (bgButton.textContent === "Pl" && window.location.hash === "#eng") {
         bgButton.textContent = "Eng"
-        bgButton.style.backgroundImage = 'url(".././svg/uk.svg")'
+        bgButton.style.backgroundImage = 'url("./svg/uk.svg")'
         href.setAttribute('href', "#pl");
         about_id.textContent = language.pl.about;
         skills_id.textContent = language.pl.skills;
@@ -68,7 +68,7 @@ const buttonFunction = () => {
     } else {
         bgButton.textContent = "Pl"
         href.setAttribute('href', "#eng");
-        bgButton.style.backgroundImage = 'url(".././svg/flag.svg")';
+        bgButton.style.backgroundImage = 'url("./svg/flag.svg")';
         about_id.textContent = language.eng.about
         skills_id.textContent = language.eng.skills;
         contact_id.textContent = language.eng.contact;
