@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Roboto:300,300i,400,500,700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700%7CRoboto:300,300i,400,500,700&display=swap"
     rel="stylesheet">
   <title>portfolio</title>
 </head>
@@ -16,76 +17,78 @@
     <nav class="nav" id="ftco-navbar">
       <div class="container">
         <a class="logo" href="index.html">Kamila</a>
-        <button class="mobile-menu" type="button" data-toggle="collapse" data-target="#nav-icon"
-          aria-controls="nav-icon" aria-expanded="false" aria-label="Toggle navigation">
+        <h3 class="mobile-menu" data-toggle="collapse" data-target="#nav-icon" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span><i class="fas fa-bars"></i><i class="fas fa-times"></i></span> MENU
-        </button>
+        </h3>
       </div>
       <div class="navbar" id="nav-links">
         <ul class="list-items">
-          <li class="item"><a id="scrollTo" href="#about-me" class="link">About</a></li>
-          <li class="item"><a id="scrollTo" href="#skills" class="link">Skills</a></li>
-          <li class="item"><a id="scrollTo" href="#portfolio" class="link">Portfolio</a></li>
-          <li class="item"><a id="scrollTo" href="#contact" class="link">Contact</a></li>
-          <li class="item"><a id="scrollTo " href="./cv/cv.eng.html" target="_blank" class="link active">CV</a></li>
+          <li class="item"><a id="about_id" href="#about-me" class="scrollTo link">About</a></li>
+          <li class="item"><a id="skills_id" href="#skills" class="scrollTo link">Skills</a></li>
+          <li class="item"><a id="portfolio_id" href="#portfolio" class="scrollTo link">Portfolio</a></li>
+          <li class="item"><a id="contact_id" href="#contact" class="scrollTo link">Contact</a></li>
+          <li class="item" id="pl-lang">
+            <a href="#pl" class="hash-link " data-reload>
+              <div class="link-button">
+                Pl
+              </div>
+            </a>
+          </li>
+
         </ul>
       </div>
 
     </nav>
-    <header id="header" class="header overlay" role="banner">
+    <header id="header" class="header overlay">
       <div class="text">
-        <h1 class="title">Hi! I'm Kamila new</h1>
+        <h1 id="welcome_id" class="title">Hi! I'm Kamila Junior</h1>
         <h2 class="subtitle">FRONTEND DEVELOPER</h2>
       </div>
-      <div class="btn-top-container"><a class="scrollTo" href="#about-me"><button id="scroll-btn" class="btn-top"><i
-        class="fas fa-arrow-down"></i></button></a>
+      <div class="btn-top-container"><a class="scrollTo btn-top" href="#about-me"><i class="fas fa-arrow-down"></i></a>
       </div>
     </header>
- 
+
   </div>
   <main class="main">
-    <section id='about-me' class="about-me">
+    <section id="about-me" class="about-me">
       <div class="img-container"><img src="images/zdj2.jpg" alt="profile image"></div>
 
       <div class="text-container">
         <div class="text">
-          <h1 class="title">
+          <h2 id="aboutMe_id" class="title">
             About me
-          </h1>
-          <p class="description"> I have finished study at University and I worked with children and disabled
-            people. Last year I started to learn about programing language, in the begining it was just a new hobby
-            that I
-            would like to
-            transform into a daily-work. I am
-            self-taught person, I've got to know how to write code in HTML, CSS, JavaScript
-            and frameworks such as Bootstrap, jQuery and React. I wish to develop further towards on front-end
-            developer. <br>
-            To learn new technology I use to do it via online courses on Udemy e-leraning platform and Free Code Camp. I
-            read blogs,
-            articles and books about programming. Also I attent to postgraduate studies
-            (speciality: web and mobile applications).</p>
+          </h2>
+          <p id="description_id" class="description"> I have finished study at University and I worked with children and
+            disabled people. In 2018 year, I started my adventure with programming language, in the beginning it was
+            just a new hobby that I would like to transform into a daily-work. Mostly, I am self-taught person, I've got
+            to know how to write code in HTML, CSS, JavaScript and frameworks such as Bootstrap, jQuery and React. I
+            wish to develop further towards on front-end developer.
+            To learn new technology I use to do it via online courses on Udemy e-learning platform and Free Code Camp. I
+            read blogs, articles and books about programming. Also I attend to postgraduate studies (specialty: web and
+            mobile applications). </p>
         </div>
         <div class="personal-info">
-          <h1 class="title">Personal Information</h1>
+          <h2 id="personal_inf_id" class="title">Personal Information</h2>
           <ul class="list-items">
-            <li class="item"><span>Name:</span> Kamila Dynysiuk</li>
-            <li class="item"><span>Age:</span> 29 years</li>
-            <li class="item"><span>
-                Citizenship:</span> Polish</li>
-            <li class="item"><span>E-mail:</span> kamila.dynysiuk@gmail.com</span></li>
+            <li class="item"><span id="name_id">Name:</span> Kamila Dynysiuk</li>
+            <li class="item"><span id="age_id">Age:</span> <span id="years_id">29 years</span> </li>
+            <li class="item"><span id="citizenship_id">
+                Citizenship:</span> <span id="polish_id"> Polish</span></li>
+            <li class="item"><span>E-mail:</span> kamila.dynysiuk@gmail.com</li>
           </ul>
         </div>
-        <div class="resume-container"><a class="resume-btn-link" target="_blank" href="./pdf/cv.pdf" download='cv'
-            target="_blank"><button class="resume-btn"><i class="far fa-file-pdf"></i>
-              Download
-              Resume</button></a></div>
+        <div class="resume-container"><a class="resume-btn-link resume-btn" target="_blank" href="./pdf/cv.pdf"
+            download='cv'><i class="far fa-file-pdf"></i>
+            Download
+            Resume</a></div>
       </div>
     </section>
 
     <section id="skills" class="skills">
 
       <div class="text">
-        <h1 class="title">My Skills</h1>
+        <h2 id="mySkills_id" class="title">My Skills</h2>
       </div>
 
       <div class="skill-technologies">
@@ -131,7 +134,7 @@
 
         <div class="technologie">
           <div class="progress">
-            <span class="progress-name">React & Node.js & Express <span style="text-transform: lowercase;">(still learning)</span></span>
+            <span class="progress-name">React & Node.js & Express</span>
             <span class="progress-number">50%</span>
           </div>
           <div class="progress-bar">
@@ -142,15 +145,15 @@
     </section>
     <section id="portfolio" class="portfolio">
       <div class="text">
-        <h1 class="title">My Projects</h1>
+        <h2 id="myProjects_id" class="title">My Projects</h2>
       </div>
       <div class="projects-container">
 
 
         <div class="project"><a href="https://kamiladyn.github.io/Collections_Books/" target="_blank">
             <img src="./images/collections_books.png" alt="books">
-         
-          
+
+
           </a>
         </div>
 
@@ -171,18 +174,18 @@
 
       </div>
       <div class="btn-container">
-        <a href="https://github.com/KamilaDyn?tab=repositories" target="_blank">
+        <a id="gitHub_button" class="btn" href="https://github.com/KamilaDyn?tab=repositories" target="_blank">
 
-          <button class="btn">
-            <i class="fab fa-github-alt"></i>See more
-          </button></a>
+
+          <i class="fab fa-github-alt"></i>See more</a>
 
       </div>
     </section>
 
     <section id="contact" class="contact">
-      <h1 class="title">Contact</h1>
-      <p class="subtitle">Would you like to know me? <br> Do not wait any longer and contact with me ;) </p>
+      <h2 id="contact2_id" class="title">Contact</h2>
+      <p id="end_subtitle_id" class="subtitle">Would you like to know me? <br> Do not wait any longer and contact with
+        me ;) </p>
       <div class="contact-details">
         <ul class="list-items">
           <li class="item"><a class="link">kamila.dynysiuk@gmail.com</a></li>
@@ -200,8 +203,7 @@
   <div class="wrap">
     <footer>
       <div class="btn-down-container">
-        <a class="scrollTo" href="#body"><button id="scroll-btn" class="btn-down"><i
-              class="fas fa-arrow-up"></i></button></a>
+        <a class="scrollTo btn-down" href="#body"><i class="fas fa-arrow-up"></i></a>
       </div>
       <div class="copyright">
         <h4>&copy;Kamila</h4>
@@ -216,6 +218,7 @@
 
   <script src="js/script.js"></script>
   <script src="js/proBar.js"></script>
+  <script src="js/pl-lang.js"></script>
 </body>
 
 </html>
