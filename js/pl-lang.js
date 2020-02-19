@@ -3,7 +3,7 @@ const href = document.querySelector('.hash-link')
 const bgButton = document.querySelector(".link-button");
 const plBtn = document.querySelector("#pl-btn");
 const engBtn = document.querySelector("#eng-btn")
-
+engBtn.style.display = "none";
 window.location.hash = "#eng"
 
 let language = {
