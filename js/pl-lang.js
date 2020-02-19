@@ -1,6 +1,8 @@
 const button = document.querySelector("#pl-lang");
 const href = document.querySelector('.hash-link')
 const bgButton = document.querySelector(".link-button");
+const plBtn = document.querySelector("#pl-btn");
+const engBtn = document.querySelector("#eng-btn")
 
 window.location.hash = "#eng"
 
@@ -45,9 +47,10 @@ let language = {
 }
 
 const buttonFunction = () => {
-    if (bgButton.textContent === "Pl" && window.location.hash === "#eng") {
-        bgButton.textContent = "Eng"
-        bgButton.style.backgroundImage = 'url("https://image.flaticon.com/icons/svg/197/197374.svg")'
+    console.log(window.location.hash)
+    if (window.location.hash === "#eng") {
+        engBtn.style.display = "inline-block"
+        plBtn.style.display = "none";
         href.setAttribute('href', "#pl");
         about_id.textContent = language.pl.about;
         skills_id.textContent = language.pl.skills;
@@ -68,9 +71,9 @@ const buttonFunction = () => {
         end_subtitle_id.textContent = language.pl.endSubtitle;
 
     } else {
-        bgButton.textContent = "Pl"
+        engBtn.style.display = "none"
         href.setAttribute('href', "#eng");
-        bgButton.style.backgroundImage = 'url("https://image.flaticon.com/icons/svg/197/197529.svg")';
+        plBtn.style.display = "inline-block"
         about_id.textContent = language.eng.about
         skills_id.textContent = language.eng.skills;
         contact_id.textContent = language.eng.contact;
