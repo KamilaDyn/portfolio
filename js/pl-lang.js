@@ -47,7 +47,7 @@ let language = {
 const buttonFunction = () => {
     if (bgButton.textContent === "Pl" && window.location.hash === "#eng") {
         bgButton.textContent = "Eng"
-        bgButton.style.backgroundImage = 'url(".././svg/uk.png")'
+        bgButton.style.backgroundImage = 'url("https://image.flaticon.com/icons/svg/197/197374.svg")'
         href.setAttribute('href', "#pl");
         about_id.textContent = language.pl.about;
         skills_id.textContent = language.pl.skills;
@@ -70,7 +70,7 @@ const buttonFunction = () => {
     } else {
         bgButton.textContent = "Pl"
         href.setAttribute('href', "#eng");
-        bgButton.style.backgroundImage = 'url(".././svg/flag.png")';
+        bgButton.style.backgroundImage = 'url("https://image.flaticon.com/icons/svg/197/197529.svg")';
         about_id.textContent = language.eng.about
         skills_id.textContent = language.eng.skills;
         contact_id.textContent = language.eng.contact;
