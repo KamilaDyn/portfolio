@@ -2,6 +2,8 @@ const button = document.querySelector("#pl-lang");
 const href = document.querySelector('.hash-link')
 const bgButton = document.querySelector(".link-button");
 
+window.location.hash = "#eng"
+
 let language = {
     eng: {
         about: "About",
@@ -9,7 +11,7 @@ let language = {
         contact: "Contact",
         welcome: "Hi! I'm Kamila Junior",
         aboutMe: "About me",
-        description: "I have finished study at University and I worked with children and disabled people. In 2018 year, I started my adventure with  programming language, in the beginning it was just a new hobby that I would like to transform into a daily-work. Mostly, I am self-taught person, I've got to know how to write code in HTML, CSS, JavaScript and frameworks such as Bootstrap, jQuery and React. I wish to develop further towards on front-end developer. To learn new technology I use to do it via online courses on Udemy e-learning platform and Free Code Camp. I read blogs, articles and books about programming. Also I attend to postgraduate studies (specialty: web and mobile applications). ",
+        description: "I have finished study at University and I worked with children and disabled people. In 2018 year, I started my adventure with  programming language, in the beginning it was just a new hobby that I would like to transform into a daily-work. Mostly, I am self-taught person, I've got to know how to write code in HTML, CSS, JavaScript and frameworks such as Bootstrap, jQuery and React. I wish to develop further towards on front-end developer. I also have learnt basic of Back-end (MongoDB, Node.js, express). To learn new technology I use to do it via online courses on Udemy e-learning platform and Free Code Camp. I read blogs, articles and books about programming. Also I attend to postgraduate studies (specialty: web and mobile applications). ",
         personal_information: "Personal Information",
         name: "Name: ",
         age: "Age: ",
@@ -26,9 +28,9 @@ let language = {
         about: "O mnie",
         skills: "Umiejętności",
         contact: "Kontakt",
-        welcome: "Witam! Jestem Kamila, Junior",
+        welcome: "Witam! Mam na imię Kamila, Junior",
         aboutMe: "O mnie",
-        description: "Ukończyłam studia na Uniwersytecie Opolskim i pracowałam z dziećmi osobami dorosłymi z  niepełnosprawnościami. W roku 2018 zaczęłam swoją przygodę z językami programowania. Na początku było to tylko w jakimś sensie hobby, które postanowiłam zmienić na codzienną pracę. Jestem  w dużym stopniu samoukiem. Nauczyłam się pisać od w HTML, CSS, Java Script oraz używać frameworków tak jak Bootstrap, jQuery i React. Chcę być zawodowym front end developerem. Uczę się nowych technologi poprzez kursy online na platformie e-learningowej Udemy oraz Free Code Camp. Czytam na bieżąco blogi różnych programistów, artykuły i książki. Również aktualnie uczę się na studiach podyplomowych (specjalność: aplikacje mobilne i internetowe). ",
+        description: "Ukończyłam studia na Uniwersytecie Opolskim i pracowałam z dziećmi osobami dorosłymi z  niepełnosprawnościami. W roku 2018 zaczęłam swoją przygodę z językami programowania. Na początku było to tylko w jakimś sensie hobby, które postanowiłam zmienić na codzienną pracę. Jestem  w dużym stopniu samoukiem. Nauczyłam się pisać od w HTML, CSS, Java Script oraz używać frameworków tak jak Bootstrap, jQuery i React. Chcę być zawodowym front end developerem. Również nauczyłam się podstaw Back endu (MongoDb, Node.js, Express). Uczę się nowych technologi poprzez kursy online na platformie e-learningowej Udemy oraz Free Code Camp. Czytam na bieżąco blogi różnych programistów, artykuły i książki. Również aktualnie uczę się na studiach podyplomowych (specjalność: aplikacje mobilne i internetowe). ",
         personal_information: "Informacje osobiste",
         name: "Imię: ",
         age: "Wiek: ",
@@ -45,7 +47,7 @@ let language = {
 const buttonFunction = () => {
     if (bgButton.textContent === "Pl" && window.location.hash === "#eng") {
         bgButton.textContent = "Eng"
-        bgButton.style.backgroundImage = 'url("./svg/uk.svg")'
+        bgButton.style.backgroundImage = 'url(".././svg/uk.svg")'
         href.setAttribute('href', "#pl");
         about_id.textContent = language.pl.about;
         skills_id.textContent = language.pl.skills;
@@ -68,7 +70,7 @@ const buttonFunction = () => {
     } else {
         bgButton.textContent = "Pl"
         href.setAttribute('href', "#eng");
-        bgButton.style.backgroundImage = 'url("./svg/flag.svg")';
+        bgButton.style.backgroundImage = 'url(".././svg/flag.svg")';
         about_id.textContent = language.eng.about
         skills_id.textContent = language.eng.skills;
         contact_id.textContent = language.eng.contact;
