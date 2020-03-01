@@ -3,4 +3,4 @@ Feel welcome to see it:
 
 # https://kamiladyn.github.io/portfolio/#eng
 
-<img src="./demo/demo.gif" width="320" height="400" />
+<img src="./demo/demo.gif" width="500" height="400" />
