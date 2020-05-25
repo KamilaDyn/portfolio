@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  line-height: 1.8em;
+  font-size: 16px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 1em;
+  padding: 1em;
+}
+
+header {
+  background-image: url("img/apple.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+header div {
+  display: block;
+}
+
+.name p {
+  color: black;
+  font-weight: bold;
+  opacity: none;
+}
+
+.profile-img {
+  max-width: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 25%;
+}
+
+.name h1 {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  color: beige;
+}
+
+.name p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+}
+
+article {
+  margin: 1em;
+}
+
+span {
+  font-size: 20px;
+}
+
+strong {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.name .social-media {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.social-media a i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 30px;
+  color: beige;
+  line-height: 50px;
+  background-color: gray;
+  margin-right: 50px;
+}
+
+.courses {
+  margin: 1em;
+  padding: 1em;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  display: block;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+}
+
+.title {
+  max-width: 33, 33%;
+  flex: 0 0 33.3%;
+  color: black;
+}
+
+.title h2 {
+  font-weight: bold;
+  margin-block-start: 1.3em;
+  margin-block-end: 1.3em;
+  color: #509E98;
+}
+
+
+.description {
+  max-width: 66.66%;
+  flex: 0 0 66.6%;
+}
+
+.description p {
+  padding-left: 1em;
+}
+
+.description p span {
+  font-size: 16px;
+}
+
+hr {
+  margin: 0.5em;
+}
+
+.skills-section {
+  margin: 1em;
+  padding: 1em;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+
+h2 {
+  margin-left: 1em;
+  color: #509E98;
+}
+
+ul li::before {
+  content: "►";
+  color: royalblue;
+  padding-right: 0.5em;
+}
+
+.knowledge {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.knowledge h3 {
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 1.33em;
+  margin-inline-end: 1.33em;
+}
+
+.language {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.lnguge h3 {
+  margin-left: 1em;
+}
+
+.language ul {
+  margin-block-start: 1.33em;
+  margin-block-end: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 1.33em;
+}
+
+.knowledge ul {
+  margin-block-start: 1.33em;
+  margin-block-end: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 1.33em;
+}
+
+.ex-description ul {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 1.33em;
+  margin-inline-end: 1.33em;
+}
+
+.ex-description ul li::before {
+  content: "✔";
+}
+
+footer {
+  background-color: gray;
+  color: white;
+}
+
+.interests {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 1.33em;
+  margin-inline-end: 1.33em;
+}
+
+.interests ul li::before {
+  content: '✔';
+  color: gray;
+}
+
+
+.footer {
+  padding-block-start: 0.5em;
+  padding-block-end: 0.5em;
+  padding-inline-start: 0;
+  padding-inline-end: 1.33em;
+}
+
+footer ul {
+  width: 100%;
+  text-align: right;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media(max-width: 800px) {
+  .name {
+    margin: 0 5%;
+  }
+}
+
+@media(max-width: 600px) {
+  section {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+  .name {
+    margin: 0;
+  }
+
+  .title {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  .courses {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+
+  p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  article {
+    margin: 0.5em;
+  }
+
+  .title h2 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  .description {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  .knowledge {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  h3 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0.5em;
+    margin-inline-end: 0.5em;
+  }
+
+  .language {
+    max-width: 100%;
+    flex: 100%;
+  }
+}

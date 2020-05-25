@@ -1,0 +1,52 @@
+.skills {
+  padding-bottom: $padding-top-s;
+
+  @include medium {
+    padding-bottom: $padding-top-m;
+  }
+
+  .title {
+    @include title;
+  }
+
+
+  .skill-technologies {
+    width: 80%;
+    margin: 0 auto;
+
+    @include large {
+      width: 70%;
+    }
+
+    @include xlarge {
+      width: 60%;
+    }
+  }
+
+  .progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: $wine-color;
+    text-transform: uppercase;
+
+  }
+
+  .progress-bar {
+    position: relative;
+    background-color: $light-pink;
+    width: 100%;
+    height: 20px;
+  }
+
+
+
+  .progress-procent {
+    position: absolute;
+    background-color: $wine-color;
+    height: 20px;
+  }
+
+}

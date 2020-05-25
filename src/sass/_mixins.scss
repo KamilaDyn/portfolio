@@ -1,0 +1,138 @@
+.active {
+  background-color: $wine-color;
+  height: 2px;
+}
+
+@mixin title {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $darkRed;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 15px;
+
+  @include xxsmall {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 22px;
+  }
+
+  @include xsmall {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  @include small-portrait {
+    @include title-size;
+  }
+
+  @include medium {
+    @include title-size;
+  }
+}
+
+@mixin text {
+  color: $text-color;
+  font-size: 15px;
+  line-height: 28px;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+
+  @include small {
+    line-height: 24px;
+    padding: 0 10px;
+  }
+}
+
+@mixin subtitle {
+  color: $text-color;
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 17.5px;
+  letter-spacing: 0.5px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+
+  @include xsmall {
+    padding-bottom: 27px;
+  }
+
+
+  @include small-portrait {
+    @include subtitle-size;
+  }
+
+  @include medium {
+    @include subtitle-size
+  }
+}
+
+@mixin item {
+  border-bottom: 1px solid #eeeeee;
+  color: $text-color;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+@mixin btn-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35.5px;
+  height: 35.5px;
+  border: 0.3px solid $black;
+  background-color: $white;
+  cursor: pointer;
+  border-radius: 50%;
+
+  @include xsmall {
+    width: 55.5px;
+    height: 55.5px;
+  }
+}
+
+@mixin btn-icon {
+  color: $darkRed;
+  font-weight: bold;
+  font-size: 20px;
+
+  @include xsmall {
+    font-size: 30px;
+  }
+}
+
+@mixin btn {
+  line-height: 40px;
+  padding: 0 1rem;
+  transition: all .5s ease-out;
+  background-color: $darkRed;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: normal;
+  border: none;
+  border-radius: 4px;
+
+  @include xxsmall {
+    height: 44px;
+    line-height: 50px;
+  }
+
+  @include medium {
+    height: 54px;
+    line-height: 56px;
+    padding: 0 2rem;
+  }
+
+}
+
+@mixin icon {
+  font-size: 18px;
+  padding-right: 5px;
+  font-weight: bold;
+}

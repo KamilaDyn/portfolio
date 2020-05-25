@@ -1,0 +1,225 @@
+.contact {
+  padding-bottom: $padding-top-s;
+
+  .contact-form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    @include medium {
+      flex-direction: row;
+    }
+
+    .form-container {
+      position: relative;
+
+      @include medium {
+        width: 47%;
+      }
+    }
+
+    .response {
+      color: $darkRed;
+    }
+
+    label {
+      display: block;
+      font-size: 18px;
+      margin-top: 20px;
+      color: $darken;
+      padding-bottom: 5px;
+    }
+
+    input {
+      height: 30px;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      display: block;
+      margin: 0;
+      border: 1px solid $darkRed;
+      letter-spacing: 1.1px;
+      border-radius: 5px;
+      padding: 5px;
+
+      &:focus {
+        outline: none;
+        background: transparent;
+        box-shadow: 0 0 23px -2px rgba(193, 47, 105, 0.5);
+      }
+
+      &:valid {
+        border: 2px solid $darkRed;
+      }
+    }
+
+    select {
+      margin-top: 20px;
+    }
+
+    .submit-btn {
+      @include btn;
+      margin: 15px auto;
+      position: absolute;
+      bottom: -20;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+    }
+  }
+
+  @include medium {
+    padding-bottom: $padding-top-m;
+  }
+
+  .title {
+    @include title;
+  }
+
+  .subtitle {
+    @include subtitle;
+  }
+
+  .contact-details {
+    width: 100%;
+
+    @include medium {
+      width: 47%;
+      margin: 0 auto;
+    }
+  }
+
+  .list-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+
+    a {
+      padding-bottom: 15px;
+      font-size: 20px;
+
+      @include xsmall {
+        font-size: 25px;
+      }
+
+      @include xmedium {
+        font-size: 30px;
+      }
+
+      @include large {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .item-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    color: $text-color;
+    border: 2px solid $darkRed;
+    border-radius: 50%;
+    position: relative;
+    line-height: 50px;
+    margin-top: 50px;
+
+    @include xsmall {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+    }
+
+    @include xmedium {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+    }
+
+    // @include medium {
+    //   width: calc(100% / 3 - 20px);
+    // }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $darkRed;
+      transition: all .5s;
+      border-radius: 50%;
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &:hover:before {
+      opacity: 1;
+      transform: scale(0.8);
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      transition: all .5s;
+      border-radius: 50%;
+      z-index: -1;
+      opacity: 0;
+      box-sizing: border-box;
+      border: 2px dashed $darkRed;
+    }
+
+    &:hover:after {
+      opacity: 1;
+      animation: iconAnim 10s linear infinite;
+    }
+  }
+
+  .link {
+    color: $wine-color;
+    font-size: 28px;
+
+    @include xsmall {
+      font-size: 38px;
+    }
+
+    @include xmedium {
+      font-size: 48px;
+    }
+
+    i {
+      padding-bottom: 15px;
+      cursor: pointer;
+    }
+
+    i:hover {
+      color: white;
+    }
+  }
+
+
+}

@@ -1,0 +1,10 @@
+@keyframes iconAnim {
+    0% {
+        transform: scale(0.92) rotate(0);
+
+    }
+
+    100% {
+        transform: scale(0.92) rotate(300deg);
+    }
+}

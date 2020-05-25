@@ -1,0 +1,235 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  padding: 8px 16px;
+  font-family: "Poppins", "Roboto", Arial, sans-serif;
+  background-color: $black;
+  z-index: 99.99;
+
+
+  @include medium {
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  .container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include medium {
+      width: 40%;
+    }
+  }
+
+  .logo {
+
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -2;
+    color: $white;
+
+    @include medium {
+      color: $wine-color;
+    }
+  }
+
+  .mobile-menu {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $white;
+    cursor: pointer;
+
+    @include xxsmall {
+      font-size: 1.2rem;
+    }
+
+    @include medium {
+      display: none;
+
+    }
+  }
+
+  .fa-times {
+    display: none;
+  }
+
+
+  .navbar {
+    width: 100vw;
+    align-items: center;
+
+
+
+    @include medium {
+      width: 50%;
+    }
+
+  }
+
+
+
+  .list-items {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    background: $black;
+    display: none;
+
+
+    @include medium {
+      background-color: #fff;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-left: 0;
+    }
+  }
+
+  .is-active {
+    display: flex;
+
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: inline-block;
+  }
+
+  .item {
+    padding-bottom: 20px;
+
+
+    @include medium {
+      padding-bottom: 0;
+    }
+  }
+
+  .link {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.8rem;
+    padding-bottom: 2px;
+    font-weight: 400;
+    color: $white;
+    background-color: transparent;
+
+
+    @include medium {
+      color: $wine-color;
+      background-color: $white;
+    }
+
+    @include large {
+      font-size: 20px;
+      line-height: 2rem;
+    }
+
+    @include xlarge {
+      font-size: 24px;
+      line-height: 2.2rem;
+    }
+  }
+
+  .nav .hash-link {
+    font-size: 16px;
+    line-height: 1.8rem;
+    color: #722f37;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+
+  }
+
+
+  .link-button {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 700;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    text-align: center;
+  }
+
+  #pl-btn {
+    background-image: url(".././svg/flag.svg");
+  }
+
+  #eng-btn {
+    background-image: url(".././svg/uk.svg");
+    display: none;
+  }
+
+  & .active {
+    background: none;
+    position: relative;
+    color: $darkRed;
+
+
+    &::after {
+      position: absolute;
+      content: '';
+      height: 4px;
+      bottom: -4px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70%;
+      background-color: $darkRed;
+      transition: .8s ease-out all .1s;
+
+      @include medium {
+        background-color: $white;
+      }
+
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+  .side-nav a {
+    text-transform: uppercase;
+  }
+
+
+  .side-nav li:hover {
+    color: #fff;
+  }
+
+
+  .side-nav li a:hover {
+    color: #fff;
+  }
+}

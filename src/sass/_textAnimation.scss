@@ -1,0 +1,141 @@
+.header {
+  .list-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+      font-size: 18px;
+      color: $darkRed;
+      font-weight: bold;
+      margin: 0 2.5px;
+      animation: letterAnim 3.6s linear;
+
+      @include xxsmall {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 27px;
+      }
+
+      @include xsmall {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 20px;
+      }
+
+      @include small {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      @include small-portrait {
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 39px;
+      }
+
+      @include medium {
+        font-size: 50px;
+        line-height: 61px;
+        padding-bottom: 49px;
+      }
+
+      @include large {
+        font-size: 55px;
+        line-height: 67px;
+        padding-bottom: 59px;
+      }
+
+      @include xlarge {
+        font-size: 72px;
+        line-height: 80px;
+      }
+    }
+
+    &__item:nth-child(1) {
+      animation-delay: 0;
+    }
+
+    &__item:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    &__item:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    &__item:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+
+    &__item:nth-child(5) {
+      animation-delay: 0.8s;
+    }
+
+    &__item:nth-child(6) {
+      animation-delay: 1s;
+    }
+
+    &__item:nth-child(7) {
+      animation-delay: 1.2s;
+    }
+
+    &__item:nth-child(8) {
+      animation-delay: 1.4s;
+    }
+
+    &__item:nth-child(9) {
+      animation: none;
+    }
+
+    &__item:nth-child(10) {
+      animation-delay: 1.6s;
+    }
+
+    &__item:nth-child(11) {
+      animation-delay: 1.8s;
+    }
+
+    &__item:nth-child(12) {
+      animation-delay: 2s;
+    }
+
+    &__item:nth-child(13) {
+      animation-delay: 2.2s;
+    }
+
+    &__item:nth-child(14) {
+      animation-delay: 2.4s;
+    }
+
+    &__item:nth-child(15) {
+      animation-delay: 2.6s;
+    }
+
+    &__item:nth-child(16) {
+      animation-delay: 2.8s;
+    }
+
+    &__item:nth-child(17) {
+      animation-delay: 3s;
+    }
+
+    &__item:nth-child(18) {
+      animation-delay: 3.2s;
+    }
+  }
+}
+
+@keyframes letterAnim {
+  0% {
+    color: $darkRed;
+  }
+
+  90% {
+    color: $darkRed;
+  }
+
+  100% {
+    color: white;
+  }
+}
