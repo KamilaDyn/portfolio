@@ -28,7 +28,7 @@ if (isset($_POST['name']) && isset($_POST["email"])) {
     //email settings
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
-    $mail->addAddress('rumianek.kamileczka@gmail.com');
+    $mail->addAddress('youremail');
     $mail->addReplyTo($_POST['email'], $_POST['name']);
 
 

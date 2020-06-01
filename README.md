@@ -2,7 +2,7 @@
 
 Portfolio
 
-Created own portfolio. It is designed by me and written. 
+Created own portfolio. It is designed and written by me. 
 
 
 ## See live
