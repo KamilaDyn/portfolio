@@ -14,4 +14,7 @@ $(document).ready(function () {
   $('.react').animate({
     width: "50%"
   }, 3000);
+  $('.php').animate({
+    width: "50%"
+  }, 3000);
 })
