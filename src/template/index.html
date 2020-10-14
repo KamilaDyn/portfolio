@@ -5,13 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <meta name="description" content="junior Fronted developer - strona portfolio stworzona do pokazania projektów w dziedzinie fronendu. "/>
+  <meta name="keywords" content="frontend, junior, web-developer, wordpress, html, css, seo, react, javascript, entry-level, początki pracy, programista, programowanie, bootsrap4"/>
   <title>Kamila Dynysiuk - Junior Fronted Developer</title>
 
   <!-- fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700%7CRoboto:300,300i,400,500,700&display=swap"
     rel="stylesheet" />
-
 </head>
 
 <body id="body">
@@ -52,7 +54,9 @@
       <div class="text">
         <h1 id="welcome_id" class="title">Hello world! I'm Kamila</h1>
         <h2 class="subtitle">Junior Frontend Developer</h2>
-        <h3 class="sub-description" id="looking_id">I am looking for a job.</h3>
+        <h3 class="sub-description" id="looking_id">
+          I am looking for a job.
+        </h3>
       </div>
     </header>
     <div class="btn-top-container">
@@ -62,14 +66,12 @@
   <main class="main">
     <section id="about-me" class="about-me">
       <div class="img-container">
-        <img src="../images/zdj2.jpg" alt="profile image" />
+        <img src="../images/pics2.jpg" alt="profile image" />
       </div>
 
       <div class="text-container">
         <div class="text">
-          <h2 id="aboutMe_id" class="title">
-            About me
-          </h2>
+          <h2 id="aboutMe_id" class="title">About me</h2>
           <p id="description_id" class="description">
             I have finished study at University and I worked with children and
             disabled people. In 2018 year, I started my adventure with
@@ -79,14 +81,14 @@
             CSS(Sass), JavaScript and frameworks such as Bootstrap, jQuery and
             React. To learn new technology I use to do it via online courses
             on Udemy, eduweb.pl and Free Code Camp. I read blogs, articles and
-            books about programming. In 2019 I have started postgraduate study
-            specialty <strong>web and mobile application</strong> , I will finish it in July.
-            During the study I strengthened knowledge of Fronted developer
-            language and learned CMS - (wordpress, drupal, prestashop), mySQL,
-            PHP and got basic knowledge how to create mobile application in
-            Android Studio. I am aware that developer’s life is not a piece of
-            cake, especially for junior but I am ready to do the best I can. I
-            am junior at entry level but meanwhile you are reading this, I am
+            books about programming. I have finished postgraduate study
+            specialty <strong>web and mobile application</strong>. During the
+            study I strengthened knowledge of Fronted developer language and
+            learned CMS - (wordpress, drupal, prestashop), mySQL, PHP and got
+            basic knowledge how to create mobile application in Android
+            Studio. I am aware that developer’s life is not a piece of cake,
+            especially for junior but I am ready to do the best I can. I am
+            junior at entry level but meanwhile you are reading this, I am
             learning something new.
           </p>
         </div>
@@ -95,10 +97,6 @@
           <ul class="list-items">
             <li class="item">
               <span id="name_id">Name:</span> Kamila Dynysiuk
-            </li>
-            <li class="item">
-              <span id="age_id">Age:</span>
-              <span id="years_id">29 years</span>
             </li>
             <li class="item">
               <span id="citizenship_id"> Citizenship:</span>
@@ -110,12 +108,13 @@
           </ul>
         </div>
 
-        <div class="resume-container"><a class="resume-btn-link resume-btn" target="_blank"
-            href=".././pdf/k.dynysiuk_cv(eng).pdf" download='cv'><i class="far fa-file-pdf"></i>
+        <div class="resume-container">
+          <a class="resume-btn-link resume-btn" target="_blank" href=".././pdf/k.dynysiuk_cv(eng).pdf" title="cv in english" download="cv"><i
+              class="far fa-file-pdf"></i>
 
             Resume-eng</a>
           <a class="resume-btn-link resume-btn" target="_blank" href=".././pdf/k.dynysiuk_cv(pl).pdf"
-            download='cv-pl'><i class="far fa-file-pdf"></i>
+            download="cv-pl" title="cv in polish"><i class="far fa-file-pdf"></i>
 
             Resume-pl</a>
         </div>
@@ -167,6 +166,15 @@
             <div class="progress-procent react"></div>
           </div>
         </div>
+        <div class="technologie">
+          <div class="progress">
+            <span class="progress-name">Wordpress,PHP, mySQL</span>
+            <span class="progress-number">50%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-procent php"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -212,37 +220,62 @@
       </div>
       <div class="projects-container">
         <div class="project">
-          <a class="project-link" href="https://kamiladyn.github.io/Travel-Notes" target="_blank">
-            <img data-src=".././images/TravelNotes.jpg" alt="travel app" src="#" class="lazy" />
+          <a class="project-link" href="https://kamiladyn.github.io/my-dev-notes/#/notes" target="_blank" title="project in React">
+            <img data-src=".././images/devnotes.jpg" alt="react devnotes" src="#" class="lazy" />
           </a>
 
-          <div class="project-description ">
-            <h3 class="description-title ">Travel Notes</h3>
-            <p class="content" id="notes_content_id">
-              The goals of this app is to write your simple notes / plans for next travels, write and keep important
-              links
-              to website in one place. Or just add instagram accounts your favorites travelers.
+          <div class="project-description">
+            <h3 class="description-title">My Dev Notes</h3>
+            <p class="content" id="content_devnotes_id">
+              App created during course 'React from scrach' (by Adam Romański). The goals of this app is add simple
+              notes, articles with
+              links or write the planned projects. It was created for practice, how to use React and Redux in projects.
+              It is not finished yet. I will write new elements and connect app to MongoDB.
+            </p>
+            <div>
+              <h4 class="subtitle">Tech stack:</h4>
+              <ul class="stack-items">
+                <li class="stack-item">React /Redux</li>
+                <li class="stack-item">CSS</li>
+                <li class="stack-item">Storybook</li>
+              </ul>
+              <h5>Project in progress</h5>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <a class="project-link" href="https://customers-list-react.herokuapp.com/" target="_blank" title="project in React">
+            <img data-src=".././images/customers-list.jpg" alt="list" src="#" class="lazy" /></a>
+          <div class="project-description">
+            <h3 class="description-title">Customers List</h3>
+            <p class="content" id="content_customer_id">
+              Small application written in React. I created it for one of
+              challenge. It is application to manage list of users/customers.
+              You can create/ add, delete or edit elements. It has backend in
+              MongoDB.
             </p>
             <div>
               <h4 class="subtitle">Tech stack:</h4>
               <ul class="stack-items">
                 <li class="stack-item">REACT</li>
-                <li class="stack-item">SASS</li>
+                <li class="stack-item">CSS</li>
+                <li class="stack-item">JS</li>
+                <li class="stack-item">AXIOS</li>
+                <li class="stack-item">mongoDB</li>
               </ul>
             </div>
           </div>
         </div>
-
-
         <div class="project">
-          <a class="project-link" href="https://kamiladyn.github.io/website-example3/" target="_blank">
-            <img alt="website-3" class="lazy" img="imgWebsite" data-src=".././images/website-example3.png"
+          <a class="project-link" href="https://kamiladyn.github.io/website-example3/" target="_blank" title="website example">
+            <img alt="website-3" class="lazy"  data-src=".././images/website-example3.png"
               src="#" /></a>
           <div class="project-description">
             <h3 class="description-title">Website example</h3>
-            <p class="content " id="web3_id">
-              This website was built based on free template sketch. I used figma to open template. I have created this
-              website just for practice my skills.
+            <p class="content" id="web3_id">
+              This website was built based on free template sketch. I used
+              figma to open template. I have created this website just for
+              practice my skills.
             </p>
             <div>
               <h4 class="subtitle">Tech stack:</h4>
@@ -255,51 +288,32 @@
             </div>
           </div>
         </div>
+
         <div class="project">
-          <a class="project-link" href="http://ow4481.wsbpoz.solidhost.pl/wordpress/" target="_blank">
-            <img data-src=".././images/wordpress.jpg" alt="wordprees web" src="#" class="lazy" />
+          <a class="project-link" href="https://kamiladyn.github.io/Travel-Notes/#/" target="_blank" title="project in React">
+            <img data-src=".././images/TravelNotes.jpg" alt="travel app" src="#" class="lazy" />
           </a>
 
-          <div class="project-description ">
-            <h3 class="description-title ">Wordpress</h3>
-            <p class="content" id="web4_id">
-              Website with blog and shop created in Wordpress. It was a final assignment for study ‘web and mobile
-              application’ for CMS section.
-              What I included is: layout, newsletter, contact form, allows user to post comments, and WooCommerce for an
-              online shop.
-            </p>
-            <div>
-              <h4 class="subtitle">Tech stack:</h4>
-              <ul class="stack-items">
-                <li class="stack-item">Wordpress</li>
-                <li class="stack-item">WooComerce-plugin</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <a class="project-link" href="https://kamiladyn.github.io/website_example1/" target="_blank">
-            <img alt="przedszkole" src="#" class="lazy" data-src=".././images/website-example1.png" src="#" />
-          </a>
           <div class="project-description">
-            <h3 class="description-title">Website Bootstrap</h3>
-            <p class="content " id="web1_id">
-              This website was design and created by me. I created it because I wanted to have some experience with
-              Bootstrap.
+            <h3 class="description-title">Travel Notes</h3>
+            <p class="content" id="notes_content_id">
+              The goals of this app is to write your simple notes / plans for
+              next travels, write and keep important links to website in one
+              place. Or just add instagram accounts your favorites travelers.
             </p>
             <div>
               <h4 class="subtitle">Tech stack:</h4>
               <ul class="stack-items">
-                <li class="stack-item">BOOTSTRAP</li>
-                <li>FIGMA</li>
+                <li class="stack-item">REACT</li>
+                <li class="stack-item">SASS</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="project">
-          <a class="project-link" href="https://kamiladyn.github.io/Collections_Books/" target="_blank">
-            <img alt="books" src="#" class="lazy" data-src=".././images/collections-books.png" src="#" />
+          <a class="project-link" href="https://kamiladyn.github.io/Collections_Books/" target="_blank" title="project in Js and API">
+            <img alt="books" src="#" class="lazy" data-src=".././images/collections-books.png"  />
           </a>
           <div class="project-description">
             <h3 class="description-title">Collections Books</h3>
@@ -320,33 +334,33 @@
             </div>
           </div>
         </div>
-
         <div class="project">
-          <a class="project-link" href="https://customers-list-react.herokuapp.com/" target="_blank">
-            <img data-src=".././images/customers-list.jpg" alt="list" src="#" class="lazy" /></a>
-          <div class="project-description">
-            <h3 class="description-title">Customers List</h3>
-            <p class="content" id="content_customer_id">
-              Small application written in React. I created it for one of challenge. It is application to manage list of
-              users/customers. You can create/ add, delete or edit elements. It has backend in MongoDB.
+          <a class="project-link" href="http://ow4481.wsbpoz.solidhost.pl/wordpress/" target="_blank" title="project with wordpress">
+            <img data-src=".././images/wordpress.jpg" alt="wordprees web" src="#" class="lazy" />
+          </a>
+
+          <div class="project-description ">
+            <h3 class="description-title ">Wordpress</h3>
+            <p class="content" id="wordpress_id">
+              Website with blog and shop created in Wordpress. It was a final assignment for study ‘web
+              and mobile
+              application’ for CMS section.
+              What I included is: layout, newsletter, contact form, allows user to post comments, and
+              WooCommerce for an
+              online shop.
             </p>
             <div>
               <h4 class="subtitle">Tech stack:</h4>
               <ul class="stack-items">
-                <li class="stack-item">REACT</li>
-                <li class="stack-item">CSS</li>
-                <li class="stack-item">JS</li>
-                <li class="stack-item">AXIOS</li>
-                <li class="stack-item">mongoDB</li>
-
+                <li class="stack-item">Wordpress</li>
+                <li class="stack-item">WooComerce-plugin</li>
               </ul>
             </div>
           </div>
         </div>
-
       </div>
       <div class="btn-container">
-        <a id="gitHub_button" class="btn" href="https://github.com/KamilaDyn?tab=repositories" target="_blank">
+        <a id="gitHub_button" class="btn" href="https://github.com/KamilaDyn?tab=repositories" target="_blank" title="got to github repo">
           <i class="fab fa-github-alt"></i>See more</a>
       </div>
     </section>
@@ -392,14 +406,14 @@
               <a class="link">kamila.dynysiuk@gmail.com</a>
             </li>
             <li class="item-icon">
-              <a href="https://m.me/kamila.dynysiuk" class="link"><i class="fab fa-facebook-messenger"></i></a>
+              <a href="https://m.me/kamila.dynysiuk" class="link" title="contact via messenger"><i class="fab fa-facebook-messenger"></i></a>
             </li>
             <li class="item-icon">
-              <a href="https://www.linkedin.com/in/kamila-d-489849180" class="link">
+              <a href="https://www.linkedin.com/in/kamila-d-489849180" title="link to linkedin" class="link">
                 <i class="fab fa-linkedin-in"></i></a>
             </li>
             <li class="item-icon">
-              <a href="https://github.com/KamilaDyn" class="link"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/KamilaDyn" class="link" title="link to github"><i class="fab fa-github"></i></a>
             </li>
           </ul>
         </div>
@@ -422,7 +436,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/751fa6a7c6.js"></script>
-
 </body>
 
 </html>
