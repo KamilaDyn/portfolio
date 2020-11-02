@@ -84,9 +84,7 @@
 
      const ajax = new XMLHttpRequest;
 
-     ajax.open("POST", "./php/sendEmail.php", true);
-     ajax.send(formdata);
-
+ 
      ajax.onreadystatechange = () => {
        if (ajax.readyState === 4 && ajax.status === 200) {
          if (ajax.responseText === "success") {
@@ -103,6 +101,9 @@
 
        }
      }
+     ajax.open("POST", "php/sendEmail.php", true);
+     ajax.send(formdata);
+
 
    } else {
      console.log("we have problem")

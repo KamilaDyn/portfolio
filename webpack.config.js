@@ -5,7 +5,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
-
+const publicPath = '/';
 
 module.exports = {
   mode: 'development',
@@ -13,6 +13,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name]-[contenthash].js',
+    publicPath: publicPath,
   },
 
   module: {
@@ -72,7 +73,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpe?g|gif|PNG)$/,
+        test: /\.(png|jpe?g|gif|PNG|webp)$/,
 
         use: [{
           loader: "file-loader",

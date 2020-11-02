@@ -1,3 +1,4 @@
+
 (function () {
 
     let form = document.querySelector('#myForm'),

@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
   $('.html').animate({
     width: "80%"
@@ -16,5 +17,8 @@ $(document).ready(function () {
   }, 3000);
   $('.php').animate({
     width: "50%"
+  }, 3000);
+  $('.wordpress').animate({
+    width: "70%"
   }, 3000);
 })
