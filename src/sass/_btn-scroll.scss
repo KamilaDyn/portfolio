@@ -1,0 +1,54 @@
+.btn-top-container {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+
+  transform: translate(-50%, 50%);
+  z-index: 999999;
+  // @include small-landscape {
+  //   bottom: -50%;
+  //   transform: translate(-50%, 35%);
+  // }
+
+  // @include medium {
+  //   bottom: -50%;
+  //   transform: translate(-50%, 25%);
+  // }
+
+  // @include medium-portrait {
+  //   bottom: 0;
+  //   transform: translate(-50%, -15%);
+  // }
+
+  .btn-top {
+    @include btn-scroll;
+
+    i {
+      @include btn-icon;
+    }
+  }
+}
+
+
+.btn-down-container {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btn-down-container-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 600ms, visibility 600ms;
+
+}
+
+.btn-down {
+  @include btn-scroll;
+
+  i {
+    @include btn-icon;
+  }
+}
