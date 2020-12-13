@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital,wght@0,400;1,700&family=Open+Sans&display=swap');
+
 @import "variables";
 @import "animation";
 @import "mediaQuery";
@@ -6,12 +7,14 @@
 @import "reset";
 @import "mixins";
 @import "nav";
-@import "header";
+@import "backdrop";
+@import "banner";
 @import "aboutMe";
-@import "btn-top-scroll";
+@import "btn-scroll";
 @import "skills";
 @import "tool";
 @import "portfolio";
 @import "contact";
+@import 'single-desc';
 @import "errorMsg";
 @import "footer";

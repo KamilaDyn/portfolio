@@ -99,10 +99,6 @@
       padding-bottom: 59px;
     }
 
-    @include xlarge {
-      font-size: 72px;
-      line-height: 80px;
-    }
   }
 
 
@@ -143,10 +139,7 @@
       line-height: 67px;
     }
 
-    @include xlarge {
-      font-size: 72px;
-      line-height: 80px;
-    }
+
   }
 
   .banner-subdescription {

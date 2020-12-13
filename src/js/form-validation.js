@@ -1,8 +1,11 @@
-
 (function () {
 
-    let form = document.querySelector('#myForm'),
-        fields = form.querySelectorAll("[data-error]");
+    let form = document.querySelector('#myForm');
+    if (form) {
+        let fields = form.querySelectorAll("[data-error]");
+        return fields;
+    }
+
 
     function isNotEmpty(field) {
 
@@ -35,43 +38,45 @@
         })
         form.parentNode.insertBefore(ul, form)
     }
+    if (form) {
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
 
-    form.addEventListener("submit", function (e) {
-        e.preventDefault();
+            let errors = [];
 
-        let errors = [];
+            for (let i = 0; i < fields.length; i++) {
 
-        for (let i = 0; i < fields.length; i++) {
-
-            let field = fields[i];
-            isValid = false;
+                let field = fields[i];
+                isValid = false;
 
 
-            if (field.type === "text") {
-                isValid = isNotEmpty(field);
-            } else if (field.type === "email") {
-                isValid = isEmail(field)
-            } else if (field.type === "textarea") {
-                isValid = isAtLeast(field, 2);
+                if (field.type === "text") {
+                    isValid = isNotEmpty(field);
+                } else if (field.type === "email") {
+                    isValid = isEmail(field)
+                } else if (field.type === "textarea") {
+                    isValid = isAtLeast(field, 2);
+                }
+
+                if (!isValid) {
+                    errors.push(field.dataset.error);
+                    field.classList.add = "error";
+                } else {
+                    field.classList.remove("error");
+                }
             }
 
-            if (!isValid) {
-                errors.push(field.dataset.error);
-                field.classList.add = "error";
+
+            if (errors.length) {
+                displayErrors(errors)
             } else {
-                field.classList.remove("error");
+                form.submit();
+
             }
-        }
+            console.log(errors);
 
+        }, false)
+    }
 
-        if (errors.length) {
-            displayErrors(errors)
-        } else {
-            form.submit();
-
-        }
-        console.log(errors);
-
-    }, false)
 
 })();
