@@ -16,19 +16,82 @@ const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 module.exports = merge(common, {
   mode: 'production',
   output: {
-    filename: "js/[name].[contenthash].bundle.js",
+    filename: "js/[name].min.js",
     path: path.resolve(__dirname, "dist")
 
   },
   optimization: {
     minimizer: [new OptimizeCssAssetsPlugin(), new TerserPlugin(), new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: "src/template/index.html",
       minify: {
         removeAttributeQuotes: true,
         collapseWhitespace: true,
         removeComments: true
       }
-    })],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'act-outs.html',
+      template: "src/template/act-outs.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'wordpress.html',
+      template: "src/template/wordpress.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'my-notes.html',
+      template: "src/template/my-notes.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'customer-list.html',
+      template: "src/template/customer-list.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'kindergarden.html',
+      template: "src/template/kindergarden.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'zakupydlaseniora.html',
+      template: "src/template/zakupydlaseniora.html",
+      chunks: ['jquery', 'main'],
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    })
+  
+  ],
 
   },
 

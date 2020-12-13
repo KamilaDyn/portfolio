@@ -9,7 +9,7 @@ const publicPath = '/';
 
 module.exports = {
   mode: 'development',
-  entry: ["./src/js/index.js", "./src/js/pl-lang.js", "./src/js/proBar.js", "./src/js/sendEmail.js", "./src/js/lazyload.js"],
+  entry: ["./src/js/index.js", "./src/js/navigation.js", "./src/js/wow.js",  "./src/js/pl-lang.js", "./src/js/proBar.js", "./src/js/sendEmail.js", "./src/js/lazyload.js"],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name]-[contenthash].js',
