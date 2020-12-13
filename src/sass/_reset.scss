@@ -6,19 +6,17 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: "Lato", sans-serif;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
+section {
+  display: block;
 }
+
+
 
 a {
   text-decoration: none;
