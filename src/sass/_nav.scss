@@ -1,4 +1,5 @@
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,9 +8,8 @@
   height: 65px;
   padding: 8px 16px;
   font-family: "Poppins", "Roboto", Arial, sans-serif;
-  background-color: $black;
-  z-index: 99.99;
-
+  background-color: transparent;
+  z-index: 999;
 
   @include medium {
     flex-direction: row;
@@ -17,10 +17,11 @@
   }
 
   .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     @include medium {
       width: 40%;
@@ -36,11 +37,10 @@
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: -2;
-    color: $white;
+    color: $gold;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
 
-    @include medium {
-      color: $wine-color;
-    }
   }
 
   .mobile-menu {
@@ -56,7 +56,7 @@
     border-radius: 0.25rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: $white;
+    color: $gold;
     cursor: pointer;
 
     @include xxsmall {
@@ -75,12 +75,29 @@
 
 
   .navbar {
-    width: 100vw;
+    width: 60vw;
     align-items: center;
-
-
+    transform: translateX(-150%);
+    height: 100vh;
+    background: linear-gradient(to left, $wine-color, $darkRed);
+    transition: transform 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
 
     @include medium {
+      padding-top: 0;
+      margin-top: 0;
+      position: relative;
+      height: fit-content;
+      width: 60%;
+      transform: translateX(0);
+      background: transparent;
+      height: 100%;
+    }
+
+    @include large {
       width: 50%;
     }
 
@@ -94,21 +111,36 @@
     justify-content: flex-end;
     justify-content: space-around;
     align-items: center;
-    background: $black;
-    display: none;
+
 
 
     @include medium {
-      background-color: #fff;
       width: 100%;
       display: flex;
       flex-direction: row;
       padding-left: 0;
     }
+
+
+  }
+
+  .nav-link {
+    font-size: 24px;
   }
 
   .is-active {
     display: flex;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 30px;
+    text-align: right;
+    align-items: flex-start;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border-right: 5px;
+    z-index: 9999;
 
   }
 
@@ -129,19 +161,16 @@
     }
   }
 
-  .link {
+  .nav-link {
     position: relative;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.8rem;
     padding-bottom: 2px;
     font-weight: 400;
-    color: $white;
-    background-color: transparent;
-
+    color: $gold !important;
 
     @include medium {
       color: $wine-color;
-      background-color: $white;
     }
 
     @include large {
@@ -158,7 +187,7 @@
   .nav .hash-link {
     font-size: 16px;
     line-height: 1.8rem;
-    color: #722f37;
+    color: $gold;
     text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 
   }
@@ -205,7 +234,7 @@
       transition: .8s ease-out all .1s;
 
       @include medium {
-        background-color: $white;
+        background-color: $gold;
       }
 
     }
@@ -214,10 +243,6 @@
       width: 100%;
     }
   }
-
-
-
-
 
   .side-nav a {
     text-transform: uppercase;
@@ -232,4 +257,9 @@
   .side-nav li a:hover {
     color: #fff;
   }
+}
+
+.project-desc-page header {
+  height: 60px;
+  background-color: $darkRed;
 }
