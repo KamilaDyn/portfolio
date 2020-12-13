@@ -1,26 +1,4 @@
 footer {
-  position: relative;
-  padding-top: 50px;
-
-  .btn-down-container {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, 0);
-
-    @include medium {
-      top: 0;
-      transform: translate(-50%, 30%);
-    }
-  }
-
-  .btn-down {
-    @include btn-scroll;
-
-    i {
-      @include btn-icon;
-    }
-  }
 
   .copyright {
     background-color: $darkRed;
