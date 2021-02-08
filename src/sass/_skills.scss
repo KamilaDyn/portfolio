@@ -49,4 +49,33 @@
     height: 20px;
   }
 
+  .progress-procent [data-progress] {
+    height: 15px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 2px;
+    margin: 5px 0 10px 0;
+    overflow: hidden;
+  }
+
+  [data-progress]::after {
+    content: "";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: $wine-color;
+    width: 0;
+    height: 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+    padding: 0 3px;
+    transition: 2s;
+  }
+
+  [data-progress].animate-progress::after {
+    content: attr(data-progress) "%";
+    width: var(--animate-progress);
+  }
+
+
 }

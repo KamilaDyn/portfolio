@@ -66,6 +66,7 @@
     height: 100%;
     display: flex;
     text-align: center;
+    flex-direction: column;
     grid-column-start: col-1;
     grid-column-end: end;
     position: relative;
@@ -79,45 +80,10 @@
     padding: 7px;
 
 
-    // &::before {
-    //   border: 1px solid rgba($darkRed, .5);
-    //   bottom: 15px;
-    //   content: "";
-    //   display: block;
-    //   left: 11px;
-    //   position: absolute;
-    //   right: 11px;
-    //   top: 15px;
-    //   z-index: 2;
-    //   background-color: rgba(0, 0, 0, 0.1);
 
-    // }
-
-    &:before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: rgba(0, 0, 0, 0.2);
-      z-index: 2;
-      width: 100%;
-      height: 100%;
+    @include medium {
+      flex-direction: row;
     }
-
-    // &::after {
-    //   border: 1px solid rgba($darkRed, .5);
-    //   bottom: 11px;
-    //   content: "";
-    //   display: block;
-    //   left: 15px;
-    //   position: absolute;
-    //   right: 15px;
-    //   top: 11px;
-    //   z-index: 2;
-    //   background-color: rgba(0, 0, 0, 0.1);
-    // }
-
 
     .description-title {
       color: $darkRed;
@@ -132,11 +98,14 @@
       background-color: rgba(255, 255, 255, 0.8);
       line-height: 2;
       padding: 15px 20px;
+      transition: all 0.5s ease-in-out;
 
 
       &:hover {
         color: $gold;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.6);
+
+
       }
 
       @include small-portrait {
@@ -145,24 +114,11 @@
 
     }
 
-    // @include xsmall {
-    //   flex-direction: row;
-    // }
-
-    // @include small-portrait {
-    //   flex-direction: column;
-    // }
-
-    // @include medium {
-    //   flex-direction: column;
-    // }
-
     .project-link {
-      height: 100%;
-      width: 70%;
+      height: 70%;
+      width: 100%;
       position: relative;
-
-
+      overflow: hidden;
 
       // @include xsmall {
       //   height: 100%;
@@ -174,28 +130,30 @@
       //   width: 100%;
       // }
 
-      // @include medium {
-      //   height: 50%;
-      //   width: 100%;
-      // }
+      @include medium {
+        height: 100%;
+        width: 70%;
+      }
     }
 
 
     img {
       width: 100%;
-      height: 100%;
+      height: auto;
     }
 
     .project-description {
-      height: 100%;
-      width: 30%;
+      height: auto;
+      width: 100%;
       overflow: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgba($oatmeal, 0.5);
+      background-color: #eff5f5;
       overflow: hidden;
+      padding: 15px 0;
+
 
       // @include xsmall {
       //   height: 100%;
@@ -208,18 +166,33 @@
       //   width: 100%;
       // }
 
-      // @include medium {
-      //   height: 50%;
-      //   width: 100%;
-      // }
+      @include medium {
+        height: 100%;
+        width: 30%;
+      }
+
       .see-options {
         ul>li {
-          padding: 10px 10px;
+          line-height: 32px;
+          padding-bottom: 10px;
+
+          a {
+            &:hover {
+              color: $darkRed;
+            }
+          }
+
         }
 
         ul>li>a {
-          display: block;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
           color: $darken;
+
+          @include medium {
+            flex-direction: column;
+          }
         }
 
         ul>li>a>i {
@@ -232,6 +205,7 @@
           transition: all 0.2s ease-in;
           padding: 2px 0;
           color: $darkRed;
+          margin-right: 10px;
 
           &:hover {
             color: $gold;

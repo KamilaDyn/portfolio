@@ -1,4 +1,5 @@
-const button = document.querySelector("#pl-lang");
+(function(){
+    const button = document.querySelector("#pl-lang");
 const href = document.querySelector('.hash-link')
 const bgButton = document.querySelector(".link-button");
 const plBtn = document.querySelector("#pl-btn");
@@ -104,3 +105,4 @@ if (button) {
 
     button.addEventListener("click", buttonFunction);
 }
+})();
