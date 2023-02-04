@@ -1,0 +1,18 @@
+export const techStack = [
+  'JavaScript',
+  'React',
+  'Redux',
+  'React-native',
+  'react-query',
+  'Html',
+  'CSS',
+  'Sass',
+  'MaterialUi',
+  'ChakraUi',
+  'Bootstrap',
+  'Wordpress',
+  'PHP',
+  'axios',
+  'Formik',
+  'styled-components',
+]

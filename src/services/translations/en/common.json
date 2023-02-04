@@ -1,0 +1,19 @@
+{
+  "header": "Simple and significant",
+  "me": {
+    "text1": "My name is Kamila, I am a ",
+    "text2": "Frontend Developer (React)."
+  },
+  "buttons": {
+    "seeMore": "...See More",
+    "readMore": "Read More",
+    "liveView": "Live View",
+    "source": "Source"
+  },
+  "techStack": "Tech stack:",
+  "sidebar": {
+    "home": "Home",
+    "about": "About me",
+    "myProjects": "My own projects"
+  }
+}

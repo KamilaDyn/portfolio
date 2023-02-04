@@ -1,0 +1,85 @@
+{
+  "actOutsCard": {
+    "header": "Act Outs (Wordpress Page)",
+    "shortDescription": "Created a custom theme for WordPress. With event calendar, videos, and login functionality for users."
+  },
+  "englishCard": {
+    "header": "Flick Through English (Wordpress Page)",
+    "shortDescription": "Created a Page for English lessons with different groups. I created a custom rare-academic-child theme (original parent Rara academic). In the theme, I added extra pages and post types for students, a login page, and redirecting students to the page, depending on what kind of role they have."
+  },
+  "bazaarCard": {
+    "header": "React Example Page (Bazaar)",
+    "shortDescription": "React App ‘Products Page’. This project is just for my self-study case: React, Redux, context, and Material UI. I created it after studying React, to try, to check and develop skills. It is just example page for practice."
+  },
+  "portfolioCard": {
+    "header": "Portfolio Page in React",
+    "shortDescription": "My portfolio, shows information about me, some of my own projects, my skills, and my programming path. Page contains two modes dark and light, and also translation, Polish and english."
+  },
+  "projectsModal": {
+    "header": "Description",
+    "actoutsContent": {
+      "title": "Act Outs (Theme for Wordpress)",
+      "text1": "This is a project for a client, who wanted to have a dynamic page for his own business. I decided to create it in WordPress, to have the ability to add dynamic new lessons, and events with text, photos, and videos.",
+      "text2": "I build my own theme which contains",
+      "item1": "Header with Logo and menu (mobile menu)",
+      "item2": "Front Page with sections:",
+      "subItems": {
+        "text1": "Section gallery slider (ability to add/change 4 images).",
+        "text2": "Section welcome with featured picture and text.",
+        "text3": "Section Featured Videos (displayed two pages with video)",
+        "text4": "Section about (by choosing one page). Contain text and featured image.",
+        "text5": "Section courses (by choosing 4 pages, containing  video).",
+        "text6": "Section holiday Programs. The section is displayed as Slider. Programs added by custom post types. Contain featured images."
+      },
+      "item3": "Fourth Custom Archive Pages for each different group. Content is displayed for people who are logged in and have added roles",
+      "item4": "One Page with the calendar. In the calendar, events are automatically added from the event post type. When a user wants to add an event needs to write the date of the event in an advanced custom field. Also can add the color of the event, a short description, tick if wants to display details as a popper in the calendar, and choose the priority of events (if events have the same dates). For this, I create WP json router and used JSON to get data, and added it to the js-year-calendar function. I used calendar js-year-calendar.",
+      "item5": "Footer - User can add 4 widgets to footer.",
+      "item6": "Also theme has:",
+      "subItems2": {
+        "text1": "Two Sidebars",
+        "text2": "Extra widgets for Holiday Programs, which can be added to sidebar. Widget display just 4 earliest planned programs.",
+        "text3": "Extra widgets for social links (4)."
+      },
+      "techStack": "Tech stack"
+    },
+    "bazaarContent": {
+      "title": "Products Example Page (React)",
+      "text1": "This React app contains:",
+      "item1": "Main Page: List of product cards with category filter and price filter.",
+      "item2": "Profile Page: logged user details, left sidebar clients panel, user setting.",
+      "item3": "Login functionality (login modal).",
+      "item4": "Sign Up Page: register new user, form with validation.",
+      "item5": "For logged users:",
+      "subItems": {
+        "text1": "Add new Product Page: form with validation to add new products.",
+        "text2": "Edit Product Page: form with validation, to edit existing product",
+        "text3": "Products Page: list of products with delete or edit product functionality."
+      },
+      "item6": "Basket Sidebar: list of chosen Products with buttons to decrease, increase number of products and pay now button.",
+      "item7": "Checkout Page: checkout with 5 steps to fill up.",
+      "subItems2": {
+        "text1": "Step one: displaying a list of chosen products, with a sidebar to use the rabat code and choose a delivery option.",
+        "text2": "Step two: form with details option (address fields ) with summarize sidebar.",
+        "text3": "Step three: payment form where user can fill inputs up for card details.",
+        "text4": "Step four: summarize chosen products, address details, delivery option, payment option, and final price."
+      }
+    },
+    "englishPageContent": {
+      "title": "Flick Through English (Wordpress)",
+      "text1": "This is a project for a client, who wanted to have a dynamic page for his own business. I decided to create it in WordPress, to have the ability to add dynamic new lessons, and events with text, photos, and videos.",
+      "text2": "The child's rare-academic theme has:",
+      "item1": "Header with Logo and menu (mobile menu)",
+      "item2": "Front Page with sections:",
+      "subItems": {
+        "text1": "Section gallery slider with description and button read more.",
+        "text2": "Section about me.",
+        "text3": "Section Groups",
+        "text4": "Section learning steps.",
+        "text5": "Section contact.",
+        "text6": "Footer"
+      },
+      "item3": "Fourth Custom Archive Pages for each different group. Content is displayed for people who are logged in and have added roles.",
+      "item4": "Footer - The user can add 4 widgets to the footer."
+    }
+  }
+}
