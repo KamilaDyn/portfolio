@@ -1,18 +1,10 @@
-import { useContext } from 'react'
-import { useTheme } from '@mui/material/styles'
-import { Box, Divider, Grid, IconButton, Typography } from '@mui/material'
-import Brightness4Icon from '@mui/icons-material/Brightness4'
-import Brightness7Icon from '@mui/icons-material/Brightness7'
-import { ColorModeContext } from 'context/ColorContext'
+import { useTranslation } from 'react-i18next'
+import { Box, Divider, Grid, Typography } from '@mui/material'
 import ModeIcon from '../ModeIcon'
-import { useTranslation, Trans } from 'react-i18next'
-import { useState } from 'react'
 import PL from 'assets/poland.png'
 import EN from 'assets/united-kingdom.png'
 
 const Header = () => {
-  const theme = useTheme()
-  const colorContext = useContext(ColorModeContext)
   const { t, i18n } = useTranslation('common')
 
   return (

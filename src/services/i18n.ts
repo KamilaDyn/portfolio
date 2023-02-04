@@ -1,4 +1,4 @@
-import i18n from 'i18next'
+import { use } from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import {
   aboutMePage_en,
@@ -8,7 +8,7 @@ import {
 } from './translations/en'
 import { common_pl, homePage_pl } from './translations/pl'
 
-i18n.use(initReactI18next).init({
+export default use(initReactI18next).init({
   debug: true,
   fallbackLng: 'en',
   interpolation: {
@@ -29,4 +29,3 @@ i18n.use(initReactI18next).init({
     },
   },
 })
-export default i18n

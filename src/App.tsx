@@ -1,20 +1,18 @@
 import { useMemo, useState } from 'react'
 import { useRoutes } from 'react-router-dom'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
-import { Box, Container, useTheme } from '@mui/material'
+import { Box } from '@mui/material'
 import { mainRoute } from 'routes/mainRoute'
 import { ContextProvider, useContextProvider } from 'context'
 import { ColorModeContext } from 'context/ColorContext'
 import { Sidebar, Header, MobileMenu } from 'components'
 import { getDesignTokens } from './customTheme'
-
-import './App.css'
 import { StyledContainer } from './index.style'
+import './App.css'
 
 const App = () => {
   const routing = useRoutes(mainRoute)
   const { isMobile } = useContextProvider()
-  const theme = useTheme()
 
   return (
     <StyledContainer className="App">

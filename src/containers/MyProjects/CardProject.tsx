@@ -13,7 +13,7 @@ import { openInNewTab } from 'utils'
 import { FlexBox, StyledCard } from './index.style'
 
 interface ICardProject {
-  img: any
+  img: string
   modalName: ModalNames
   listSkillArray: string[]
   title: string

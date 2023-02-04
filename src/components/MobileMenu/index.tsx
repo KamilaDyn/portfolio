@@ -1,7 +1,7 @@
 import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import { useState, MouseEvent } from 'react'
-import { Box, MenuProps, styled, alpha } from '@mui/material'
+import { Box, MenuProps, styled } from '@mui/material'
 import Avatar from '@mui/material/Avatar/Avatar'
 import ProfileImg from 'assets/pics2.webp'
 import IconButton from '@mui/material/IconButton/IconButton'

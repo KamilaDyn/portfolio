@@ -7,8 +7,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
 import TimelineDot from '@mui/lab/TimelineDot'
 import Typography from '@mui/material/Typography'
 import { useTheme } from '@mui/material/styles'
-import { Button, Box } from '@mui/material'
-import { useContextProvider } from 'context'
+import { Box } from '@mui/material'
 
 interface TimLineItem {
   year: string
@@ -40,8 +39,6 @@ const TimLineItem: FC<TimLineItem> = ({
   button,
 }) => {
   const theme = useTheme()
-
-  const { openModal, setModalName } = useContextProvider()
 
   return (
     <>

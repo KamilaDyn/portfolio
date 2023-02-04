@@ -1,12 +1,4 @@
-import {
-  Box,
-  List,
-  ListItemIcon,
-  ListItemText,
-  Typography,
-} from '@mui/material'
-import StarIcon from '@mui/icons-material/Star'
-import { useContextProvider } from 'context'
+import { Box, List, ListItemText, Typography } from '@mui/material'
 import { CustomModal } from 'components'
 
 import MyTimeline from './MyTimeline'

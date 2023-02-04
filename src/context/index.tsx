@@ -1,11 +1,18 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import {
+  createContext,
+  Dispatch,
+  SetStateAction,
+  useContext,
+  useEffect,
+  useState,
+} from 'react'
 
 interface IContextProvider {
   openModal: () => void
   isModalOpen: boolean
   isMobile: boolean
   isTablet: boolean
-  setModalName: any
+  setModalName: Dispatch<SetStateAction<number | null>>
   handleCloseModal: () => void
   modalName: number | null
 }
@@ -24,7 +31,7 @@ export const AppContext = createContext<IContextProvider>(defaultContext)
 export const ContextProvider = ({ children }) => {
   const [isModalOpen, setModalOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
-  const [modalName, setModalName] = useState(null)
+  const [modalName, setModalName] = useState<number | null>(null)
   const [isTablet, setIsTablet] = useState(false)
 
   const openModal = () => {
@@ -52,8 +59,6 @@ export const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     function handleResize() {
-      // Set window width/height to state
-
       if (window.innerWidth <= 600) {
         setIsMobile(true)
       } else if (window.innerWidth <= 900) {
