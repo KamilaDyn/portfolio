@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://kamila.dynysiuk.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,6 +61,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.3"
   }
 }
