@@ -1,3 +1,24 @@
+## Project Title
+
+Portfolio
+
+Created own portfolio. It is designed and written by me.
+Is written in React typescript, with i18next and MaterialUI library
+
+## See live
+
+# <a href="https://kamiladyn.github.io/portfolio">LIVE VIEW</a>
+
+## Technologies used
+
+1. React
+2. Typescript
+3. MaterialUI
+
+## Author
+
+Kamila Dynysiuk
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
