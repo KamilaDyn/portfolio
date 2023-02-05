@@ -6,7 +6,12 @@ import {
   homePage_en,
   projectsPage_en,
 } from './translations/en'
-import { common_pl, homePage_pl } from './translations/pl'
+import {
+  aboutMePage_pl,
+  common_pl,
+  homePage_pl,
+  projectsPage_pl,
+} from './translations/pl'
 
 export default use(initReactI18next).init({
   debug: true,
@@ -24,8 +29,10 @@ export default use(initReactI18next).init({
     },
     pl: {
       // here we will place our translations...
+      aboutMePage: aboutMePage_pl,
       common: common_pl,
       homePage: homePage_pl,
+      projectsPage: projectsPage_pl,
     },
   },
 })

@@ -1,4 +1,10 @@
 {
+  "page": {
+    "header": "My projects",
+    "text1": "You can find some of my previous projects, which I made myself. Portfolio, I created it for the purpose of clearly presenting my person and my skills",
+    "text2": "The below projects, which I created myself, are on GitHub as a public repository. You can see the repo and effects.",
+    "text3": "If you want to know more about my work and my technical skills, in projects in which I was involved and which technical stack I used, please contact me. I will describe it to you as much as I can. "
+  },
   "actOutsCard": {
     "header": "Act Outs (Wordpress Page)",
     "shortDescription": "Created a custom theme for WordPress. With event calendar, videos, and login functionality for users."
@@ -9,16 +15,16 @@
   },
   "bazaarCard": {
     "header": "React Example Page (Bazaar)",
-    "shortDescription": "React App ‘Products Page’. This project is just for my self-study case: React, Redux, context, and Material UI. I created it after studying React, to try, to check and develop skills. It is just example page for practice."
+    "shortDescription": "React App ‘Products Page’. This project is just for my self-study case: React, Redux, context, and Material UI. I created it after studying React, to try, check, and develop skills. It is just an example page for practice."
   },
   "portfolioCard": {
     "header": "Portfolio Page in React",
-    "shortDescription": "My portfolio, shows information about me, some of my own projects, my skills, and my programming path. Page contains two modes dark and light, and also translation, Polish and english."
+    "shortDescription": "My portfolio, shows information about me, some of my own projects, my skills, and my programming path. The page contains two modes dark and light, and also translation, Polish and English."
   },
   "projectsModal": {
     "header": "Description",
     "actoutsContent": {
-      "title": "Act Outs (Theme for Wordpress)",
+      "title": "Act Outs (Theme WordPress)",
       "text1": "This is a project for a client, who wanted to have a dynamic page for his own business. I decided to create it in WordPress, to have the ability to add dynamic new lessons, and events with text, photos, and videos.",
       "text2": "I build my own theme which contains",
       "item1": "Header with Logo and menu (mobile menu)",
@@ -55,7 +61,7 @@
         "text2": "Edit Product Page: form with validation, to edit existing product",
         "text3": "Products Page: list of products with delete or edit product functionality."
       },
-      "item6": "Basket Sidebar: list of chosen Products with buttons to decrease, increase number of products and pay now button.",
+      "item6": "Basket Sidebar: list of chosen Products with buttons to decrease, increase the number of products, and pay now button.",
       "item7": "Checkout Page: checkout with 5 steps to fill up.",
       "subItems2": {
         "text1": "Step one: displaying a list of chosen products, with a sidebar to use the rabat code and choose a delivery option.",

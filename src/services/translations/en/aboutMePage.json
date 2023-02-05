@@ -1,11 +1,11 @@
 {
   "introduction": {
     "header": "About Me",
-    "text1": "In my programming path, I worked as a Freelancer, have done pages based on Wordpress, and created custom theme. In those project I use JavaScript, jQuery, PHP, CSS (Sass).",
-    "text2": "Since 2021 I have working in ",
+    "text1": "In my programming path, I worked as a Freelancer, have done pages based on Wordpress, and creating custom themes. In those projects, I used JavaScript, jQuery, PHP, and CSS (Sass).",
+    "text2": "Since 2021 I have been working in ",
     "span": "BCF Software. ",
-    "text3": "In my daily responsibilities at work I was providing high quality software accordance with client’s specifications and requirements. Software development of the programming and testing environment. I participate in project meeting and meetings with clients. In my projects I use JavaScript, React, Redux, React-native, basic PHP, Material Ui, Chakra UI, React-strap, and MySQL database.",
-    "text4": "I am ability to navigate between different technologies , I have no problem with reading technologies documentation or looking for solutions for current problems which appear during work."
+    "text3": "In my daily responsibilities at work, I was providing high-quality software in accordance with the client's specifications and requirements. Software development of the programming and testing environment. I participate in project meetings and meetings with clients. In my projects, I use JavaScript, React, Redux, React-native, basic PHP, Material Ui, Chakra UI, React-strap, and MySQL database.",
+    "text4": "I am able to navigate between different technologies, I have no problem with reading technologies documentation or looking for solutions for current problems which appear during work."
   },
   "timeLine": {
     "header": "Short timeline ",
@@ -23,11 +23,11 @@
     },
     "item4": {
       "header": "Programming study / create own project",
-      "text": "Learnt programming, made courses, post-graduate study 'Mobile and Web applications', made projects as a Freelancer, frontend (web) developer."
+      "text": "Self-programming learning, doing courses, finishing postgraduate study 'Mobile and Web applications', making projects as a Freelancer, and Front-end (web) developer."
     },
     "item5": {
       "header": "Junior Software Engeener (FE)",
-      "text": "Software development and testing. Providing hight quality software in accordance with specifications and requirements."
+      "text": "Software development and testing. Providing high-quality software by specifications and requirements."
     },
     "item6": {
       "header": "Front End Developer",
@@ -51,28 +51,28 @@
     "text5": "Fitness / zumba / swimming"
   },
   "studyModal": {
-    "header": "Learning programming details",
+    "header": "Learning programming, details:",
     "studyProgram": {
       "header": "Study Curriculum",
-      "item1": "Internet services and network infrastructure",
-      "item2": "Content Management System (CMS): Wordpress, Drupal, PrestaShop",
-      "item3": "SQL language",
-      "item4": " Create website (HTML, XHTML, CSS)",
-      "item5": "WEB APPLICATION (PHP, JS, AJAX)",
-      "item6": "Software engineering (the basics)",
-      "item7": "Mobile application",
-      "item8": "Search Engine Optimalitation",
-      "item9": "Webdesign",
-      "item10": "IT system security"
+      "item1": "Internet services and network infrastructure.",
+      "item2": "Content Management System (CMS): Wordpress, Drupal, PrestaShop.",
+      "item3": "SQL language.",
+      "item4": " Create website (HTML, XHTML, CSS).",
+      "item5": "WEB APPLICATION (PHP, JS, AJAX).",
+      "item6": "Software engineering (the basics).",
+      "item7": "Mobile application.",
+      "item8": "search Engine Optimization.",
+      "item9": "Webdesign.",
+      "item10": "IT system security."
     },
     "udemyCourses": {
-      "header": "Udemy Courses",
-      "fe": "Web Developer and Front end developer intermediate",
-      "js": "Programming in java script, The Complete Java Script Course",
-      "react": "React from basic",
-      "reactQuery": "React Query TanStack Query",
-      "testing": "Testing react with Jest and RTL",
-      "typescript": "TypeScript, The complete developer Guide"
+      "header": "Udemy Courses.",
+      "fe": "Web Developer and Front end developer intermediate.",
+      "js": "Programming in java script, The Complete Java Script Course.",
+      "react": "React from basic.",
+      "reactQuery": "React Query TanStack Query.",
+      "testing": "Testing react with Jest and RTL.",
+      "typescript": "TypeScript, The complete developer Guide."
     }
   },
   "bcfModal": {
@@ -88,7 +88,7 @@
       "item7": "Improving skills and self-development in the field of programming languages, syntax, and new technologies.",
       "item8": "Preparation and planning work, writing documentation.",
       "item9": "Software development and manual testing.",
-      "item10": "Development of the programming and testing environment"
+      "item10": "Development of the programming and testing environment."
     },
     "skills": {
       "header": "Skills"

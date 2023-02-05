@@ -1,0 +1,97 @@
+{
+  "introduction": {
+    "header": "O mnie",
+    "text1": "W swojej ścieżce programistycznej pracowałem jako Freelancer, tworzyłam strony oparte na cms WordPressie oraz tworzyłem niestandardowe szablony. W tych projektach wykorzystałam technologie JavaScript, jQuery, PHP i CSS (Sass).",
+    "text2": "Od 2021 roku pracuję dla ",
+    "span": "Bright Coders Factory Software. ",
+    "text3": "W pracy do moich codziennych obowiązków należy: dostarczenie wysokiej jakości oprogramowania zgodnie ze specyfikacją i wymaganiami klienta. Rozwój  środowiska programistycznego oraz testowego. Uczestnictwo w spotkaniach projektowych i spotkaniach z klientami. W swoich projektach wykorzystuję JavaScript, React, Redux, React-native, podstawy PHP, Material Ui, Chakra UI, React-strap oraz bazę danych MySQL.",
+    "text4": "Potrafię poruszać się pomiędzy różnymi technologiami, nie mam problemu z czytaniem dokumentacji technologicznej czy szukaniem rozwiązań dla bieżących problemów pojawiających się w trakcie pracy."
+  },
+  "timeLine": {
+    "header": "Oś czasu ",
+    "item1": {
+      "header": "Ukończenie studiów na Uniwersytecie Opolskim",
+      "text": "Studia magisterskie: Pedagogika Terapeutyczna z oligofrenopedagogiką."
+    },
+    "item2": {
+      "header": "Woluntarystyczny rok socjalny",
+      "text": "Udział w rocznym zagranicznym wolontariackim programie (w Niemczech)"
+    },
+    "item3": {
+      "header": "Opiekun osób starszych/niepełnosprawnych",
+      "text": "Pomoc i asystowanie osobą starszym i/lub niepełnosprawnym. Pomoc w codziennych czynnościach. "
+    },
+    "item4": {
+      "header": "Nauka programowanie / freelancer (tworzenie stron internetowych)",
+      "text": "Nauka programowania, branie udziału w kursach programowania, ukończenie studiów podyplomowych „Aplikacje internetowe i mobilne”, wykonywanie  projektów stron internetowych jako Freelancer, programista Front-end (web)."
+    },
+    "item5": {
+      "header": "Młodszy specjalista ds. oprogramowania (FE)",
+      "text": "Tworzenie i testowanie oprogramowania. Dostarczanie wysokiej jakości oprogramowania według specyfikacji i wymagań."
+    },
+    "item6": {
+      "header": "Front End Developer",
+      "text": "Praca w ...."
+    }
+  },
+  "currentStack": {
+    "header": "Mój aktualny stack technologiczny",
+    "name1": "Front-End",
+    "name2": "Version Control",
+    "name3": "Biblioteki UI",
+    "name4": "Narzędzia",
+    "name5": "Inne"
+  },
+  "afterCode": {
+    "header": "Kiedy nie zajmuję się kodem: ",
+    "text1": "Nauka języka portugalskiego",
+    "text2": "Szycie na maszynie",
+    "text3": "Wędrówki górskie",
+    "text4": "Czytanie książek",
+    "text5": "Fitness / zumba / pływanie"
+  },
+  "studyModal": {
+    "header": "Nauka programowania, szczegóły:",
+    "studyProgram": {
+      "header": "Program studiów: ",
+      "item1": "Usługi internetowe i infrastruktura sieci.",
+      "item2": "System zarządzania treścią (CMS): Wordpress, Drupal, PrestaShop.",
+      "item3": "Język SQL.",
+      "item4": "Tworzenie stron internetowych (HTML, XHTML, CSS).",
+      "item5": "Aplikacje internetowe (PHP, JS, AJAX).",
+      "item6": "Podstawy Inżynierii oprogramowania.",
+      "item7": "Aplikacje mobilne.",
+      "item8": "Projektowanie stron internetowych pod kątem wyszukiwarek.",
+      "item9": "Webdesign.",
+      "item10": "Bezpieczeństwo systemów informatycznych."
+    },
+    "udemyCourses": {
+      "header": "Kursy Udemy",
+      "fe": "Web Developer and Front end developer średniozaawansowany.",
+      "js": "Programming in java script, The Complete Java Script Course.",
+      "react": "React od podstaw.",
+      "reactQuery": "React Query TanStack Query.",
+      "testing": "Testing react with Jest and RTL.",
+      "typescript": "TypeScript, The complete developer Guide."
+    }
+  },
+  "bcfModal": {
+    "header": "Praca w Bright Coders Factory",
+    "duties": {
+      "header": "W codziennej pracy odpowiedzialna za: ",
+      "item1": "Dostarczenie wysokiej jakości oprogramowania zgodnie ze specyfikacją i wymaganiami klienta.",
+      "item2": "Odpowiedzialność za zgodność z określonymi standardami pracy zdefiniowanymi przez klienta / firmę.",
+      "item3": "Uczestnictwo w spotkaniach projektowych, i w spotkaniach z klientem.",
+      "item4": "Analizowanie i sprawdzanie kodu kolegów / koleżanek w projekcie na  GitLab, i Bitbucket.",
+      "item5": "Umiejętność poruszania się pomiędzy różnymi technologiami.",
+      "item6": "Aktualizacja narzędzi, przygotowywanie dokumentacji projektu dla liderów.",
+      "item7": "Doskonalenie umiejętności i dbanie o samorozwój w dziedzinie języków programowania, składni, nowych technologii.",
+      "item8": "Przygotowywanie i planowanie pracy, pisanie dokumentacji.",
+      "item9": "Tworzenie i testowanie oprogramowania.",
+      "item10": "Rozwój oprogramowania o testowanie środowiska."
+    },
+    "skills": {
+      "header": "Umiejętności"
+    }
+  }
+}

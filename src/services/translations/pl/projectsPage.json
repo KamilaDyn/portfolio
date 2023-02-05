@@ -1,0 +1,91 @@
+{
+  "page": {
+    "header": "Moje projekty",
+    "text1": "Można zobaczyć niektóre z moich wcześniejszych projektów, które wykonałem sam.",
+    "text2": "Portfolio, stworzyłam je w celu jasnego przedstawienia mojej osoby i moich umiejętności. Poniższe projekty, które sama stworzyłam, znajdują się na GitHubie jako publiczne repozytorium. Możesz zobaczyć repozytorium i efekty.",
+    "text3": "Jeśli chcesz dowiedzieć się więcej o mojej pracy i moich umiejętnościach technicznych, w projektach w które byłam zaangażowana iz jakie technologie użyłam, zapraszam do kontaktu. W miarę możliwości je opiszę."
+  },
+  "actOutsCard": {
+    "header": "Act Outs (Strona Wordpress)",
+    "shortDescription": "Stworzyłem niestandardowy motyw dla WordPress. Z kalendarzem wydarzeń, filmami i funkcją logowania dla użytkowników."
+  },
+  "englishCard": {
+    "header": "Flick Through English (Strona Wordpress)",
+    "shortDescription": "Utworzono stronę do lekcji angielskiego z różnymi grupami. Stworzyłem niestandardowy motyw motywu Rara-academic-child (oryginalny Rara academic). W motywie dodałem dodatkowe strony i typy postów dla studentów, stronę logowania oraz przekierowanie uczniów na stronę, w zależności od tego,  w jakiej grupie są zapisani."
+  },
+  "bazaarCard": {
+    "header": "Przykładowa strona React (Bazaar)",
+    "shortDescription": "Strona w  React „Strona produktów”. Ten projekt jest przeznaczony tylko do mojej samodzielnej nauki: React, Redux, context i Material UI. Stworzyłem go po ukończeniu kursu z  React, aby sprawdzić i rozwinąć umiejętności. To tylko przykładowa strona do samodzielnych ćwiczeń."
+  },
+  "portfolioCard": {
+    "header": "Strona Portfolio w React",
+    "shortDescription": "Moje portfolio zawiera informacje o mnie, niektóre z moich własnych projektów, moje umiejętności i moją ścieżkę programistyczną. Strona zawiera dwa motywy ciemny i jasny, a także tłumaczenie, polski i angielski."
+  },
+  "projectsModal": {
+    "header": "Opis",
+    "actoutsContent": {
+      "title": "Act Outs (Motyw WordPress)",
+      "text1": "Projekt utworzony dla klienta, który chciał mieć dynamiczną stronę dla własnych celów. Stronę utworzyłam w Wordpresie, w celu zapewnienia możliwości łatwego dodawania lekcji, wydarzeń z tekstem, zdjęciami, plikami video.",
+      "text2": "Zbudowałam motyw, który zawiera: ",
+      "item1": "Header z logo oraz menu.",
+      "item2": "Strona główna z sekcjami: ",
+      "subItems": {
+        "text1": "Sekcja – slider ze zdjęciami (możliwość dodawania zmieniania 4 zdjęć).",
+        "text2": "Sekcja – powitalna z tekstem oraz zdjęciem",
+        "text3": "Sekcja about – informacja o stronie (wybranie strony ).",
+        "text4": "Sekcja 'Featured Videos', dwa posty z video.",
+        "text5": "Sekcja możliwe kursy (możliwość wybrania z czterech stron zawierających video).",
+        "text6": "Sekcja – wydarzenia. Wydarzenia są dodawane poprzez własny typ postów (event)."
+      },
+      "item3": "Cztery typy własnych stron (archive pages). Każda strona przeznaczona jest dla osobnej grupy docelowej. Informacje stron są wyświetlane dla osób które są zalogowane i mają określoną rolę użytkownika do wyświetlania informacji.",
+      "item4": "Strona z kalendarzem. Do kalendarza dodawane są wydarzenia z własnego typu postów, 'event'. Jeśli użytkownik chce dodać wydarzenie do kalendarza musi dodać datę w ACF (advance custom fields) Może również dodać opis, color wydarzenia, czy wyświetlać informacje jako popper (chmurka) na kalendarzu, oraz wybrać priorytet wydarzenia (w przypadku gdy daty się powielają). Do tego celu utworzyłam json route w celu wykorzystania json dla kalendarza (js-year-calendar).",
+      "item5": "Stopka, użytkownik może dodać cztery widgety do stopki.",
+      "item6": "Również motyw posiada ",
+      "subItems2": {
+        "text1": "Dwa sidebary.",
+        "text2": "Dodatkowy widget dla wydarzeń (wyświetlanie 3 najwcześniejszych wydarzeń).",
+        "text3": "Dodatkowy widget z wybraniem 'social links' (4 linki z ikonami)."
+      },
+      "techStack": "Stack technologiczny: "
+    },
+    "bazaarContent": {
+      "title": "Przykładowa strona z produktami (React)",
+      "text1": "strona zawiera: ",
+      "item1": "Strona główna: Lista kart produktów z filtrem kategorii i filtrem ceny.",
+      "item2": "Strona profilu: dane zalogowanego użytkownika, panel klientów na lewym pasku bocznym, ustawienia użytkownika.",
+      "item3": "Logowanie (modal z  logowaniem).",
+      "item4": "Strona rejestracji: rejestracja nowego użytkownika, formularz z weryfikacją.",
+      "item5": "Dla zalogowanych użytkowników: ",
+      "subItems": {
+        "text1": "Strona dodania nowego produktu: formularz z walidacją, aby dodać nowe produkty.",
+        "text2": "Strona edycji produktu: formularz z walidacją, aby edytować istniejący produkt.",
+        "text3": "Strona produktów: lista produktów z funkcją usuwania lub edytowania produktu."
+      },
+      "item6": "Sidebar z koszykiem produktów: lista wybranych Produktów z przyciskami zmniejszania, zwiększania liczby produktów oraz przyciskiem zapłać teraz.",
+      "item7": "Strona podsumowania: check-out z 5 krokami do wypełnienia.",
+      "subItems2": {
+        "text1": "Krok pierwszy: Wyświetlenie listy wybranych produktów, z bocznym paskiem do wykorzystania kodu rabatowego i wybrania opcji dostawy.",
+        "text2": "Krok drugi: formularz z opcją szczegółów (pola adresowe) z bocznym podsumowaniem.",
+        "text3": "Krok trzeci: formularz płatności, w którym użytkownik może wprowadzić dane karty.",
+        "text4": "Krok czwarty: podsumowanie wybranych produktów, dane adresowe, sposób dostawy, sposób płatności oraz cenę końcową."
+      }
+    },
+    "englishPageContent": {
+      "title": "Flick Through English (Wordpress)",
+      "text1": "Projekt utworzony dla klienta, który chciał mieć dynamiczną stronę dla własnych celów. Stronę utworzyłam w Wordpresie, w celu zapewnienia możliwości łatwego dodawania lekcji, wydarzeń z tekstem, zdjęciami, plikami video.",
+      "text2": "Motyw child's rare-academic posiada: ",
+      "item1": "Header z logo oraz menu.",
+      "item2": "Strona główna z sekcjami: ",
+      "subItems": {
+        "text1": "Sekcja – slider ze zdjęciami, opisem i przyciskiem więcej informacji.",
+        "text2": "Sekcja – o mnie.",
+        "text3": "Sekcja - o czterech grupach nauczania.",
+        "text4": "Sekcja - kroki nauczania.",
+        "text5": "Sekcja – kontakt.",
+        "text6": "Stopka"
+      },
+      "item3": "Cztery typy własnych stron (archive pages). Każda strona przeznaczona jest dla osobnej grupy docelowej. Informacje stron są wyświetlane dla osób które są zalogowane i mają określoną rolę użytkownika do wyświetlania informacji.",
+      "item4": "Footer - Użytkownik może dodać 4 widgets."
+    }
+  }
+}

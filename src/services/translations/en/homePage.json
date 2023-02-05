@@ -2,8 +2,8 @@
   "introduction": {
     "hello": "Hello",
     "meDescription": {
-      "text1": "In my programming path, I am primarily a self-taught person. Also, I finished my post-graduate study ‘Web and mobile application’. I am getting knowledge about technology and language from udemy, Free Code Camp, articles from the medium page, and of course from programming colleagues.",
-      "text2": "I am focusing on Frontend Development, but also I looking to be full stack developer in the future."
+      "text1": "In my programming path, I am primarily a self-taught person. Also, I finished my post-graduate study ‘Web and mobile application’. I am getting knowledge about technology and language from udemy, Free Code Camp, articles from the medium page.",
+      "text2": "I am focusing on programming web and applications from the Frontend side, but also I looking to be a full-stack developer in the future."
     }
   },
   "techStackTitle": "My tech stack"

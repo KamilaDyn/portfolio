@@ -1,3 +1,19 @@
 {
-  "header": "Piękno tkwi w prostocie"
+  "header": "Piękno tkwi w prostocie",
+  "me": {
+    "text1": "Nazywam się Kamila Dynysiuk i jestem ",
+    "text2": "programistą Frontend (React)."
+  },
+  "buttons": {
+    "seeMore": "...Więcej",
+    "readMore": "Czytaj Więcej",
+    "liveView": "Link do widoku",
+    "source": "Kod źródłowy"
+  },
+  "techStack": "Stack technologiczny: ",
+  "sidebar": {
+    "home": "Home",
+    "about": "O mnie",
+    "myProjects": "Moje projekty"
+  }
 }

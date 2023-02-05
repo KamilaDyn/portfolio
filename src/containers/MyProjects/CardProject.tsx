@@ -1,11 +1,14 @@
-import CardActions from '@mui/material/CardActions'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import { Button, Box, useTheme } from '@mui/material'
-import Typography from '@mui/material/Typography'
-import { FC } from 'react'
-
 import { useTranslation } from 'react-i18next'
+import {
+  Button,
+  Box,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Typography,
+  useTheme,
+} from '@mui/material'
+import { FC } from 'react'
 import { ModalNames } from 'enum'
 import { useContextProvider } from 'context'
 import { ListSkillsBox } from 'components/common'
@@ -44,8 +47,10 @@ const CardProject: FC<ICardProject> = ({
           width: '40%',
           cursor: 'pointer',
           objectPosition: 'top left',
+          minHeight: 250,
           [theme.breakpoints.down('md')]: {
             width: '100%',
+            maxHeight: 330,
           },
           '&:hover': {
             transition: 'all 0.8s',
@@ -67,7 +72,15 @@ const CardProject: FC<ICardProject> = ({
           </Box>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          <CardActions>
+          <CardActions
+            sx={{
+              [theme.breakpoints.down('sm')]: {
+                flexDirection: 'column',
+                alignItems: 'center',
+                width: '100%',
+              },
+            }}
+          >
             {source && (
               <Button size="small" onClick={() => openInNewTab(source)}>
                 {t('buttons.source')}

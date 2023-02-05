@@ -1,40 +1,34 @@
-import { Box, Divider } from '@mui/material'
-import Typography from '@mui/material/Typography'
+import { useTranslation } from 'react-i18next'
+import { Box, Divider, Typography, useTheme } from '@mui/material'
 import CardProject from './CardProject'
-import { CustomModal } from 'components'
-import { useSwitchModal } from './useSwitchModal'
 import { ModalNames } from 'enum'
+import { CustomModal } from 'components'
+import { SectionHeader } from 'components/common'
 import ActoutsImg from 'assets/actouts.jpg'
 import PortfolioLightImg from 'assets/portfolio-light.jpg'
 import PortfolioImg from 'assets/portfolio.jpg'
 import FlickThroughEnglish from 'assets/flichThroughEnglish.jpg'
 import BaazarImg from 'assets/bazaarProject.jpg'
-
+import { useSwitchModal } from './useSwitchModal'
 import {
   techStackBazaar,
   techStackEnglishPage,
   techStackActOuts,
   techStackPortfolio,
 } from './utils'
-import { useTranslation } from 'react-i18next'
-import { useTheme } from '@mui/system'
 
-const Header = () => {
-  return (
-    <Box>
-      <Typography variant="h4" color="primary">
-        My projects
-      </Typography>
-    </Box>
-  )
-}
 const MyProjects = () => {
   const { selectingModal } = useSwitchModal()
   const { t } = useTranslation('projectsPage')
   const { palette } = useTheme()
   return (
     <>
-      <Header />
+      <SectionHeader text={t('page.header')} />
+      <Box mt={2}>
+        <Typography paragraph>{t('page.text1')}</Typography>
+        <Typography>{t('page.text2')}</Typography>
+        <Typography>{t('page.text3')}</Typography>
+      </Box>
       <Box
         display={'flex'}
         flexDirection="column"
@@ -59,6 +53,7 @@ const MyProjects = () => {
           shortDescription={t('actOutsCard.shortDescription')}
           liveLink="https://actouts.com/"
           readMore={true}
+          source="https://github.com/KamilaDyn/act-outs-theme"
         />
         <Divider sx={{ width: '90%' }} />
 

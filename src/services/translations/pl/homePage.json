@@ -1,6 +1,10 @@
 {
   "introduction": {
     "hello": "Cześć",
-    "meDescription": "Nazywam się"
-  }
+    "meDescription": {
+      "text1": "W swojej programistycznej ścieżce jestem przede wszystkim samoukiem. Ukończyłam również studia podyplomowe „Aplikacje webowe i mobilne”. Wiedzę o technologii i językach programowania czerpię z udemy, Free Code Camp, artykułów ze strony medium..",
+      "text2": "Koncentruję się na programowaniu stron, aplikacji od strony Frontend, ale w przyszłości chcę zostać full-stack developerem."
+    }
+  },
+  "techStackTitle": "Mój stack technologiczny"
 }

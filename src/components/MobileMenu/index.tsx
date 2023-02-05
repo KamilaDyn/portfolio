@@ -8,7 +8,10 @@ import IconButton from '@mui/material/IconButton/IconButton'
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
 import ModeIcon from 'components/ModeIcon'
 import CloseIcon from '@mui/icons-material/Close'
-import { SocialMedia } from '../common'
+import { SocialMedia, TranslationIcon } from '../common'
+import { routes } from 'routes'
+import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 
 const StyledMenu = styled((props: MenuProps) => (
   <Menu
@@ -36,13 +39,20 @@ const StyledMenu = styled((props: MenuProps) => (
 
 const MobileMenu = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
+  const { t } = useTranslation('common')
   const open = Boolean(anchorEl)
+  const navigate = useNavigate()
   const handleClick = (event: MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget)
   }
   const handleClose = () => {
     setAnchorEl(null)
   }
+  const sidebarLinks = [
+    { name: t('sidebar.home'), path: routes.home },
+    { name: t('sidebar.about'), path: routes.about },
+    { name: t('sidebar.myProjects'), path: routes.myProjects },
+  ]
 
   return (
     <Box p={3}>
@@ -61,7 +71,10 @@ const MobileMenu = () => {
             <MenuRoundedIcon fontSize="large" />
           )}
         </IconButton>
-        <ModeIcon />
+        <Box display="flex" alignItems={'center'}>
+          <TranslationIcon />
+          <ModeIcon />
+        </Box>
       </Box>
 
       <StyledMenu
@@ -81,10 +94,17 @@ const MobileMenu = () => {
         >
           <Avatar alt="Kamila Dynysiuk" src={ProfileImg} />
         </MenuItem>
-
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        {sidebarLinks.map(({ name, path }, index) => (
+          <MenuItem
+            onClick={() => {
+              navigate(path)
+              handleClose()
+            }}
+            key={index}
+          >
+            {name}
+          </MenuItem>
+        ))}
         <MenuItem>
           <SocialMedia size="small" />
         </MenuItem>
