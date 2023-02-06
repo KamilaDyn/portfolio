@@ -1,41 +1,15 @@
-import Menu from '@mui/material/Menu'
-import MenuItem from '@mui/material/MenuItem'
-import { useState, MouseEvent } from 'react'
-import { Box, MenuProps, styled } from '@mui/material'
-import Avatar from '@mui/material/Avatar/Avatar'
-import ProfileImg from 'assets/pics2.webp'
-import IconButton from '@mui/material/IconButton/IconButton'
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
-import ModeIcon from 'components/ModeIcon'
-import CloseIcon from '@mui/icons-material/Close'
-import { SocialMedia, TranslationIcon } from '../common'
-import { routes } from 'routes'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
+import { useState, MouseEvent } from 'react'
+import { Avatar, Box, MenuItem, IconButton, Typography } from '@mui/material'
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
+import CloseIcon from '@mui/icons-material/Close'
+import { routes } from 'routes'
+import ProfileImg from 'assets/pics2.webp'
+import ModeIcon from 'components/ModeIcon'
+import { SocialMedia, TranslationIcon } from '../common'
 
-const StyledMenu = styled((props: MenuProps) => (
-  <Menu
-    elevation={0}
-    anchorOrigin={{
-      vertical: 'bottom',
-      horizontal: 'right',
-    }}
-    transformOrigin={{
-      vertical: 'top',
-      horizontal: 'right',
-    }}
-    {...props}
-  />
-))(({ theme }) => ({
-  '& .MuiPaper-root': {
-    borderRadius: 6,
-    minWidth: 200,
-    padding: theme.spacing(1),
-    border: theme.palette.mode === 'dark' ? '1px solid #fff' : 'inherit',
-    boxShadow:
-      'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
-  },
-}))
+import { StyledMenu } from './index.style'
 
 const MobileMenu = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
@@ -78,15 +52,20 @@ const MobileMenu = () => {
       </Box>
 
       <StyledMenu
+        elevation={0}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'right',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'right',
+        }}
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
       >
         <MenuItem
           onClick={handleClose}
@@ -94,6 +73,7 @@ const MobileMenu = () => {
         >
           <Avatar alt="Kamila Dynysiuk" src={ProfileImg} />
         </MenuItem>
+
         {sidebarLinks.map(({ name, path }, index) => (
           <MenuItem
             onClick={() => {
@@ -107,6 +87,11 @@ const MobileMenu = () => {
         ))}
         <MenuItem>
           <SocialMedia size="small" />
+        </MenuItem>
+        <MenuItem>
+          <Typography variant={'body2'} lineHeight={'3rem'}>
+            kamila.dynysiuk@gmail.com
+          </Typography>
         </MenuItem>
       </StyledMenu>
     </Box>

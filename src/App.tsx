@@ -7,7 +7,7 @@ import { ContextProvider, useContextProvider } from 'context'
 import { ColorModeContext } from 'context/ColorContext'
 import { Sidebar, Header, MobileMenu } from 'components'
 import { getDesignTokens } from './customTheme'
-import { StyledContainer } from './index.style'
+import { StyledBox, StyledContainer } from './index.style'
 import './App.css'
 
 const App = () => {
@@ -30,11 +30,11 @@ const App = () => {
           </Box>
         </Box>
       </StyledContainer>
-      <Box sx={{ bgcolor: 'background.default', paddingY: 1, paddingRight: 3 }}>
+      <StyledBox>
         <Typography align="right" variant="subtitle2">
           {year} © All rights reserved.
         </Typography>
-      </Box>
+      </StyledBox>
     </>
   )
 }

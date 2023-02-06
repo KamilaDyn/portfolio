@@ -1,21 +1,21 @@
 {
   "page": {
     "header": "Moje projekty",
-    "text1": "Można zobaczyć niektóre z moich wcześniejszych projektów, które wykonałem sam.",
-    "text2": "Portfolio, stworzyłam je w celu jasnego przedstawienia mojej osoby i moich umiejętności. Poniższe projekty, które sama stworzyłam, znajdują się na GitHubie jako publiczne repozytorium. Możesz zobaczyć repozytorium i efekty.",
-    "text3": "Jeśli chcesz dowiedzieć się więcej o mojej pracy i moich umiejętnościach technicznych, w projektach w które byłam zaangażowana iz jakie technologie użyłam, zapraszam do kontaktu. W miarę możliwości je opiszę."
+    "text1": "Możesz zapoznać się z niektórymi z moich wcześniejszych projektów, które wykonałam sama.",
+    "text2": "Portfolio, stworzyłam je w celu jasnego przedstawienia mojej osoby i moich umiejętności. Poniższe projekty, nad którymi sama pracowałam, znajdują się na GitHubie jako publiczne repozytorium. W podanych linkach możesz przejść do repozytorium i efektów pracy.",
+    "text3": "Jeśli chcesz dowiedzieć się więcej o mojej pracy, projektach komercyjnych i moich umiejętnościach technicznych, w projektach w które byłam zaangażowana i jakie technologie użyłam, zapraszam do kontaktu. W miarę możliwości je opiszę."
   },
   "actOutsCard": {
     "header": "Act Outs (Strona Wordpress)",
-    "shortDescription": "Stworzyłem niestandardowy motyw dla WordPress. Z kalendarzem wydarzeń, filmami i funkcją logowania dla użytkowników."
+    "shortDescription": "Stworzyłam niestandardowy motyw dla WordPress. Z kalendarzem wydarzeń, filmami i funkcją logowania dla użytkowników."
   },
   "englishCard": {
     "header": "Flick Through English (Strona Wordpress)",
-    "shortDescription": "Utworzono stronę do lekcji angielskiego z różnymi grupami. Stworzyłem niestandardowy motyw motywu Rara-academic-child (oryginalny Rara academic). W motywie dodałem dodatkowe strony i typy postów dla studentów, stronę logowania oraz przekierowanie uczniów na stronę, w zależności od tego,  w jakiej grupie są zapisani."
+    "shortDescription": "Utworzono stronę do lekcji angielskiego z różnymi grupami. Stworzyłam niestandardowy motyw motywu Rara-academic-child (oryginalny Rara academic). W motywie dodałam dodatkowe strony i typy postów dla studentów, stronę logowania oraz przekierowanie uczniów na stronę, w zależności od tego,  w jakiej grupie są zapisani."
   },
   "bazaarCard": {
     "header": "Przykładowa strona React (Bazaar)",
-    "shortDescription": "Strona w  React „Strona produktów”. Ten projekt jest przeznaczony tylko do mojej samodzielnej nauki: React, Redux, context i Material UI. Stworzyłem go po ukończeniu kursu z  React, aby sprawdzić i rozwinąć umiejętności. To tylko przykładowa strona do samodzielnych ćwiczeń."
+    "shortDescription": "Strona w  React „Strona produktów”. Ten projekt jest przeznaczony tylko do mojej samodzielnej nauki: React, Redux, context i Material UI. Stworzyłam go po ukończeniu kursu z  React, aby sprawdzić i rozwinąć umiejętności. To tylko przykładowa strona do samodzielnych ćwiczeń."
   },
   "portfolioCard": {
     "header": "Strona Portfolio w React",

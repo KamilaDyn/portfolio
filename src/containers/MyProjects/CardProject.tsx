@@ -67,11 +67,21 @@ const CardProject: FC<ICardProject> = ({
           </Typography>
           <ListSkillsBox listArray={listSkillArray} />
 
-          <Box pt={[0, 3]}>
+          <Box pt={3}>
             <Typography>{shortDescription}</Typography>
           </Box>
         </CardContent>
-        <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            pl: 1,
+            pb: 1,
+            [theme.breakpoints.down('sm')]: {
+              paddingRight: 3,
+            },
+          }}
+        >
           <CardActions
             sx={{
               [theme.breakpoints.down('sm')]: {

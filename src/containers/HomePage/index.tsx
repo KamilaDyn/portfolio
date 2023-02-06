@@ -7,6 +7,7 @@ import { techStack } from './utils'
 
 const HomePage = () => {
   const { t } = useTranslation(['homePage', 'common'])
+  const openTOWork = true
 
   return (
     <Box>
@@ -18,7 +19,11 @@ const HomePage = () => {
             {t('me.text2', { ns: 'common' })}
           </Typography>
         </Typography>
-
+        {openTOWork && (
+          <Typography py={2} variant="h6" sx={{ color: 'warning.main' }}>
+            {t('openToWork', { ns: 'common' })}
+          </Typography>
+        )}
         <Box pt={3} pb={5}>
           <Typography>{t('introduction.meDescription.text1')}</Typography>
           <Typography pt={2}>
