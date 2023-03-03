@@ -1,6 +1,8 @@
-import { styled, Paper } from '@mui/material'
+import { styled, Paper, Box } from '@mui/material'
 
 export const Item = styled(Paper)(({ theme }) => ({
+  display: 'flex',
+  alignItems: 'center',
   ...theme.typography.body2,
   backgroundColor:
     theme.palette.mode === 'dark'
@@ -15,4 +17,11 @@ export const Item = styled(Paper)(({ theme }) => ({
   boxShadow: `0px 0px 0px 2px ${theme.palette.primary.light}`,
   margin: theme.spacing(2),
   fontSize: '1.2rem',
+}))
+
+export const FlexBox = styled(Box)(({ theme }) => ({
+  display: 'flex',
+  justifyContent: 'center',
+  flexDirection: 'column',
+  marginBottom: theme.spacing(1),
 }))

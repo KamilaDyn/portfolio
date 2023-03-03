@@ -6,5 +6,11 @@
       "text2": "Koncentruję się na programowaniu stron, aplikacji od strony Frontend, ale w przyszłości chcę zostać full-stack developerem."
     }
   },
-  "techStackTitle": "Mój stack technologiczny"
+  "techStack": {
+    "title":"Mam doświadczenie z: ",
+    "frontEnd":"Front End",
+    "backEnd":"Back End",
+    "dataBase": "Bazy Danych",
+    "other":  "Inne"
+    }
 }

@@ -6,5 +6,11 @@
       "text2": "I am focusing on programming web and applications from the Frontend side, but also I looking to be a full-stack developer in the future."
     }
   },
-  "techStackTitle": "My tech stack"
+  "techStack": {
+  "title":"Experience with",
+  "frontEnd":"FrontEnd",
+  "backEnd":"BackEnd",
+  "dataBase": "Data Base",
+  "other": "Other"
+  }
 }

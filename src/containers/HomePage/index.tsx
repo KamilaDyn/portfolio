@@ -2,8 +2,8 @@ import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { SectionHeader } from 'components/common'
 
-import { Item } from './index.style'
-import { techStack } from './utils'
+import { Item, FlexBox } from './index.style'
+import { frontEnd, backEnd, dataBase, other } from './utils'
 
 const HomePage = () => {
   const { t } = useTranslation(['homePage', 'common'])
@@ -31,20 +31,64 @@ const HomePage = () => {
           </Typography>
         </Box>
       </Box>
-      <SectionHeader text={t('techStackTitle')} />
-
-      <Box
-        display="flex"
-        justifyContent={'center'}
-        flexDirection="column"
-        alignItems={'center'}
-      >
+      <SectionHeader text={t('techStack.title')} />
+      <Typography variant="h5" style={{ marginTop: '1rem' }}>
+        {t('techStack.frontEnd')}
+      </Typography>
+      <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
-          {techStack.map(value => (
-            <Item key={value}>{value}</Item>
+          {frontEnd.map(({ icon, name }) => (
+            <Item key={name}>
+              <Box mr={0.5} display="flex" alignItems={'center'}>
+                {icon}
+              </Box>
+              {name}
+            </Item>
           ))}
         </Box>
-      </Box>
+      </FlexBox>
+      <Typography variant="h5">{t('techStack.backEnd')}</Typography>
+
+      <FlexBox>
+        <Box display="flex" flexWrap="wrap" pt={3}>
+          {backEnd.map(({ icon, name }) => (
+            <Item key={name}>
+              <Box mr={0.5} display="flex" alignItems={'center'}>
+                {icon}
+              </Box>
+              {name}
+            </Item>
+          ))}
+        </Box>
+      </FlexBox>
+      <Typography variant="h5">{t('techStack.dataBase')}</Typography>
+
+      <FlexBox>
+        <Box display="flex" flexWrap="wrap" pt={3}>
+          {dataBase.map(({ icon, name }) => (
+            <Item key={name}>
+              <Box mr={0.5} display="flex" alignItems={'center'}>
+                {icon}
+              </Box>
+              {name}
+            </Item>
+          ))}
+        </Box>
+      </FlexBox>
+      <Typography variant="h5">{t('techStack.other')}</Typography>
+
+      <FlexBox>
+        <Box display="flex" flexWrap="wrap" pt={3}>
+          {other.map(({ icon, name }) => (
+            <Item key={name}>
+              <Box mr={0.5} display="flex" alignItems={'center'}>
+                {icon}
+              </Box>
+              {name}
+            </Item>
+          ))}
+        </Box>
+      </FlexBox>
     </Box>
   )
 }
