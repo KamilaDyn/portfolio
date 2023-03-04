@@ -14,37 +14,13 @@ import {
   SiPostman,
   SiMui,
   SiJavascript,
+  SiStorybook,
+  SiWordpress,
 } from 'react-icons/si'
-import {
-  DiJavascript1,
-  DiNpm,
-  DiSass,
-  DiBootstrap,
-  DiMongodb,
-  DiScrum,
-} from 'react-icons/di'
+import { DiNpm, DiSass, DiBootstrap, DiMongodb, DiScrum } from 'react-icons/di'
 import { TbBrandReactNative, TbApi } from 'react-icons/tb'
 import { FaJira, FaBitbucket, FaNodeJs } from 'react-icons/fa'
 import { GiAtomicSlashes } from 'react-icons/gi'
-
-export const techStack = [
-  'JavaScript',
-  'React',
-  'Redux',
-  'React-native',
-  'react-query',
-  'Html',
-  'CSS',
-  'Sass',
-  'MaterialUi',
-  'ChakraUi',
-  'Bootstrap',
-  'Wordpress',
-  'PHP',
-  'axios',
-  'Formik',
-  'styled-components',
-]
 
 export const frontEnd = [
   { icon: <SiJavascript />, name: 'JavaScript' },
@@ -63,6 +39,7 @@ export const frontEnd = [
   { icon: <GiAtomicSlashes />, name: 'Atomic Design' },
   { icon: <SiStyledcomponents />, name: 'Styled-components' },
   { icon: <SiMui />, name: 'MaterialUi' },
+  { icon: <SiStorybook />, name: 'Storybook' },
 ]
 export const backEnd = [
   { icon: <FaNodeJs />, name: 'Node' },
@@ -81,4 +58,5 @@ export const other = [
   { icon: <FaBitbucket />, name: 'Bitbucket' },
   { icon: <DiScrum />, name: 'Scrum' },
   { icon: <SiGithub />, name: 'GitHub' },
+  { icon: <SiWordpress />, name: 'Wordpress' },
 ]
