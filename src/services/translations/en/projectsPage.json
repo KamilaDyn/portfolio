@@ -21,6 +21,10 @@
     "header": "Portfolio Page in React",
     "shortDescription": "My portfolio, shows information about me, some of my own projects, my skills, and my programming path. The page contains two modes dark and light, and also translation, Polish and English."
   },
+  "customersListTable": {
+    "header": "Table with user list in React and Node (FullStack)",
+    "shortDescription": "Table with form to update users. It is created in React with Bootstrap and tailwindcss. We can create, edit, delete and add new user with personal data. Backend is made in Node with mongoose. Database is stored in MongodDB, "
+  },
   "projectsModal": {
     "header": "Description",
     "actoutsContent": {
@@ -86,6 +90,17 @@
       },
       "item3": "Fourth Custom Archive Pages for each different group. Content is displayed for people who are logged in and have added roles.",
       "item4": "Footer - The user can add 4 widgets to the footer."
+    },
+    "customerListTable": {
+      "title": "Customers list react. Fullstack project",
+      "text1": "React App in TypeScript. Create Table with Bootstrap and use tailwindcss to style. ",
+      "text2": "Backend is made in Node.js . Deployed in render.com. Data is stored in MongoDB",
+      "item1": "It has 3 pages:",
+      "subItems": {
+        "text1": "Home Page, to display all data, which is fetched from Api https://customers-api-sgd5.onrender.com. ",
+        "text2": "Edit Page: Form for edit single customer.",
+        "text3": "Add Page: Form to add new Customer."
+      }
     }
   }
 }

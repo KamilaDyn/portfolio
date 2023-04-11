@@ -5,4 +5,5 @@ export enum ModalNames {
   actouts,
   englishPage,
   bazaarPage,
+  customerList,
 }

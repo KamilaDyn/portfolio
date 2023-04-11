@@ -9,8 +9,10 @@ import PortfolioLightImg from 'assets/portfolio-light.jpg'
 import PortfolioImg from 'assets/portfolio.jpg'
 import FlickThroughEnglish from 'assets/flichThroughEnglish.jpg'
 import BaazarImg from 'assets/bazaarProject.jpg'
+import CustomersList from 'assets/customersList.jpg'
 import { useSwitchModal } from './useSwitchModal'
 import {
+  techStackCustomerList,
   techStackBazaar,
   techStackEnglishPage,
   techStackActOuts,
@@ -45,6 +47,30 @@ const MyProjects = () => {
           shortDescription={t('portfolioCard.shortDescription')}
         />
         <Divider sx={{ width: '90%' }} />
+
+        <CardProject
+          img={BaazarImg}
+          modalName={ModalNames.bazaarPage}
+          listSkillArray={techStackBazaar}
+          source="https://github.com/KamilaDyn/react-buy-products"
+          title={t('bazaarCard.header')}
+          shortDescription={t('bazaarCard.shortDescription')}
+          liveLink="https://react-buy-products.netlify.app/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
+
+        <CardProject
+          img={CustomersList}
+          modalName={ModalNames.customerList}
+          listSkillArray={techStackCustomerList}
+          source="https://github.com/KamilaDyn/customers-list-react"
+          title={t('customersListTable.header')}
+          shortDescription={t('customersListTable.shortDescription')}
+          liveLink="https://customer-list-react.onrender.com/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
         <CardProject
           img={ActoutsImg}
           modalName={ModalNames.actouts}
@@ -65,18 +91,6 @@ const MyProjects = () => {
           title={t('englishCard.header')}
           shortDescription={t('englishCard.shortDescription')}
           liveLink="https://flick-through-english.com/"
-          readMore={true}
-        />
-        <Divider sx={{ width: '90%' }} />
-
-        <CardProject
-          img={BaazarImg}
-          modalName={ModalNames.bazaarPage}
-          listSkillArray={techStackBazaar}
-          source="https://github.com/KamilaDyn/react-buy-products"
-          title={t('bazaarCard.header')}
-          shortDescription={t('bazaarCard.shortDescription')}
-          liveLink="https://react-buy-products.netlify.app/"
           readMore={true}
         />
       </Box>

@@ -5,6 +5,7 @@ import {
   ActOutsModalContent,
   BazaarPageModalContent,
   EnglishPageModalContent,
+  CustomersListTable,
 } from './components'
 
 export const useSwitchModal = () => {
@@ -27,7 +28,11 @@ export const useSwitchModal = () => {
           title: t('projectsModal.bazaarContent.title'),
           content: <BazaarPageModalContent />,
         }
-
+      case ModalNames.customerList:
+        return {
+          title: t('projectsModal.customerListTable.title'),
+          content: <CustomersListTable />,
+        }
       default:
         null
     }
