@@ -67,7 +67,7 @@ const MyProjects = () => {
           source="https://github.com/KamilaDyn/customers-list-react"
           title={t('customersListTable.header')}
           shortDescription={t('customersListTable.shortDescription')}
-          liveLink="https://customer-list-react.onrender.com/"
+          liveLink="https://customers-api-sgd5.onrender.com/"
           readMore={true}
         />
         <Divider sx={{ width: '90%' }} />
