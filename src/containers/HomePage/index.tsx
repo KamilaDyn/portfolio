@@ -37,8 +37,8 @@ const HomePage = () => {
       </Typography>
       <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
-          {frontEnd.map(({ icon, name }) => (
-            <Item key={name}>
+          {frontEnd.map(({ icon, name }, index) => (
+            <Item key={`${name}-${index}`}>
               <Box mr={0.5} display="flex" alignItems={'center'}>
                 {icon}
               </Box>
@@ -51,8 +51,8 @@ const HomePage = () => {
 
       <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
-          {backEnd.map(({ icon, name }) => (
-            <Item key={name}>
+          {backEnd.map(({ icon, name }, index) => (
+            <Item key={`${name}-${index}`}>
               <Box mr={0.5} display="flex" alignItems={'center'}>
                 {icon}
               </Box>
@@ -65,8 +65,8 @@ const HomePage = () => {
 
       <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
-          {dataBase.map(({ icon, name }) => (
-            <Item key={name}>
+          {dataBase.map(({ icon, name }, index) => (
+            <Item key={`${name}-${index}`}>
               <Box mr={0.5} display="flex" alignItems={'center'}>
                 {icon}
               </Box>
@@ -79,8 +79,8 @@ const HomePage = () => {
 
       <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
-          {other.map(({ icon, name }) => (
-            <Item key={name}>
+          {other.map(({ icon, name }, index) => (
+            <Item key={`${name}-${index}`}>
               <Box mr={0.5} display="flex" alignItems={'center'}>
                 {icon}
               </Box>

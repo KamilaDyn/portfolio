@@ -18,4 +18,8 @@ export const mainRoute = [
     path: routes.myProjects,
     element: <MyProjects />,
   },
+  {
+    path: '*',
+    element: <HomePage />,
+  },
 ]
