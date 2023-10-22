@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next'
-import { Box, Divider, Grid, Typography } from '@mui/material'
+import { Divider, Grid, Typography } from '@mui/material'
 import ModeIcon from '../ModeIcon'
 import { TranslationIcon } from '../common'
 const Header = () => {
-  const { t, i18n } = useTranslation('common')
+  const { t } = useTranslation('common')
 
   return (
     <Grid
