@@ -1,4 +1,4 @@
-const commonReactStack = ['Java Script', 'React', 'TypeScript', 'MaterialUI']
+const commonReactStack = ['Java Script', 'React', 'TypeScript']
 export const techStackEnglishPage = [
   'Wordpress',
   'PHP',
@@ -10,6 +10,7 @@ export const techStackActOuts = [...techStackEnglishPage, 'js-year-calendar']
 
 export const techStackBazaar = [
   ...commonReactStack,
+  'MaterialUI',
   'Redux',
   'Back-end: Json-server, Json-server-auth',
   'Deploy: Netlify, Cyclic ',
@@ -23,6 +24,15 @@ export const techStackCustomerList = [
   'MongoDB',
   'Node.js',
   'Deploy: render.com ',
+]
+export const techStackBlogList = [
+  'React',
+  'React-bootstrap',
+  'tanstack/react-query',
+  'Jest',
+  'cypress',
+  'mongodb',
+  'jsonwebtoken',
 ]
 
 export const techStackPortfolio = [...commonReactStack, 'i18next']

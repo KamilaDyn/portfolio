@@ -10,10 +10,12 @@ import PortfolioImg from 'assets/portfolio.jpg'
 import FlickThroughEnglish from 'assets/flichThroughEnglish.jpg'
 import BaazarImg from 'assets/bazaarProject.jpg'
 import CustomersList from 'assets/customersList.jpg'
+import BlogList from 'assets/bloglist.jpg'
 import { useSwitchModal } from './useSwitchModal'
 import {
   techStackCustomerList,
   techStackBazaar,
+  techStackBlogList,
   techStackEnglishPage,
   techStackActOuts,
   techStackPortfolio,
@@ -39,6 +41,52 @@ const MyProjects = () => {
         mt={10}
       >
         <CardProject
+          img={FlickThroughEnglish}
+          modalName={ModalNames.englishPage}
+          listSkillArray={techStackEnglishPage}
+          source="https://github.com/KamilaDyn/rara-academic-child"
+          title={t('englishCard.header')}
+          shortDescription={t('englishCard.shortDescription')}
+          liveLink="https://flick-through-english.com/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
+        <CardProject
+          img={ActoutsImg}
+          modalName={ModalNames.actouts}
+          listSkillArray={techStackActOuts}
+          title={t('actOutsCard.header')}
+          shortDescription={t('actOutsCard.shortDescription')}
+          liveLink="https://actouts.com/"
+          readMore={true}
+          source="https://github.com/KamilaDyn/act-outs-theme"
+        />
+        <Divider sx={{ width: '90%' }} />
+        <CardProject
+          img={BlogList}
+          modalName={ModalNames.blogList}
+          listSkillArray={techStackBlogList}
+          source="https://github.com/KamilaDyn/fullStackOpen-2023/tree/master/part7/bloglist-app"
+          title={t('blogListCard.header')}
+          shortDescription={t('blogListCard.shortDescription')}
+          liveLink="https://bloglist-app-fe.onrender.com/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
+
+        <CardProject
+          img={CustomersList}
+          modalName={ModalNames.customerList}
+          listSkillArray={techStackCustomerList}
+          source="https://github.com/KamilaDyn/customers-list-react"
+          title={t('customersListTable.header')}
+          shortDescription={t('customersListTable.shortDescription')}
+          liveLink="https://customers-api-sgd5.onrender.com/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
+
+        <CardProject
           img={palette.mode == 'light' ? PortfolioLightImg : PortfolioImg}
           modalName={ModalNames.portfolio}
           source="https://github.com/KamilaDyn/portfolio"
@@ -56,41 +104,6 @@ const MyProjects = () => {
           title={t('bazaarCard.header')}
           shortDescription={t('bazaarCard.shortDescription')}
           liveLink="https://react-buy-products.netlify.app/"
-          readMore={true}
-        />
-        <Divider sx={{ width: '90%' }} />
-
-        <CardProject
-          img={CustomersList}
-          modalName={ModalNames.customerList}
-          listSkillArray={techStackCustomerList}
-          source="https://github.com/KamilaDyn/customers-list-react"
-          title={t('customersListTable.header')}
-          shortDescription={t('customersListTable.shortDescription')}
-          liveLink="https://customers-api-sgd5.onrender.com/"
-          readMore={true}
-        />
-        <Divider sx={{ width: '90%' }} />
-        <CardProject
-          img={ActoutsImg}
-          modalName={ModalNames.actouts}
-          listSkillArray={techStackActOuts}
-          title={t('actOutsCard.header')}
-          shortDescription={t('actOutsCard.shortDescription')}
-          liveLink="https://actouts.com/"
-          readMore={true}
-          source="https://github.com/KamilaDyn/act-outs-theme"
-        />
-        <Divider sx={{ width: '90%' }} />
-
-        <CardProject
-          img={FlickThroughEnglish}
-          modalName={ModalNames.englishPage}
-          listSkillArray={techStackEnglishPage}
-          source="https://github.com/KamilaDyn/rara-academic-child"
-          title={t('englishCard.header')}
-          shortDescription={t('englishCard.shortDescription')}
-          liveLink="https://flick-through-english.com/"
           readMore={true}
         />
       </Box>

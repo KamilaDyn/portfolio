@@ -6,4 +6,5 @@ export enum ModalNames {
   englishPage,
   bazaarPage,
   customerList,
+  blogList,
 }

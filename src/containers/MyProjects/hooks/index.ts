@@ -1,4 +1,5 @@
 export { useActOuts } from './useActOuts'
+export { useBlogsList } from './useBlogsList'
 export { useBazaarPage } from './useBazaarPage'
 export { useCustomerPage } from './useCustomerPage'
 export { useEnglishPage } from './useEnglishPage'

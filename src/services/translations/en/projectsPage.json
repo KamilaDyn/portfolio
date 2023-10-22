@@ -25,6 +25,10 @@
     "header": "Table with user list in React and Node (FullStack)",
     "shortDescription": "Table with form to update users. It is created in React with Bootstrap and tailwindcss. We can create, edit, delete and add new user with personal data. Backend is made in Node with mongoose. Database is stored in MongodDB, "
   },
+  "blogListCard": {
+    "header": "Blog App - Helsinki Full stack course 2023",
+    "shortDescription": "This is a  blog list application developed using React and React Bootstrap for the user interface. It was created as part of an online open course from the University of Helsinki. The application's main features include displaying a list of example blogs with details such as author name, title, and a link to the original blog. Logged-in users have the ability to comment on blogs and add likes to them. Additionally, the application has a backend component that is connected to a MongoDB database. Both the frontend and backend of the application have been tested, with the frontend testing done using Cypress and the backend testing using Jest."
+  },
   "projectsModal": {
     "header": "Description",
     "actoutsContent": {
@@ -101,6 +105,32 @@
         "text2": "Edit Page: Form for edit single customer.",
         "text3": "Add Page: Form to add new Customer."
       }
+    },
+    "blogListApp": {
+      "title": "Blog App - Helsinki Full Stack Course 2023",
+      "text1": "React app to display a list of blogs with titles, authors, and original URLs. React Bootstrap was used for styling.",
+      "text2": "The backend of the application was developed using Node.js and is deployed on render.com. Data is stored in a MongoDB database, which is used under a free trial. Sometimes, there may be longer loading times for data due to the nature of free trials, which might come with certain limitations or restrictions.",
+      "text3": "The blog list app includes:",
+      "item1": "Blog List",
+      "subItems1": {
+        "text1": "Display an unordered list with blogs.",
+        "text2": "Add blog button. After clicking 'add blog,' show a form to add a blog with fields for the title, author, URL (to the original blog), and a cancel button."
+      },
+      "item2": "Single Blog",
+      "subItems2": {
+        "text1": "After clicking a single blog, go to the page '/blogs/:id'.",
+        "text2": "Display a card with blog details, and include features to remove and add likes.",
+        "text3": "Comments section. Logged-in users are able to add comments below the blog."
+      },
+      "item3": "Users Page",
+      "subItems3": {
+        "text1": "Display all users in a table, along with the number of blogs they've added."
+      },
+      "item4": "Single User",
+      "subItems4": {
+        "text1": "After clicking a user, the link goes to a page displaying the user's profile with all the titles of blogs they've added."
+      },
+      "item5": "Pages with form for login and register user. "
     }
   }
 }

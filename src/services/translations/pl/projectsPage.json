@@ -21,6 +21,14 @@
     "header": "Strona Portfolio w React",
     "shortDescription": "Moje portfolio zawiera informacje o mnie, niektóre z moich własnych projektów, moje umiejętności i moją ścieżkę programistyczną. Strona zawiera dwa motywy ciemny i jasny, a także tłumaczenie, polski i angielski."
   },
+  "customersListTable": {
+    "header": "Tabela z listą użytkowników w React i Node (FullStack)",
+    "shortDescription": "Tabela z formularzem do aktualizacji użytkowników. Jest stworzona w React z wykorzystaniem Bootstrapa i tailwindcss. Możemy tworzyć, edytować, usuwać i dodawać nowych użytkowników z danymi osobowymi. Backend jest zrealizowany w Node z użyciem mongoose. Baza danych jest przechowywana w MongoDB."
+  },
+  "blogListCard": {
+    "header": "Aplikacja Blogowa - Kurs Full Stack w Helsinkach 2023",
+    "shortDescription": "Jest to aplikacja do listy blogów stworzona przy użyciu Reacta i React Bootstrap do interfejsu użytkownika. Aplikacja ta powstała w ramach otwartego kursu online na Univeristy Helsinki. Główne funkcje aplikacji obejmują wyświetlanie listy przykładowych blogów z danymi takimi jak nazwa autora, tytuł i link do oryginalnego bloga. Zalogowani użytkownicy mogą komentować blogi i dodawać polubienia. Ponadto aplikacja ma komponent backendowy połączony z bazą danych MongoDB. Zarówno front-end, jak i back-end aplikacji zostały przetestowane, z użyciem Cypress do testowania front-endu i Jest do testowania back-endu."
+  },
   "projectsModal": {
     "header": "Opis",
     "actoutsContent": {
@@ -86,6 +94,43 @@
       },
       "item3": "Cztery typy własnych stron (archive pages). Każda strona przeznaczona jest dla osobnej grupy docelowej. Informacje stron są wyświetlane dla osób które są zalogowane i mają określoną rolę użytkownika do wyświetlania informacji.",
       "item4": "Footer - Użytkownik może dodać 4 widgets."
+    },
+    "customerListTable": {
+      "title": "Lista klientów React. Projekt Full Stack",
+      "text1": "Aplikacja React w TypeScript. Tworzenie tabeli z użyciem Bootstrap i stylizacja za pomocą tailwindcss.",
+      "text2": "Backend stworzony w Node.js. Wdrożony na render.com. Dane są przechowywane w bazie MongoDB.",
+      "item1": "Aplikacja zawiera 3 strony:",
+      "subItems": {
+        "text1": "Strona główna, która wyświetla wszystkie dane, pobierane z API https://customers-api-sgd5.onrender.com.",
+        "text2": "Strona edycji: Formularz do edycji pojedynczego klienta.",
+        "text3": "Strona dodawania nowego kontaktu: Formularz do dodawania nowych danych klienta."
+      }
+    },
+    "blogListApp": {
+      "title": "Aplikacja Blogowa - Kurs Full Stack w Helsinkach 2023",
+      "text1": "Aplikacja React do wyświetlania listy blogów z tytułami, autorami i oryginalnymi adresami URL. Do stylizacji użyto React Bootstrap.",
+      "text2": "Serwer aplikacji został stworzony przy użyciu Node.js i jest wdrożony na render.com. Dane są przechowywane w bazie danych MongoDB, korzystając z darmowego okresu próbnego. Czasami mogą występować dłuższe czasy wczytywania danych ze względu na charakter darmowych prób, które mogą wiązać się z pewnymi ograniczeniami lub restrykcjami.",
+      "text3": "Aplikacja do listy blogów obejmuje:",
+      "item1": "Lista Blogów",
+      "subItems1": {
+        "text1": "Wyświetlanie nieuporządkowanej listy blogów.",
+        "text2": "Przycisk 'Dodaj blog'. Po kliknięciu 'Dodaj blog' wyświetlany jest  formularz umożliwiający dodanie bloga z polami na tytuł, autora, URL (do oryginalnego bloga) oraz przycisk anulowania."
+      },
+      "item2": "Pojedynczy Blog",
+      "subItems2": {
+        "text1": "Po kliknięciu na pojedynczy blog, użytkowik jest przeniesiony na stronę '/blogs/:id'.",
+        "text2": "Wyświetlanie karty z danymi bloga oraz funkcje usuwania i dodawania polubień.",
+        "text3": "Sekcja komentarzy. Zalogowani użytkownicy mogą dodawać komentarze pod blogiem."
+      },
+      "item3": "Strona Użytkowników",
+      "subItems3": {
+        "text1": "Wyświetlenie wszystkich użytkowników w tabeli wraz z liczbą dodanych przez nich blogów."
+      },
+      "item4": "Pojedynczy Użytkownik",
+      "subItems4": {
+        "text1": "Po kliknięciu na użytkownika, użytkownik jest przeniesiony  na stronę wyświetlającą profil użytkownika z tytułami wszystkich blogów, które zostały przez niego dodane."
+      },
+      "item5": "Strony dla logowania i ejestrowania użytkownika. "
     }
   }
 }
