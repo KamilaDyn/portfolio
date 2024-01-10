@@ -9,6 +9,7 @@ import PortfolioLightImg from 'assets/portfolio-light.jpg'
 import PortfolioImg from 'assets/portfolio.jpg'
 import FlickThroughEnglish from 'assets/flichThroughEnglish.jpg'
 import BaazarImg from 'assets/bazaarProject.jpg'
+import KamCodeImg from 'assets/kamcode.jpg'
 import CustomersList from 'assets/customersList.jpg'
 import BlogList from 'assets/bloglist.jpg'
 import { useSwitchModal } from './useSwitchModal'
@@ -19,6 +20,7 @@ import {
   techStackEnglishPage,
   techStackActOuts,
   techStackPortfolio,
+  techStackKamcode,
 } from './utils'
 
 const MyProjects = () => {
@@ -40,17 +42,6 @@ const MyProjects = () => {
         alignItems="center"
         mt={10}
       >
-        <CardProject
-          img={FlickThroughEnglish}
-          modalName={ModalNames.englishPage}
-          listSkillArray={techStackEnglishPage}
-          source="https://github.com/KamilaDyn/rara-academic-child"
-          title={t('englishCard.header')}
-          shortDescription={t('englishCard.shortDescription')}
-          liveLink="https://flick-through-english.com/"
-          readMore={true}
-        />
-        <Divider sx={{ width: '90%' }} />
         <CardProject
           img={ActoutsImg}
           modalName={ModalNames.actouts}
@@ -85,7 +76,27 @@ const MyProjects = () => {
           readMore={true}
         />
         <Divider sx={{ width: '90%' }} />
+        <CardProject
+          img={BaazarImg}
+          source="https://github.com/KamilaDyn/react-buy-products"
+          modalName={ModalNames.bazaarPage}
+          listSkillArray={techStackBazaar}
+          title={t('bazaarCard.header')}
+          shortDescription={t('bazaarCard.shortDescription')}
+          liveLink="https://react-buy-products.netlify.app/"
+          readMore={true}
+        />
+        <Divider sx={{ width: '90%' }} />
 
+        <CardProject
+          img={KamCodeImg}
+          modalName={ModalNames.bazaarPage}
+          listSkillArray={techStackKamcode}
+          title={t('kamcodeCard.header')}
+          shortDescription={t('kamcodeCard.shortDescription')}
+          liveLink="https://kamcode.pl/"
+        />
+        <Divider sx={{ width: '90%' }} />
         <CardProject
           img={palette.mode == 'light' ? PortfolioLightImg : PortfolioImg}
           modalName={ModalNames.portfolio}
@@ -95,15 +106,13 @@ const MyProjects = () => {
           shortDescription={t('portfolioCard.shortDescription')}
         />
         <Divider sx={{ width: '90%' }} />
-
         <CardProject
-          img={BaazarImg}
-          modalName={ModalNames.bazaarPage}
-          listSkillArray={techStackBazaar}
-          source="https://github.com/KamilaDyn/react-buy-products"
-          title={t('bazaarCard.header')}
-          shortDescription={t('bazaarCard.shortDescription')}
-          liveLink="https://react-buy-products.netlify.app/"
+          img={FlickThroughEnglish}
+          modalName={ModalNames.englishPage}
+          listSkillArray={techStackEnglishPage}
+          source="https://github.com/KamilaDyn/rara-academic-child"
+          title={t('englishCard.header')}
+          shortDescription={t('englishCard.shortDescription')}
           readMore={true}
         />
       </Box>

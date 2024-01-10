@@ -17,6 +17,10 @@
     "header": "React Example Page (Bazaar)",
     "shortDescription": "React App ‘Products Page’. This project is just for my self-study case: React, Redux, context, and Material UI. I created it after studying React, to try, check, and develop skills. It is just an example page for practice."
   },
+  "kamcodeCard": {
+    "header": "LandingPage",
+    "shortDescription": "I created and deployed my own page. To create it, I used basic frontend technology: HTML, CSS, JavaScript and parcel.js. Page is responsive for different devices and has to mode theme color."
+  },
   "portfolioCard": {
     "header": "Portfolio Page in React",
     "shortDescription": "My portfolio, shows information about me, some of my own projects, my skills, and my programming path. The page contains two modes dark and light, and also translation, Polish and English."

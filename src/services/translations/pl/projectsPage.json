@@ -17,6 +17,10 @@
     "header": "Przykładowa strona React (Bazaar)",
     "shortDescription": "Strona w  React „Strona produktów”. Ten projekt jest przeznaczony tylko do mojej samodzielnej nauki: React, Redux, context i Material UI. Stworzyłam go po ukończeniu kursu z  React, aby sprawdzić i rozwinąć umiejętności. To tylko przykładowa strona do samodzielnych ćwiczeń."
   },
+  "kamcodeCard": {
+    "header": "Strona wizytówka",
+    "shortDescription": "Stworzyłam własną stronę internetową z podstawowymi językami programowania w technologii Frontend, z zachowaniem RWD."
+  },
   "portfolioCard": {
     "header": "Strona Portfolio w React",
     "shortDescription": "Moje portfolio zawiera informacje o mnie, niektóre z moich własnych projektów, moje umiejętności i moją ścieżkę programistyczną. Strona zawiera dwa motywy ciemny i jasny, a także tłumaczenie, polski i angielski."

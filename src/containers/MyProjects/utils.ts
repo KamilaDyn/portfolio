@@ -15,7 +15,7 @@ export const techStackBazaar = [
   'Back-end: Json-server, Json-server-auth',
   'Deploy: Netlify, Cyclic ',
 ]
-
+export const techStackKamcode = ['Java Script', 'CSS', 'SCSS', 'HTML']
 export const techStackCustomerList = [
   'React',
   'Bootstrap',
