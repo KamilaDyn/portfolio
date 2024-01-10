@@ -30,8 +30,12 @@
       "text": "Software development and testing. Providing high-quality software by specifications and requirements."
     },
     "item6": {
-      "header": "Front End Developer",
-      "text": "Working at..."
+      "header": "Seeking a new opportunity. Self-development",
+      "text": "Participate in Full Stack open created by Helsinki University. Start Postgraduate study - Backend Developer .Net (C#). Self-employed 'KamCode'."
+    },
+    "item7": {
+      "header": "Programming",
+      "text": "Continue Postgraduate study Backend. Self Employment"
     }
   },
   "currentStack": {
@@ -92,6 +96,21 @@
     },
     "skills": {
       "header": "Skills"
+    }
+  },
+  "selfEmploymentModal": {
+    "header": "Seeking new opportunity. Self employment",
+    "duties": {
+      "header": "During my time I was: ",
+      "item1": "Participate in Full Stack Open Course created by Helsinki University ",
+      "item2": "Started Postgraduate Study .Net (C#) ",
+      "item3": "Practice programming skills in React, React-native and creating landing pages",
+      "item4": "Taking interviews",
+      "item5": "Participate in Women in Tech Summit 2023",
+      "item6": "Switch to Self-employment"
+    },
+    "other": {
+      "item1": "Created my page"
     }
   }
 }

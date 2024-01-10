@@ -7,4 +7,5 @@ export enum ModalNames {
   bazaarPage,
   customerList,
   blogList,
+  selfEmployment,
 }

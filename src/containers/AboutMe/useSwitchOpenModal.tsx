@@ -2,7 +2,11 @@ import { useTranslation } from 'react-i18next'
 import { useContextProvider } from 'context'
 import { ModalNames } from 'enum'
 
-import { StudyProgrammingContent, BcfWorkContent } from './components'
+import {
+  StudyProgrammingContent,
+  BcfWorkContent,
+  SelfEmploymentContent,
+} from './components'
 
 export const useSwitchOpenModal = () => {
   const { modalName } = useContextProvider()
@@ -18,6 +22,11 @@ export const useSwitchOpenModal = () => {
         return {
           title: t('bcfModal.header'),
           content: <BcfWorkContent />,
+        }
+      case ModalNames.selfEmployment:
+        return {
+          title: t('selfEmploymentModal.header'),
+          content: <SelfEmploymentContent />,
         }
       default:
         null
@@ -58,11 +67,20 @@ export const useSwitchOpenModal = () => {
     t('bcfModal.duties.item9'),
     t('bcfModal.duties.item10'),
   ]
+  const selfEmployment = [
+    t('selfEmploymentModal.duties.item1'),
+    t('selfEmploymentModal.duties.item2'),
+    t('selfEmploymentModal.duties.item3'),
+    t('selfEmploymentModal.duties.item4'),
+    t('selfEmploymentModal.duties.item5'),
+    t('selfEmploymentModal.duties.item6'),
+  ]
 
   return {
     bcfResponsibilities,
     curriculum,
     selectingModal,
     udemyCourses,
+    selfEmployment,
   }
 }

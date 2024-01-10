@@ -30,8 +30,12 @@
       "text": "Tworzenie i testowanie oprogramowania. Dostarczanie wysokiej jakości oprogramowania według specyfikacji i wymagań."
     },
     "item6": {
-      "header": "Front End Developer",
-      "text": "Praca w ...."
+      "header": "Poszukiwania nowych wyzwań. Rozpoczęcie samozatrudnienia",
+      "text": "Uczestnictwo w otwartym kursie Full Stack Developer organizowanym przez Uniwersytet Helsiński. Rozpoczęcie studiów podyplomowych - Backend Developer .Net (C#). Samozatrudnienie - 'KamCode'."
+    },
+    "item7": {
+      "header": "Programowanie",
+      "text": "Kontynuacja studiów podyplomowych Backend Developer. Samozatrudnienie - 'KamCode'"
     }
   },
   "currentStack": {
@@ -92,6 +96,21 @@
     },
     "skills": {
       "header": "Umiejętności"
+    }
+  },
+  "selfEmploymentModal": {
+    "header": "Seeking new opportunity. Self employment",
+    "duties": {
+      "header": "W czasie tego roku:  ",
+      "item1": "Wziełam udział w otwartym kursie  Full Stack Open utworzony przez Uniwersytet Helsiński",
+      "item2": "Rozpoczęłam studia podyplomowe z Backend Developer .Net (C#) ",
+      "item3": "Wykorzystywałam w praktyce React, React-native oraz tworzyłam proste strony z wykorzystaniem Frontend",
+      "item4": "Uczestniczyłam w rozmowach kwalifikacyjnych",
+      "item5": "Uczestniczyłam w wydarzeniu in Women in Tech Summit 2023",
+      "item6": "Przeszłam na samozatrudnienie"
+    },
+    "other": {
+      "item1": "Utworzyłam własną stronę: "
     }
   }
 }

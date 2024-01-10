@@ -6,6 +6,7 @@ import CodeIcon from '@mui/icons-material/Code'
 import WheelchairPickupIcon from '@mui/icons-material/WheelchairPickup'
 import ImportantDevicesIcon from '@mui/icons-material/ImportantDevices'
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
+import BadgeIcon from '@mui/icons-material/Badge'
 import { Button } from '@mui/material'
 import { useContextProvider } from 'context'
 
@@ -67,13 +68,25 @@ const MyTimeline = () => {
         }
       />
       <TimLineItem
-        year="2023-..."
-        icon={<QuestionMarkIcon color="primary" />}
+        year="2023-2024"
+        icon={<BadgeIcon />}
         text={t('timeLine.item6.text')}
         header={t('timeLine.item6.header')}
         color="primary"
-        variant="outlined"
         isTablet={isMobile || isTablet}
+        button={
+          <Button onClick={() => setModalName(ModalNames.selfEmployment)}>
+            {t('buttons.seeMore', { ns: 'common' })}
+          </Button>
+        }
+      />
+      <TimLineItem
+        year="2024-..."
+        icon={<QuestionMarkIcon color="primary" />}
+        text={t('timeLine.item7.text')}
+        header={t('timeLine.item7.header')}
+        color="primary"
+        variant="outlined"
       />
     </Timeline>
   )
