@@ -2,14 +2,16 @@ import { Box, Card, CardMedia, styled } from '@mui/material'
 
 export const StyledCard = styled(Card)(({ theme }) => ({
   display: 'flex',
-  width: '80%',
-  //   height: 300,
-  //   backgroundColor: '#fff',
   marginBottom: 10,
-
+  justifyContent: 'center',
+  alignItems: 'center',
   [theme.breakpoints.down('md')]: {
     // height: 200,
     flexDirection: 'column',
+  },
+  [theme.breakpoints.up('md')]: {
+    // height: 200,
+    width: '90%',
   },
 }))
 
@@ -26,6 +28,7 @@ export const FlexBox = styled(Box)(({ theme }) => ({
 
 export const StyledCardMedia = styled(CardMedia)(({ theme }) => ({
   width: '40%',
+
   [theme.breakpoints.down('sm')]: {
     width: '100%',
   },

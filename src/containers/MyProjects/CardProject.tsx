@@ -48,9 +48,13 @@ const CardProject: FC<ICardProject> = ({
           cursor: 'pointer',
           objectPosition: 'top left',
           minHeight: 250,
+          objectFit: 'cover',
           [theme.breakpoints.down('md')]: {
             width: '100%',
             maxHeight: 330,
+          },
+          [theme.breakpoints.up('md')]: {
+            objectFit: 'contain',
           },
           '&:hover': {
             transition: 'all 0.8s',

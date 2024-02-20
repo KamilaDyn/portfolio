@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Box, Divider, Typography, useTheme } from '@mui/material'
 import CardProject from './CardProject'
@@ -42,10 +43,9 @@ const MyProjects = () => {
             },
             index
           ) => (
-            <>
+            <Fragment key={`${title}-${index}`}>
               {' '}
               <CardProject
-                key={`${title}-${index}`}
                 img={image}
                 modalName={modalName}
                 listSkillArray={listSkillArray}
@@ -56,7 +56,7 @@ const MyProjects = () => {
                 source={source}
               />
               <Divider sx={{ width: '90%' }} />
-            </>
+            </Fragment>
           )
         )}
       </Box>
