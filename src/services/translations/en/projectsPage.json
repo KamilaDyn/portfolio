@@ -33,6 +33,10 @@
     "header": "Blog App - Helsinki Full stack course 2023",
     "shortDescription": "This is a  blog list application developed using React and React Bootstrap for the user interface. It was created as part of an online open course from the University of Helsinki. The application's main features include displaying a list of example blogs with details such as author name, title, and a link to the original blog. Logged-in users have the ability to comment on blogs and add likes to them. Additionally, the application has a backend component that is connected to a MongoDB database. Both the frontend and backend of the application have been tested, with the frontend testing done using Cypress and the backend testing using Jest."
   },
+  "wpExampleTheme": {
+    "header": "Wp custom Theme",
+    "shortDescription": "This is a custom theme that can be used for the WordPress CMS. It includes default templates for pages, blogs, about us, and job sections. The front page is fully customizable to add your own content. I have integrated two widgets for testimonials and cards, which can be linked to specific pages. Additionally, in the footer, three columns can be added for links and social media links."
+  },
   "projectsModal": {
     "header": "Description",
     "actoutsContent": {

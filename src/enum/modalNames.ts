@@ -8,4 +8,5 @@ export enum ModalNames {
   customerList,
   blogList,
   selfEmployment,
+  wpExampleTheme,
 }

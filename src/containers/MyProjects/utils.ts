@@ -4,9 +4,14 @@ export const techStackEnglishPage = [
   'PHP',
   'CSS/SASS',
   'Java Script / jQuery',
-  'JSON',
 ]
-export const techStackActOuts = [...techStackEnglishPage, 'js-year-calendar']
+export const techStackActOuts = [
+  ...techStackEnglishPage,
+  'js-year-calendar',
+  'JSON',
+  'Webpack',
+]
+export const techWpExampleTheme = [...techStackEnglishPage, 'BEM', 'Webpack']
 
 export const techStackBazaar = [
   ...commonReactStack,

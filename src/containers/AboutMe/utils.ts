@@ -5,7 +5,7 @@ export const useAboutMe = () => {
   const currentTechStack = [
     {
       name: t('currentStack.name1'),
-      stack: 'JavaScript, React, Redux, React-native',
+      stack: 'JavaScript, React, Redux, React-native, jQuery, react-query',
     },
     { name: t('currentStack.name2'), stack: 'Gitlab, BitBucket' },
     {
@@ -13,7 +13,8 @@ export const useAboutMe = () => {
       stack: 'Material Ui, Chakra Ui, Bootstrap (Reactstrap)',
     },
     { name: t('currentStack.name4'), stack: 'Figma, VSC, xcode, npm' },
-    { name: t('currentStack.name5'), stack: 'Wordpress, PHP, jQuery' },
+    { name: t('currentStack.name5'), stack: 'E2E - Cypress, Jest' },
+    { name: t('currentStack.name6'), stack: 'Wordpress, PHP ' },
   ]
   const freeTime = [
     `${t('afterCode.text1')} 🇵🇹`,

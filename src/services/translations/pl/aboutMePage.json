@@ -44,7 +44,8 @@
     "name2": "Version Control",
     "name3": "Biblioteki UI",
     "name4": "Narzędzia",
-    "name5": "Inne"
+    "name5": "Testy",
+    "name6": "Inne"
   },
   "afterCode": {
     "header": "Kiedy nie zajmuję się kodem: ",

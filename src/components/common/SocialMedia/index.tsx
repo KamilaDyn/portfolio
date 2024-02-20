@@ -26,11 +26,6 @@ const socialMedia = [
     icon: <LinkedInIcon color={'inherit'} />,
     link: 'https://www.linkedin.com/in/kamila-d-489849180/',
   },
-  {
-    name: 'email',
-    icon: <EmailIcon color={'inherit'} />,
-    link: 'mailto:kamila.dynysiuk@gmil.com',
-  },
 ]
 
 const SocialMedia: FC<IProps> = ({ size }) => {
