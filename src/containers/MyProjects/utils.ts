@@ -3,7 +3,7 @@ export const techStackEnglishPage = [
   'Wordpress',
   'PHP',
   'CSS/SASS',
-  'Java Script / jQuery',
+  'Java Script ',
 ]
 export const techStackActOuts = [
   ...techStackEnglishPage,
@@ -11,7 +11,20 @@ export const techStackActOuts = [
   'JSON',
   'Webpack',
 ]
-export const techWpExampleTheme = [...techStackEnglishPage, 'BEM', 'Webpack']
+export const techWpExampleTheme = [
+  ...techStackEnglishPage,
+  'jQuery',
+  'BEM',
+  'Webpack',
+]
+
+export const techWpAcademicTheme = [
+  ...techStackEnglishPage,
+  'Gutenberg',
+  'BEM',
+  'Webpack',
+  'FSE',
+]
 
 export const techStackBazaar = [
   ...commonReactStack,

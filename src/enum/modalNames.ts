@@ -9,4 +9,5 @@ export enum ModalNames {
   blogList,
   selfEmployment,
   wpExampleTheme,
+  wpAcademicTheme,
 }

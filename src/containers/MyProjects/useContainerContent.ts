@@ -10,6 +10,8 @@ import KamCodeImg from 'assets/kamcode-resp.jpg'
 import CustomersList from 'assets/customersList.jpg'
 import BlogList from 'assets/bloglist.jpg'
 import WpExampleTheme from 'assets/wp-example-theme-resp.jpg'
+import WpAcademicTheme from 'assets/academic.jpg'
+
 import {
   techStackCustomerList,
   techStackBazaar,
@@ -19,6 +21,7 @@ import {
   techStackPortfolio,
   techStackKamcode,
   techWpExampleTheme,
+  techWpAcademicTheme,
 } from './utils'
 
 interface ContainerContent {
@@ -52,7 +55,16 @@ const useContainerContent = () => {
       listSkillArray: techWpExampleTheme,
       title: t('wpExampleTheme.header'),
       shortDescription: t('wpExampleTheme.shortDescription'),
-      liveLink: 'https://dev.wp-example-page.kamiladyn.usermd.net/',
+      liveLink: 'https://dev.wp-academic.kamcode.pl/',
+      readMore: false,
+    },
+    {
+      image: WpAcademicTheme,
+      modalName: ModalNames.wpAcademicTheme,
+      listSkillArray: techWpAcademicTheme,
+      title: t('wpAcademicTheme.header'),
+      shortDescription: t('wpAcademicTheme.shortDescription'),
+      liveLink: 'https://dev.wp-academic.kamcode.pl/',
       readMore: false,
     },
 
@@ -77,16 +89,7 @@ const useContainerContent = () => {
       liveLink: 'https://customers-api-sgd5.onrender.com/',
       readMore: true,
     },
-    {
-      image: BaazarImg,
-      source: 'https://github.com/KamilaDyn/react-buy-products',
-      modalName: ModalNames.bazaarPage,
-      listSkillArray: techStackBazaar,
-      title: t('bazaarCard.header'),
-      shortDescription: t('bazaarCard.shortDescription'),
-      liveLink: 'https://react-buy-products.netlify.app/',
-      readMore: true,
-    },
+
     {
       image: KamCodeImg,
       modalName: ModalNames.bazaarPage,
@@ -110,6 +113,16 @@ const useContainerContent = () => {
       source: 'https://github.com/KamilaDyn/rara-academic-child',
       title: t('englishCard.header'),
       shortDescription: t('englishCard.shortDescription'),
+      readMore: true,
+    },
+    {
+      image: BaazarImg,
+      source: 'https://github.com/KamilaDyn/react-buy-products',
+      modalName: ModalNames.bazaarPage,
+      listSkillArray: techStackBazaar,
+      title: t('bazaarCard.header'),
+      shortDescription: t('bazaarCard.shortDescription'),
+      liveLink: 'https://react-buy-products.netlify.app/',
       readMore: true,
     },
   ]
