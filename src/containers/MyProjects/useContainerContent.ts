@@ -55,7 +55,7 @@ const useContainerContent = () => {
       listSkillArray: techWpExampleTheme,
       title: t('wpExampleTheme.header'),
       shortDescription: t('wpExampleTheme.shortDescription'),
-      liveLink: 'https://dev.wp-academic.kamcode.pl/',
+      liveLink: 'https://dev.wp-example.kamcode.pl/',
       readMore: false,
     },
     {
