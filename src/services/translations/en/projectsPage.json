@@ -5,6 +5,7 @@
     "text2": "The below projects, which I created myself, are on GitHub as a public repository. You can see the repo and effects.",
     "text3": "If you are interested to know more about my work, commercial projects, and my technical skills, in projects in which I was involved and which technical stack I used, please contact me. I will describe it to you as much as I can. "
   },
+
   "actOutsCard": {
     "header": "Act Outs (Wordpress Page)",
     "shortDescription": "Created a custom theme for WordPress. With event calendar, videos, and login functionality for users."
@@ -12,6 +13,10 @@
   "englishCard": {
     "header": "Flick Through English (Wordpress Page)",
     "shortDescription": "Created a Page for English lessons with different groups. I created a custom rare-academic-child theme (original parent Rara academic). In the theme, I added extra pages and post types for students, a login page, and redirecting students to the page, depending on what kind of role they have."
+  },
+  "formCard": {
+    "header": "Custom Form in React with Vite and Typescript",
+    "shortDescription": "It was a recruitment task for a company. The goal was to create a form without using extra libraries like Formik. The form was designed in Figma."
   },
   "bazaarCard": {
     "header": "React Example Page (Bazaar)",
@@ -40,6 +45,14 @@
   "wpAcademicTheme": {
     "header": "FSE WP custom Theme with custom gutenberg blocks",
     "shortDescription": "This is a custom theme that can be used for the WordPress CMS with gutenberg blocks. It includes default templates for pages, blogs, events, list of teachers and courses. The front page is fully customizable to add your own content. I have integrated and created custom gutenberg block for sliders, teachers list, events and CPT for teachers and events"
+  },
+  "rekLandingPage": {
+    "header": "Simple one page website",
+    "shortDescription": "Creating a simple website as part of a recruitment task. The goal was to replicate the Figma page using Frontend technology Html, Scss and JavaScript OOP."
+  },
+  "mtcPage": {
+    "header": "Simple one page website-demo",
+    "shortDescription": "Creating a simple website as part of a recruitment task. The goal was to replicate the Figma page using Frontend technology Html, Scss JavaScript, plus Webpack for automatization"
   },
   "projectsModal": {
     "header": "Description",

@@ -17,7 +17,7 @@ import { FlexBox, StyledCard } from './index.style'
 
 interface ICardProject {
   img: string
-  modalName: ModalNames
+  modalName?: ModalNames
   listSkillArray: string[]
   title: string
   shortDescription: string
@@ -100,7 +100,7 @@ const CardProject: FC<ICardProject> = ({
                 {t('buttons.source')}
               </Button>
             )}
-            {readMore && (
+            {modalName && readMore && (
               <Button size="small" onClick={() => setModalName(modalName)}>
                 {t('buttons.readMore')}
               </Button>

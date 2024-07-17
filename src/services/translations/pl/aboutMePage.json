@@ -35,17 +35,18 @@
     },
     "item7": {
       "header": "Programowanie",
-      "text": "Kontynuacja studiów podyplomowych Backend Developer. Samozatrudnienie - 'KamCode'"
+      "text": "Ukończenie studiów podyplomowych Backend Developer .Net(C#). Samozatrudnienie - 'KamCode'"
     }
   },
   "currentStack": {
     "header": "Mój aktualny stack technologiczny",
     "name1": "Front-End",
-    "name2": "Version Control",
-    "name3": "Biblioteki UI",
-    "name4": "Narzędzia",
-    "name5": "Testy",
-    "name6": "Inne"
+    "name2": "Front-End",
+    "name3": "Version Control",
+    "name4": "Biblioteki UI",
+    "name5": "Narzędzia",
+    "name6": "Testy",
+    "name7": "Inne"
   },
   "afterCode": {
     "header": "Kiedy nie zajmuję się kodem: ",

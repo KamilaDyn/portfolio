@@ -11,6 +11,9 @@ import CustomersList from 'assets/customersList.jpg'
 import BlogList from 'assets/bloglist.jpg'
 import WpExampleTheme from 'assets/wp-example-theme-resp.jpg'
 import WpAcademicTheme from 'assets/academic.jpg'
+import ReactForm from 'assets/react-form.jpg'
+import LandingPage from 'assets/rek-landing-page.jpg'
+import MtcPage from 'assets/mtc-page.jpg'
 
 import {
   techStackCustomerList,
@@ -22,11 +25,14 @@ import {
   techStackKamcode,
   techWpExampleTheme,
   techWpAcademicTheme,
+  techStackForm,
+  techRekPage,
+  mtcStackPage,
 } from './utils'
 
 interface ContainerContent {
   image: string
-  modalName: ModalNames
+  modalName?: ModalNames
   listSkillArray: string[]
   title: string
   shortDescription: string
@@ -39,6 +45,15 @@ const useContainerContent = () => {
   const { t } = useTranslation('projectsPage')
 
   const containerContent: ContainerContent[] = [
+    // {
+    //   image: ReactForm,
+    //   listSkillArray: techStackForm,
+    //   title: t('formCard.header'),
+    //   shortDescription: t('formCard.shortDescription'),
+    //   liveLink: 'https://task-think-first.onrender.com/',
+    //   readMore: false,
+    //   source: 'https://github.com/KamilaDyn/task-think-first',
+    // },
     {
       image: ActoutsImg,
       modalName: ModalNames.actouts,
@@ -105,6 +120,24 @@ const useContainerContent = () => {
       listSkillArray: techStackPortfolio,
       title: t('portfolioCard.header'),
       shortDescription: t('portfolioCard.shortDescription'),
+    },
+    {
+      image: LandingPage,
+      listSkillArray: techRekPage,
+      source: 'https://github.com/KamilaDyn/rek-task-landing-page',
+      title: t('rekLandingPage.header'),
+      shortDescription: t('rekLandingPage.shortDescription'),
+      readMore: false,
+      liveLink: 'https://kamiladyn.github.io/rek-task-landing-page/',
+    },
+    {
+      image: MtcPage,
+      listSkillArray: mtcStackPage,
+      source: 'https://github.com/KamilaDyn/mtc-free-trail-task',
+      title: t('mtcPage.header'),
+      shortDescription: t('mtcPage.shortDescription'),
+      readMore: false,
+      liveLink: 'https://mtc-free-trail-task.onrender.com/',
     },
     {
       image: FlickThroughEnglish,

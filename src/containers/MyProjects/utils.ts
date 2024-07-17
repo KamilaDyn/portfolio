@@ -11,6 +11,12 @@ export const techStackActOuts = [
   'JSON',
   'Webpack',
 ]
+export const techStackForm = [
+  ...commonReactStack,
+  'Vite',
+  'Eslint',
+  'Taillwind',
+]
 export const techWpExampleTheme = [
   ...techStackEnglishPage,
   'jQuery',
@@ -52,5 +58,7 @@ export const techStackBlogList = [
   'mongodb',
   'jsonwebtoken',
 ]
+export const techRekPage = ['HTML', 'Java Script ', 'OOP', 'CSS/SASS', 'BEM']
+export const mtcStackPage = ['HTML', 'Java Script ', 'CSS/SASS', 'BEM']
 
 export const techStackPortfolio = [...commonReactStack, 'i18next']

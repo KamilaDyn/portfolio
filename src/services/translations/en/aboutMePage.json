@@ -35,17 +35,18 @@
     },
     "item7": {
       "header": "Programming",
-      "text": "Continue Postgraduate study Backend. Self Employment"
+      "text": "Finished study Back-end Development .Net(C#). Self Employment - KamCode"
     }
   },
   "currentStack": {
     "header": "My current tech stack",
     "name1": "Front-End",
-    "name2": "Version Control",
-    "name3": "UI Library",
-    "name4": "Tools",
-    "name5": "Tests",
-    "name6": "Other"
+    "name2": "Back-end",
+    "name3": "Version Control",
+    "name4": "UI Library",
+    "name5": "Tools",
+    "name6": "Tests",
+    "name7": "Other"
   },
   "afterCode": {
     "header": "When I am not coding",

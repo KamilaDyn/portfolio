@@ -7,14 +7,23 @@ export const useAboutMe = () => {
       name: t('currentStack.name1'),
       stack: 'JavaScript, React, Redux, React-native, jQuery, react-query',
     },
-    { name: t('currentStack.name2'), stack: 'Gitlab, BitBucket' },
     {
-      name: t('currentStack.name3'),
+      name: t('currentStack.name2'),
+      stack:
+        '(C# and .Net) -entry level, (Node, Express, MongoDB) - self learnt',
+    },
+
+    { name: t('currentStack.name3'), stack: 'Gitlab, BitBucket' },
+    {
+      name: t('currentStack.name4'),
       stack: 'Material Ui, Chakra Ui, Bootstrap (Reactstrap)',
     },
-    { name: t('currentStack.name4'), stack: 'Figma, VSC, xcode, npm' },
-    { name: t('currentStack.name5'), stack: 'E2E - Cypress, Jest' },
-    { name: t('currentStack.name6'), stack: 'Wordpress, PHP ' },
+    { name: t('currentStack.name5'), stack: 'Figma, VSC, xcode, npm' },
+    { name: t('currentStack.name6'), stack: 'E2E - Cypress, Jest' },
+    {
+      name: t('currentStack.name7'),
+      stack: 'Wordpress, PHP, Gutenberg, Astro',
+    },
   ]
   const freeTime = [
     `${t('afterCode.text1')} 🇵🇹`,

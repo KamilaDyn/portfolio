@@ -44,7 +44,6 @@ const MyProjects = () => {
             index
           ) => (
             <Fragment key={`${title}-${index}`}>
-              {' '}
               <CardProject
                 img={image}
                 modalName={modalName}

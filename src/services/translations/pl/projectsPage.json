@@ -9,6 +9,10 @@
     "header": "Act Outs (Strona Wordpress)",
     "shortDescription": "Stworzyłam niestandardowy motyw dla WordPress. Z kalendarzem wydarzeń, filmami i funkcją logowania dla użytkowników."
   },
+  "formCard": {
+    "header": "Formularz z wykorzystaniem React, Vite oraz Typescript",
+    "shortDescription": "Było to zadanie rekrutacyjne dla firmy. Celem było stworzenie formularza bez użycia dodatkowych bibliotek, takich jak Formik. Formularz był zaprojektowany w Figma."
+  },
   "englishCard": {
     "header": "Flick Through English (Strona Wordpress)",
     "shortDescription": "Utworzono stronę do lekcji angielskiego z różnymi grupami. Stworzyłam niestandardowy motyw motywu Rara-academic-child (oryginalny Rara academic). W motywie dodałam dodatkowe strony i typy postów dla studentów, stronę logowania oraz przekierowanie uczniów na stronę, w zależności od tego,  w jakiej grupie są zapisani."
@@ -36,6 +40,14 @@
   "wpExampleTheme": {
     "header": "Wp Theme",
     "shortDescription": "Niestandardowy motyw, który może być używany w systemie CMS WordPress. Zawiera domyślne szablony dla stron, blogów, strona o nas  i ofert pracy. Strona główna jest w pełni dostosowana do dodawania własnych treści. Zintegrowałam dwa widgety do referencji i kartę, którą można połączyć z konkretną stroną. Dodatkowo, w stopce można dodać trzy kolumny na linki oraz dodać linki do mediów społecznościowych."
+  },
+  "rekLandingPage": {
+    "header": "Prosta strona wizytówka",
+    "shortDescription": "Stworzenie strony wizytówki w ramach rekrutacji. Celem było odwzorowanie strony z Figma z wykorzystaniem stosu technologicznego Frontend Html, Scss, JavaScript OOP."
+  },
+  "mtcPage": {
+    "header": "Prosta strona wizytówka -demo",
+    "shortDescription": "Stworzenie strony wizytówki w ramach rekrutacji. Celem było odwzorowanie strony z Figma z wykorzystaniem stosu technologicznego Frontend Html, Scss, JavaScript, plus Webpack dla automatyzacji."
   },
   "projectsModal": {
     "header": "Opis",
