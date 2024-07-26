@@ -61,8 +61,7 @@ const useContainerContent = () => {
       title: t('actOutsCard.header'),
       shortDescription: t('actOutsCard.shortDescription'),
       liveLink: 'https://actouts.com/',
-      readMore: false,
-      source: 'https://github.com/KamilaDyn/act-outs-theme',
+      readMore: true,
     },
     {
       image: WpExampleTheme,
