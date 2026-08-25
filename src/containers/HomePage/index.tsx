@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { SectionHeader } from 'components/common'
 
 import { Item, FlexBox } from './index.style'
-import { frontEnd, backEnd, dataBase, other } from './utils'
+import { frontEnd, backEnd, dataBase, salesforce, other } from './utils'
 
 const HomePage = () => {
   const { t } = useTranslation(['homePage', 'common'])
@@ -29,6 +29,9 @@ const HomePage = () => {
           <Typography pt={2}>
             {t('introduction.meDescription.text2')}
           </Typography>
+          <Typography pt={2}>
+            {t('introduction.meDescription.text3')}
+          </Typography>
         </Box>
       </Box>
       <SectionHeader text={t('techStack.title')} />
@@ -38,6 +41,20 @@ const HomePage = () => {
       <FlexBox>
         <Box display="flex" flexWrap="wrap" pt={3}>
           {frontEnd.map(({ icon, name }, index) => (
+            <Item key={`${name}-${index}`}>
+              <Box mr={0.5} display="flex" alignItems={'center'}>
+                {icon}
+              </Box>
+              {name}
+            </Item>
+          ))}
+        </Box>
+      </FlexBox>
+      <Typography variant="h5">{t('techStack.salesforce')}</Typography>
+
+      <FlexBox>
+        <Box display="flex" flexWrap="wrap" pt={3}>
+          {salesforce.map(({ icon, name }, index) => (
             <Item key={`${name}-${index}`}>
               <Box mr={0.5} display="flex" alignItems={'center'}>
                 {icon}

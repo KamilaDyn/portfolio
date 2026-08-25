@@ -22,7 +22,7 @@ const AboutMe = () => {
             </Typography>
           </Typography>
           <Box pt={2}>
-            <Typography paragraph>{t('introduction.text1')} </Typography>
+            <Typography paragraph>{t('introduction.text1')}</Typography>
             <Typography paragraph>
               {t('introduction.text2')}{' '}
               <Typography component="span" color="primary">
@@ -30,7 +30,8 @@ const AboutMe = () => {
               </Typography>
               {t('introduction.text3')}
             </Typography>
-            <Typography paragraph> {t('introduction.text4')}</Typography>
+            <Typography paragraph>{t('introduction.text4')}</Typography>
+            <Typography paragraph>{t('introduction.text5')}</Typography>
           </Box>
         </Box>
         <Box pb={10}>

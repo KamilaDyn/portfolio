@@ -58,7 +58,7 @@ const TimLineItem: FC<TimLineItem> = ({
             </Typography>
             <>
               {' '}
-              <Typography>{text}</Typography>
+              <Typography sx={{ whiteSpace: 'pre-line' }}>{text}</Typography>
               {button && button}
             </>
           </TimelineContent>
@@ -114,7 +114,7 @@ const TimLineItem: FC<TimLineItem> = ({
               {header}
             </Typography>
             <Box>
-              <Typography>{text}</Typography>
+              <Typography sx={{ whiteSpace: 'pre-line' }}>{text}</Typography>
               {button && button}
             </Box>
           </TimelineContent>

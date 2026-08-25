@@ -1,8 +1,8 @@
 {
-  "header": "Piękno tkwi w prostocie",
+  "header": "Kamila · Software Developer",
   "me": {
-    "text1": "Nazywam się Kamila Dynysiuk i jestem ",
-    "text2": "programistą Frontend (React)."
+    "text1": "Frontend Developerka specjalizująca się w ",
+    "text2": "React, Next.js, TypeScript, Node.js, Salesforce i React Native "
   },
   "buttons": {
     "seeMore": "...Więcej",

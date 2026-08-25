@@ -10,4 +10,5 @@ export enum ModalNames {
   selfEmployment,
   wpExampleTheme,
   wpAcademicTheme,
+  kamcodeWork,
 }

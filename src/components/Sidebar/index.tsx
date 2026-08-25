@@ -51,7 +51,7 @@ const Sidebar = () => {
         <Typography variant={'h5'} color="primary" lineHeight={'3rem'}>
           Kamila Dynysiuk
         </Typography>
-        <Typography>Front end developer (React)</Typography>
+        <Typography>Software Developer · React & Next.js</Typography>
         <Typography variant={'body2'} lineHeight={'3rem'}>
           kamila.dynysiuk@gmail.com
         </Typography>

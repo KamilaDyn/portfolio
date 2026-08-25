@@ -1,9 +1,9 @@
-const commonReactStack = ['Java Script', 'React', 'TypeScript']
+const commonReactStack = ['JavaScript', 'React', 'TypeScript']
 export const techStackEnglishPage = [
-  'Wordpress',
+  'WordPress',
   'PHP',
-  'CSS/SASS',
-  'Java Script ',
+  'CSS/Sass',
+  'JavaScript',
 ]
 export const techStackActOuts = [
   ...techStackEnglishPage,
@@ -14,8 +14,8 @@ export const techStackActOuts = [
 export const techStackForm = [
   ...commonReactStack,
   'Vite',
-  'Eslint',
-  'Taillwind',
+  'ESLint',
+  'Tailwind CSS',
 ]
 export const techWpExampleTheme = [
   ...techStackEnglishPage,
@@ -34,31 +34,31 @@ export const techWpAcademicTheme = [
 
 export const techStackBazaar = [
   ...commonReactStack,
-  'MaterialUI',
+  'Material UI',
   'Redux',
-  'Back-end: Json-server, Json-server-auth',
-  'Deploy: Netlify, Cyclic ',
+  'Back-end: JSON Server, JSON Server Auth',
+  'Deploy: Netlify, Cyclic',
 ]
-export const techStackKamcode = ['Java Script', 'CSS', 'SCSS', 'HTML']
+export const techStackKamcode = ['JavaScript', 'CSS', 'SCSS', 'HTML']
 export const techStackCustomerList = [
   'React',
   'Bootstrap',
-  'tailwindcss',
-  'context',
+  'Tailwind CSS',
+  'Context API',
   'MongoDB',
   'Node.js',
-  'Deploy: render.com ',
+  'Deploy: render.com',
 ]
 export const techStackBlogList = [
   'React',
-  'React-bootstrap',
-  'tanstack/react-query',
+  'React Bootstrap',
+  'TanStack Query',
   'Jest',
-  'cypress',
-  'mongodb',
+  'Cypress',
+  'MongoDB',
   'jsonwebtoken',
 ]
-export const techRekPage = ['HTML', 'Java Script ', 'OOP', 'CSS/SASS', 'BEM']
-export const mtcStackPage = ['HTML', 'Java Script ', 'CSS/SASS', 'BEM']
+export const techRekPage = ['HTML', 'JavaScript', 'OOP', 'CSS/Sass', 'BEM']
+export const mtcStackPage = ['HTML', 'JavaScript', 'CSS/Sass', 'BEM']
 
 export const techStackPortfolio = [...commonReactStack, 'i18next']

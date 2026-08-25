@@ -6,6 +6,7 @@ import {
   StudyProgrammingContent,
   BcfWorkContent,
   SelfEmploymentContent,
+  KamcodeWorkContent,
 } from './components'
 
 export const useSwitchOpenModal = () => {
@@ -27,6 +28,11 @@ export const useSwitchOpenModal = () => {
         return {
           title: t('selfEmploymentModal.header'),
           content: <SelfEmploymentContent />,
+        }
+      case ModalNames.kamcodeWork:
+        return {
+          title: t('kamcodeModal.header'),
+          content: <KamcodeWorkContent />,
         }
       default:
         null
@@ -76,11 +82,21 @@ export const useSwitchOpenModal = () => {
     t('selfEmploymentModal.duties.item6'),
   ]
 
+  const kamcodeResponsibilities = [
+    t('kamcodeModal.duties.item1'),
+    t('kamcodeModal.duties.item2'),
+    t('kamcodeModal.duties.item3'),
+    t('kamcodeModal.duties.item4'),
+    t('kamcodeModal.duties.item5'),
+    t('kamcodeModal.duties.item6'),
+  ]
+
   return {
     bcfResponsibilities,
     curriculum,
     selectingModal,
     udemyCourses,
     selfEmployment,
+    kamcodeResponsibilities,
   }
 }

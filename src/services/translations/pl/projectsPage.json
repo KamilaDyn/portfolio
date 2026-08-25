@@ -38,8 +38,12 @@
     "shortDescription": "Jest to aplikacja do listy blogów stworzona przy użyciu Reacta i React Bootstrap do interfejsu użytkownika. Aplikacja ta powstała w ramach otwartego kursu online na Univeristy Helsinki. Główne funkcje aplikacji obejmują wyświetlanie listy przykładowych blogów z danymi takimi jak nazwa autora, tytuł i link do oryginalnego bloga. Zalogowani użytkownicy mogą komentować blogi i dodawać polubienia. Ponadto aplikacja ma komponent backendowy połączony z bazą danych MongoDB. Zarówno front-end, jak i back-end aplikacji zostały przetestowane, z użyciem Cypress do testowania front-endu i Jest do testowania back-endu."
   },
   "wpExampleTheme": {
-    "header": "Wp Theme",
+    "header": "Niestandardowy motyw WP",
     "shortDescription": "Niestandardowy motyw, który może być używany w systemie CMS WordPress. Zawiera domyślne szablony dla stron, blogów, strona o nas  i ofert pracy. Strona główna jest w pełni dostosowana do dodawania własnych treści. Zintegrowałam dwa widgety do referencji i kartę, którą można połączyć z konkretną stroną. Dodatkowo, w stopce można dodać trzy kolumny na linki oraz dodać linki do mediów społecznościowych."
+  },
+  "wpAcademicTheme": {
+    "header": "Motyw WP (FSE) z własnymi blokami Gutenberga",
+    "shortDescription": "Niestandardowy motyw, który może być używany w systemie CMS WordPress wraz z blokami Gutenberga. Zawiera domyślne szablony stron, bloga, wydarzeń oraz list wykładowców i kursów. Strona główna jest w pełni konfigurowalna, dzięki czemu można dodać własne treści. Stworzyłam własne bloki Gutenberga do sliderów, listy wykładowców i wydarzeń, a także własne typy treści (CPT) dla wykładowców i wydarzeń."
   },
   "rekLandingPage": {
     "header": "Prosta strona wizytówka",

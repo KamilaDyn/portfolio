@@ -2,15 +2,17 @@
   "introduction": {
     "hello": "Cześć",
     "meDescription": {
-      "text1": "W swojej programistycznej ścieżce jestem przede wszystkim samoukiem. Ukończyłam również studia podyplomowe „Aplikacje webowe i mobilne”. Wiedzę o technologii i językach programowania czerpię z udemy, Free Code Camp, artykułów ze strony medium..",
-      "text2": "Koncentruję się na programowaniu stron, aplikacji od strony Frontend, ale w przyszłości chcę zostać full-stack developerem."
+      "text1": "Jestem Frontend Developerką skupioną na tworzeniu nowoczesnych aplikacji internetowych i mobilnych. Pracuję przede wszystkim z React, Next.js, TypeScript i React Native, mam również doświadczenie w rozwoju rozwiązań Salesforce z użyciem Apex i Lightning Web Components.",
+      "text2": "Ukończyłam studia podyplomowe „Aplikacje internetowe i mobilne” i nieustannie rozwijam swoje umiejętności poprzez praktyczne projekty oraz ciągłą naukę.",
+      "text3": "Lubię przekuwać pomysły w przejrzyste, responsywne i przyjazne użytkownikom aplikacje, i zawsze szukam nowych wyzwań, które pozwalają mi rozwijać się jako programistce."
     }
   },
   "techStack": {
-    "title":"Mam doświadczenie z: ",
-    "frontEnd":"Front End",
-    "backEnd":"Back End",
-    "dataBase": "Bazy Danych",
-    "other":  "Inne"
-    }
+    "title": "Mam doświadczenie z:",
+    "frontEnd": "Front-End",
+    "backEnd": "Back-End",
+    "dataBase": "Bazy danych",
+    "salesforce": "Salesforce",
+    "other": "Inne"
+  }
 }

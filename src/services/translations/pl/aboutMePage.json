@@ -1,11 +1,12 @@
 {
   "introduction": {
     "header": "O mnie",
-    "text1": "W swojej ścieżce programistycznej pracowałam jako Freelancer, tworzyłam strony oparte na cms WordPressie oraz tworzyłem niestandardowe szablony. W tych projektach wykorzystałam technologie JavaScript, jQuery, PHP i CSS (Sass).",
-    "text2": "Od 2021 roku pracuję dla ",
-    "span": "Bright Coders Factory Software. ",
-    "text3": "W pracy do moich codziennych obowiązków należy: dostarczenie wysokiej jakości oprogramowania zgodnie ze specyfikacją i wymaganiami klienta. Rozwój  środowiska programistycznego oraz testowego. Uczestnictwo w spotkaniach projektowych i spotkaniach z klientami. W swoich projektach wykorzystuję JavaScript, React, Redux, React-native, podstawy PHP, Material Ui, Chakra UI, React-strap oraz bazę danych MySQL.",
-    "text4": "Potrafię poruszać się pomiędzy różnymi technologiami, nie mam problemu z czytaniem dokumentacji technologicznej czy szukaniem rozwiązań dla bieżących problemów pojawiających się w trakcie pracy."
+    "text1": "Jestem Software Developerką z komercyjnym doświadczeniem w tworzeniu i utrzymaniu aplikacji internetowych. Skupiam się przede wszystkim na frontendzie — React, Next.js i TypeScript — ale moja obecna praca obejmuje również backend, tworzenie API oraz rozwój rozwiązań Salesforce z użyciem Apex i Lightning Web Components.",
+    "text2": "Od 2023 roku pracuję jako samozatrudniona programistka w ramach własnej działalności,",
+    "span": "KamCode",
+    "text3": ". Współpracuję głównie z WavyApp, gdzie tworzę strony i aplikacje internetowe dla klientów końcowych, a także wewnętrzne platformy do zarządzania nieruchomościami i mieszkaniami. Do moich obowiązków należy rozwijanie aplikacji w React i Next.js, tworzenie API oraz funkcjonalności backendowych w Node.js, a także rozbudowa rozwiązań Salesforce z użyciem Apex i LWC. Pracowałam również z React Native przy aplikacjach mobilnych.",
+    "text4": "Współpracuję także z Adlife, gdzie zarządzam stronami opartymi na WordPressie i utrzymuję je, wprowadzając bieżące zmiany w treści, układzie oraz aktualizacje techniczne.",
+    "text5": "Wcześniej, w latach 2021–2023, pracowałam jako Junior Software Engineer w BCF Software, tworząc i testując aplikacje internetowe oraz mobilne z wykorzystaniem m.in. React, Redux, React Native, JavaScript i TypeScript."
   },
   "timeLine": {
     "header": "Oś czasu ",
@@ -34,19 +35,20 @@
       "text": "Uczestnictwo w otwartym kursie Full Stack Developer organizowanym przez Uniwersytet Helsiński. Rozpoczęcie studiów podyplomowych - Backend Developer .Net (C#). Samozatrudnienie - 'KamCode'."
     },
     "item7": {
-      "header": "Programowanie",
-      "text": "Ukończenie studiów podyplomowych Backend Developer .Net(C#). Samozatrudnienie - 'KamCode'"
+      "header": "Software Developer",
+      "text": "Samozatrudnienie jako Software Developer, głównie we współpracy z WavyApp przy komercyjnych aplikacjach webowych i mobilnych.\n\nTworzenie stron i aplikacji internetowych dla klientów końcowych, a także platform do zarządzania nieruchomościami i mieszkaniami. Pracuję z React, Next.js, TypeScript, Node.js oraz Salesforce (Apex, LWC), mam również doświadczenie z React Native."
     }
   },
   "currentStack": {
     "header": "Mój aktualny stack technologiczny",
     "name1": "Front-End",
-    "name2": "Front-End",
+    "name2": "Back-End",
     "name3": "Version Control",
     "name4": "Biblioteki UI",
     "name5": "Narzędzia",
     "name6": "Testy",
-    "name7": "Inne"
+    "name7": "Inne",
+    "name8": "Salesforce"
   },
   "afterCode": {
     "header": "Kiedy nie zajmuję się kodem: ",
@@ -113,6 +115,18 @@
     },
     "other": {
       "item1": "Utworzyłam własną stronę: "
+    }
+  },
+  "kamcodeModal": {
+    "header": "Software Developer · KamCode",
+    "duties": {
+      "header": "Praca przy komercyjnych aplikacjach webowych — frontend, backend oraz Salesforce.",
+      "item1": "Tworzenie aplikacji internetowych i responsywnych interfejsów w React, Next.js i TypeScript.",
+      "item2": "Tworzenie i integracja REST API oraz funkcjonalności backendowych w Node.js.",
+      "item3": "Rozwijanie i rozbudowa klas Apex oraz Lightning Web Components (LWC) w Salesforce.",
+      "item4": "Budowa i utrzymanie stron dla klientów końcowych oraz wewnętrznych platform do zarządzania nieruchomościami i mieszkaniami.",
+      "item5": "Tworzenie komponentów wielokrotnego użytku i rozwijanie istniejących aplikacji z naciskiem na skalowalność i łatwość utrzymania.",
+      "item6": "Zarządzanie i utrzymanie stron WordPress dla Adlife, w tym treści, układu oraz aktualizacji technicznych."
     }
   }
 }

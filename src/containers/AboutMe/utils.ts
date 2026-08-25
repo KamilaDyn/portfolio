@@ -5,28 +5,32 @@ export const useAboutMe = () => {
   const currentTechStack = [
     {
       name: t('currentStack.name1'),
-      stack: 'JavaScript, React, Redux, React-native, jQuery, react-query',
+      stack: 'JavaScript, React, Redux, React Native, jQuery, React Query',
     },
     {
       name: t('currentStack.name2'),
       stack:
-        '(C# and .Net) -entry level, (Node, Express, MongoDB) - self learnt',
+        '(C# and .NET) - entry level, (Node.js, Express, MongoDB) - self-taught',
     },
 
-    { name: t('currentStack.name3'), stack: 'Gitlab, BitBucket' },
+    {
+      name: t('currentStack.name8'),
+      stack: 'Apex, Lightning Web Components (LWC)',
+    },
+
+    { name: t('currentStack.name3'), stack: 'GitLab, Bitbucket' },
     {
       name: t('currentStack.name4'),
-      stack: 'Material Ui, Chakra Ui, Bootstrap (Reactstrap)',
+      stack: 'Material UI, Chakra UI, Bootstrap (Reactstrap)',
     },
-    { name: t('currentStack.name5'), stack: 'Figma, VSC, xcode, npm' },
+    { name: t('currentStack.name5'), stack: 'Figma, VS Code, Xcode, npm' },
     { name: t('currentStack.name6'), stack: 'E2E - Cypress, Jest' },
     {
       name: t('currentStack.name7'),
-      stack: 'Wordpress, PHP, Gutenberg, Astro',
+      stack: 'WordPress, PHP, Gutenberg, Astro',
     },
   ]
   const freeTime = [
-    `${t('afterCode.text1')} 🇵🇹`,
     `${t('afterCode.text2')} 🧵`,
     `${t('afterCode.text3')}  🏔`,
     `${t('afterCode.text4')}  📚`,
@@ -34,7 +38,6 @@ export const useAboutMe = () => {
   ]
 
   const curriculum = [
-    t('studyModal.studyProgram.item1'),
     t('studyModal.studyProgram.item2'),
     t('studyModal.studyProgram.item3'),
     t('studyModal.studyProgram.item4'),

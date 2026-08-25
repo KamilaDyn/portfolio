@@ -2,15 +2,17 @@
   "introduction": {
     "hello": "Hello",
     "meDescription": {
-      "text1": "In my programming path, I am primarily a self-taught person. Also, I finished my post-graduate study ‘Web and mobile application’. I am getting knowledge about technology and language from udemy, Free Code Camp, articles from the medium page.",
-      "text2": "I am focusing on programming web and applications from the Frontend side, but also I looking to be a full-stack developer in the future."
+      "text1": "I'm a Frontend Developer focused on building modern web and mobile applications. I work primarily with React, Next.js, TypeScript and React Native, with additional experience in Salesforce development using Apex and Lightning Web Components.",
+      "text2": "I have a postgraduate degree in Web and Mobile Applications and continue to develop my skills through hands-on projects and continuous learning.",
+      "text3": "I enjoy turning ideas into clean, responsive and user-focused applications and I'm always looking for new challenges that help me grow as a developer."
     }
   },
   "techStack": {
-  "title":"Experience with",
-  "frontEnd":"FrontEnd",
-  "backEnd":"BackEnd",
-  "dataBase": "Data Base",
-  "other": "Other"
+    "title": "Experience with",
+    "frontEnd": "Front-End",
+    "backEnd": "Back-End",
+    "dataBase": "Database",
+    "salesforce": "Salesforce",
+    "other": "Other"
   }
 }

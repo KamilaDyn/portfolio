@@ -1,8 +1,8 @@
 {
-  "header": "Simple and significant",
+  "header": "Kamila · Software Developer",
   "me": {
-    "text1": "My name is Kamila, I am a ",
-    "text2": "Frontend Developer (React & WordPress)"
+    "text1": "Frontend Developer specializing in ",
+    "text2": "React, Next.js, TypeScript, Node.js, Salesforce & React Native "
   },
   "buttons": {
     "seeMore": "...See More",
